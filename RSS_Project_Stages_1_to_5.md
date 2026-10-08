@@ -1,6 +1,6 @@
 # RSS News Automation — Stages 1–5
 
-Project record: 7 October 2026. All code, comments and project documentation are written in English. Local inference is the primary approach; cloud inference is an optional comparison.
+Project record: 7 October 2026. This report documents the development status at the end of Stage 5. The final automation was implemented subsequently and is described in [Stage 6](stage6/README.md). Code and comments are written in English; the repository also provides German and English project overviews. Local inference is the primary approach; cloud inference is an optional comparison.
 
 ## Project overview
 
@@ -48,9 +48,9 @@ The response is parsed independently of its Content-Type header, and the recogni
 
 ### Observed results
 
-The snapshot `rss_20261007T080917933739Z.json` contains 261 entries: 71 from Tagesschau, 30 from IRNA, 30 from Chinanews, 100 from TASS and 30 from Ukrinform.
+The snapshot [rss_20261007T080917933739Z.json](stage1/data/raw/rss_20261007T080917933739Z.json) contains 261 entries: 71 from Tagesschau, 30 from IRNA, 30 from Chinanews, 100 from TASS and 30 from Ukrinform.
 
-The corrected five-URL article test produced three successful extractions, one IRNA interstitial and one TASS download failure. The saved result is `articles_test_20261007T083820504493Z.json`.
+The corrected five-URL article test produced three successful extractions, one IRNA interstitial and one TASS download failure. The saved result is [articles_test_20261007T083820504493Z.json](stage1/data/articles/articles_test_20261007T083820504493Z.json).
 
 Two additional diagnostic runs each tested three IRNA and three TASS URLs. Both runs produced zero successful article extractions: IRNA returned interstitial pages, and TASS article requests returned HTTP 403. RSS summaries remained available.
 
@@ -74,7 +74,7 @@ The output retains country, source, original title, URL and text provenance. Art
 
 ### Observed results
 
-The frozen input used for Stage 3, `prepared_20261007_115940_871486.json`, contains 25 records, five per country. Fifteen records use article text and ten use RSS summaries.
+The frozen input used for Stage 3, [prepared_20261007_115940_871486.json](stage2/data/prepared/prepared_20261007_115940_871486.json), contains 25 records, five per country. Fifteen records use article text and ten use RSS summaries.
 
 Early runs encountered missing optional parser attributes, uninitialized variables and malformed Python strings. Those defects were corrected before the final sample was used. Syntax compilation was used as a preliminary check; successful compilation alone did not verify network access or runtime behavior.
 
@@ -107,7 +107,7 @@ The prompt requires source-faithful summaries without outside additions or polit
 | Gemma 4 31B, `143304_261130` | 5 | English and German | 10/10 | Approximately 476 seconds |
 | Qwen 3.6 35B, `152729_414957` | 25 | English and German | 50/50 | Approximately 357 seconds |
 
-The final Qwen run produced 25 English and 25 German outputs. The user-observed total execution time was approximately five minutes and 57 seconds. Qwen used thinking disabled in these successful runs. A small direct Ollama JSON-response test also confirmed that the model could respond with thinking disabled.
+The final Qwen run produced 25 English and 25 German outputs. I observed a total execution time of approximately five minutes and 57 seconds. Qwen used thinking disabled in these successful runs. A small direct Ollama JSON-response test also confirmed that the model could respond with thinking disabled.
 
 ### Quality review
 
@@ -137,7 +137,7 @@ Remove the translation task by using English-language news inputs, copy original
 | Russia | TASS | https://tass.com/rss/v2.xml |
 | Ukraine | Ukrinform | https://www.ukrinform.net/rss/block-lastnews |
 
-The frozen sample is `prepared_20261007_161827_481006.json`. The feed snapshot contains 396 entries, of which 25 were selected, five per country. Fifteen selected records use extracted article text; ten use RSS summaries. The latter are the IRNA and TASS records.
+The frozen sample is [prepared_20261007_161827_481006.json](stage4/data/prepared/prepared_20261007_161827_481006.json). The feed snapshot contains 396 entries, of which 25 were selected, five per country. Fifteen selected records use extracted article text; ten use RSS summaries. The latter are the IRNA and TASS records.
 
 For the tested TASS English feed, a request with a browser-style User-Agent and XML Accept header returned HTTP 200 after a simpler request returned HTTP 403. This observation concerns the feed endpoint and does not demonstrate successful access to TASS article pages.
 
@@ -154,15 +154,17 @@ Gemma 4 31B was also tested on the five-record sample, completing five accepted 
 
 ### Manual observations and prompt decision
 
-All accepted responses still required source comparison. In the Qwen sample, a summary implied that buildings had remained unchanged for 3,000 years, beyond what the input supported. Another summary conflated 35 damaged houses and six additional destroyed houses.
+All accepted responses still required source comparison. In the Qwen sample, record 11 claimed that the Taihang Pass had maintained its structural integrity over three millennia. The input describes an ancient route and buildings recognizable from photographs taken in 1896, but does not establish three millennia of structural integrity. In record 22, the output described six destroyed houses as part of the 35 damaged houses, although the input identifies six additional destroyed houses.
 
-The revised Mistral prompt resolved one casualty-count presentation issue but introduced other problems: a specific year absent from the input and stronger wording about potential CDU votes. The original prompt was therefore retained for the final comparison. This is a decision based on the observed sample, not a claim that the original prompt will always perform better.
+The revised Mistral prompt made the injury update clearer in record 23: it reports two injured people and two hospitalizations. The original-prompt output also mentions an earlier report of one injured person without making the update sequence clear. However, the revised run introduced other problems. Record 20 adds the year 2024 where the supplied description says `next year`; record 3 no longer preserves the uncertainty about potential CDU votes. I therefore retained the original prompt for the final comparison. This is a decision based on the observed sample, not a claim that the original prompt will always perform better.
 
-The original Mistral run had remaining coverage limitations, including omission of the central control-and-resistance theme in a music article and unclear chronology when mentioning injury updates. It also added Zelensky's first name even though that name was absent from the allowed input.
+The original Mistral run had remaining coverage limitations. Record 5 focuses on musicians returning to Iran but omits the article's discussion of music as political control and resistance. Record 23 has the injury-update ambiguity described above. Record 21 adds Zelensky's first name even though that name was absent from the supplied title and prepared text.
+
+Record numbers are one-based positions in the saved runs' `attempts` lists. The [Stage 4 README](stage4/README.md) links these observations to the exact saved result files. These comparisons assess fidelity to the supplied input, not the independent truth of the publishers' reports.
 
 ### Offline quality check
 
-The original Mistral run was checked in `quality_20261007_170702_468681Z.json`: 25 outputs checked, one marked for review, 24 unflagged and five additional unflagged samples. The numerical flag was a false alarm caused by `mln` versus `million`; the two monetary values referred to the correct separate periods.
+The original Mistral run was checked in [quality_20261007_170702_468681Z.json](stage4/data/quality/quality_20261007_170702_468681Z.json): 25 outputs checked, one marked for review, 24 unflagged and five additional unflagged samples. The numerical flag was a false alarm caused by `mln` versus `million`; the two monetary values referred to the correct separate periods.
 
 ### Limitations and conclusion
 
@@ -189,7 +191,7 @@ Credentials are stored outside the project. Result files record the prompt, mode
 | GPT-5.6-Sol | 25 | 25/25 | 110.62 seconds | 4.42 seconds | Approximately 1 minute 51 seconds |
 | GPT-6-Astra | 25 | 25/25 | 276.55 seconds | 11.06 seconds | Approximately 4 minutes 37 seconds |
 
-The final result files are `summaries_20261007_174007_180201Z.json` for Sol and `summaries_20261007_173408_673609Z.json` for Astra. Both runs used the same 25 selected source records and the same system prompt and user-template text.
+The final result files are [summaries_20261007_174007_180201Z.json](stage5/data/summaries/summaries_20261007_174007_180201Z.json) for Sol and [summaries_20261007_173408_673609Z.json](stage5/data/summaries/summaries_20261007_173408_673609Z.json) for Astra. Both runs used the same 25 selected source records and the same system prompt and user-template text.
 
 An earlier Sol run stopped at request 10 with HTTP 503 after nine successful outputs. Fifteen selected records were not attempted. The later complete Sol run is used in the final comparison. The error response did not establish the underlying cause; it is not evidence of content rejection or censorship.
 
@@ -200,7 +202,7 @@ An earlier Sol run stopped at request 10 with HTTP 503 after nine successful out
 | Sol | 25 | 2 | 23 | 5 |
 | Astra | 25 | 1 | 24 | 5 |
 
-Sol's report is `quality_20261007_175233_419718Z.json`; Astra's is `quality_20261007_175233_497896Z.json`, with matching Markdown reports.
+Sol's report is [quality_20261007_175233_419718Z.json](stage5/data/quality/sol/quality_20261007_175233_419718Z.json); Astra's is [quality_20261007_175233_497896Z.json](stage5/data/quality/astra/quality_20261007_175233_497896Z.json), with matching Markdown reports.
 
 All three automatic markings are false alarms. Sol's monetary output uses `million` where the input uses `mln`. Both models use the digit `35` where the source writes `Thirty-five`. These are equivalent representations, and no correction is required for these flagged passages. Raw check results remain unchanged; this manual decision is recorded separately here.
 
@@ -237,6 +239,7 @@ Model names and, where available, local model digests are recorded in generation
 
 Saved Ollama project models and exported Modelfiles can retain saved interactive Ollama conversation state. They do not automatically archive requests submitted by Python scripts or this ChatGPT conversation. Code, input data, results and this documentation are separate project records.
 
-## Next development step
+## Next development step at the end of Stage 5
 
-The next step is to connect the existing collection, preparation and local summarization components through a single reproducible entry point, with explicit input selection, failure handling and output paths. Scheduling, deduplication across repeated runs and larger evaluations remain future work. These features are not claimed as completed by Stages 1–5.
+At the end of Stage 5, the planned next step was to connect collection, preparation and local summarization through a single entry point, with explicit input selection, failure handling and output paths. Scheduling and deduplication across repeated runs were still planned at that time. They were subsequently implemented in [Stage 6](stage6/README.md), together with database archival, random sampling and email delivery. Larger evaluations remain outside these small-sample tests.
+

@@ -39,6 +39,8 @@ Das Land bezeichnet den Herausgeber, nicht zwangsläufig das Thema der Nachricht
 | 5 | Optionaler Cloud-Vergleich mit eingefrorenen englischen Eingaben | [Stage 5](stage5/README.md) |
 | 6 | Datenbank, Zufallsauswahl und automatisierter E-Mail-Versand | [Stage 6](stage6/README.md) |
 
+Der [Entwicklungsbericht zu Stage 1–5](RSS_Project_Stages_1_to_5.md) dokumentiert die Versuche und manuellen Vergleiche mit den Quelltexten vom **7. Oktober 2026**, einschließlich der Entscheidung für den ursprünglichen Mistral-Prompt. Sein letzter Abschnitt beschreibt den damals geplanten nächsten Schritt; die anschließend umgesetzte Automatisierung steht in [Stage 6](stage6/README.md).
+
 Die Stage-Ordner enthalten Code und datierte Testergebnisse. Stage 1–3 enthalten außerdem exportierte Ollama-Modelfiles mit gespeicherten Dialognachrichten. Diese dokumentieren die gespeicherten lokalen Coding-Sitzungen, nicht zwingend sämtliche Gespräche des Projekts. Modelle wurden weder trainiert noch feinabgestimmt.
 
 Im größeren Qwen-Test von Stage 3 wurden 50 Ausgaben akzeptiert: 25 auf Englisch und 25 auf Deutsch. Die beibehaltene Mistral-Baseline aus Stage 4 akzeptierte 25 englische Ausgaben. Die endgültigen Cloud-Läufe mit Sol und Astra aus Stage 5 akzeptierten jeweils 25 Ausgaben. Eine akzeptierte Antwort ist kein Nachweis inhaltlicher Richtigkeit.
@@ -92,3 +94,4 @@ Zugangsdaten und private Notizen gehören nicht zum öffentlichen Projekt. Die v
 © 2026 Amirhoushang Rahmannejad. Alle Rechte vorbehalten.
 
 Sofern nicht anders angegeben, dürfen der für dieses Projekt erstellte Code und die Dokumentation ohne meine Zustimmung nicht weiterverwendet, verändert oder weiterverbreitet werden. Nachrichteninhalte, Software und Modelle Dritter unterliegen den jeweiligen Rechten und Lizenzen.
+

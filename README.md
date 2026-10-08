@@ -39,6 +39,8 @@ Country describes the publisher, not necessarily the subject of the story. Engli
 | 5 | Optional authenticated cloud comparison on frozen English input | [Stage 5](stage5/README.md) |
 | 6 | PostgreSQL archival, random selection, and n8n email automation | [Stage 6](stage6/README.md) |
 
+The [development report for Stages 1–5](RSS_Project_Stages_1_to_5.md) records the experiments and manual source-comparison observations from **7 October 2026**, including the choice of the original Mistral prompt. Its final section describes the next step planned at that time; the resulting automation is documented in [Stage 6](stage6/README.md).
+
 Each stage retains code and timestamped experimental results. Stage 1–3 also contain saved Ollama Modelfile exports with embedded dialogue messages. These document the saved local coding sessions, not necessarily every conversation held throughout the project. No model weights were trained or fine-tuned.
 
 Stage 3's larger Qwen run accepted 50 outputs: 25 English and 25 German. The retained Stage 4 Mistral baseline accepted 25 English outputs. The final Stage 5 Sol and Astra runs each accepted 25 outputs. Accepted output means that the script accepted the response; it does **not** establish semantic accuracy.
@@ -92,3 +94,4 @@ Credentials and private notes are not part of the public project. The published 
 © 2026 Amirhoushang Rahmannejad. All rights reserved.
 
 Unless otherwise stated, the code and documentation created for this project may not be reused, modified, or redistributed without my permission. Third-party news content, software, and models remain subject to their respective rights and licenses.
+
