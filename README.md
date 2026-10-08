@@ -6,6 +6,8 @@ A local news automation project that combines RSS collection, PostgreSQL storage
 
 I built it to read beyond my usual interests and beyond a single publisher's perspective, without a social-media recommendation system choosing the topics for me. The project samples news **randomly** instead of ranking it by engagement or personal preferences. Reading a source does not mean agreeing with it.
 
+![Example of the daily email digest, 8 October 2026](stage6/email_digest.png)
+
 ## Final workflow
 
 Every day at **12:30 Europe/Berlin**, the published n8n workflow:
