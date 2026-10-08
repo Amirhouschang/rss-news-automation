@@ -237,7 +237,7 @@ Keep stage-specific scripts, timestamped raw and prepared inputs, output JSON fi
 
 Model names and, where available, local model digests are recorded in generation outputs. Preserve the exact prompts and generation settings with those outputs. Timings in the tables above refer to the listed runs; different records or prompt versions should not be silently merged into the same comparison.
 
-Saved Ollama project models and exported Modelfiles can retain saved interactive Ollama conversation state. They do not automatically archive requests submitted by Python scripts or this ChatGPT conversation. Code, input data, results and this documentation are separate project records.
+Saved Ollama project models and exported Modelfiles can retain saved interactive Ollama conversation state. They do not automatically archive requests submitted by Python scripts or the ChatGPT conversations used during development. Code, input data, results and this documentation are separate project records.
 
 ## Next development step at the end of Stage 5
 
