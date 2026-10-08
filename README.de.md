@@ -6,6 +6,8 @@ Dieses Projekt verbindet RSS-Sammlung, PostgreSQL, Zufallsauswahl, lokale KI-Zus
 
 Ich habe es gebaut, um Nachrichten verschiedener Herausgeber und auch Themen außerhalb meiner eigenen Interessen zu lesen. Die Auswahl erfolgt **zufällig** und nicht anhand persönlicher Interessen oder der Empfehlungen sozialer Medien. Eine Quelle zu lesen bedeutet nicht, ihr zuzustimmen.
 
+![Example of the daily email digest, 8 October 2026](stage6/email_digest.png)
+
 ## Endgültiger Ablauf
 
 Der veröffentlichte n8n-Workflow startet täglich um **12:30 Uhr, Europe/Berlin**:
