@@ -4,7 +4,7 @@
 
 ## Objective
 
-Compare existing local Ollama models on frozen multilingual news input, producing English and German summaries. Each output therefore combines two tasks, translation and summarization.
+Compare existing local Ollama models on frozen multilingual news input, producing English and German summaries. Translation is required when the output language differs from the source language.
 
 ## Files and inputs
 
