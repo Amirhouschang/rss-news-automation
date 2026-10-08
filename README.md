@@ -16,7 +16,7 @@ Every day at **12:30 Europe/Berlin**, the published n8n workflow:
 4. Prepares text for selected items and generates short English summaries using local Ollama and **`mistral-small3.1:latest`**. Existing successful summaries can be reused.
 5. Retrieves the selected successful summaries and sends **one combined email**, with original titles and article links.
 
-If a source provides fewer than five eligible items, all available candidates are selected. The five-source configuration gives a maximum of 25 selected items. Unselected entries remain archived without generated summaries.
+If a source provides fewer than five eligible items, all available candidates are selected. The five-source configuration gives a maximum of 25 selected items. Newly archived entries that are not selected receive no summary during that run. Summaries saved in earlier runs remain available.
 
 | Publisher country | Final source | Input language |
 |---|---|---|
@@ -73,7 +73,7 @@ The configured host database is `rss_news`, with `sources`, `runs`, `news`, and 
 
 ## Validation and limits
 
-The user reported successful scheduled execution and email delivery on **8 October 2026**, with the browser page closed. A preceding full manual run took approximately ten minutes according to the user's observation. Ten to fifteen minutes is a planning estimate, not a guaranteed upper bound.
+I confirmed successful scheduled execution and email delivery on **8 October 2026**, with the browser page closed. A preceding full manual run took approximately ten minutes. Based on this test, I estimate ten to fifteen minutes for a run; this range is not a guaranteed upper bound.
 
 - The host must be awake, powered on, online, and running the required services at the scheduled time. Closing the browser does not stop server-side n8n execution.
 - RSS feeds are changing windows, not complete daily publisher archives. A 12:30 collection excludes later publications. Entries without usable publication dates are not silently classified as today's news.
@@ -85,7 +85,7 @@ The user reported successful scheduled execution and email delivery on **8 Octob
 
 ## Repository hygiene
 
-Credentials and private notes are not part of the public project. Review chat exports, screenshots, and workflow exports before publication. Stored news and generated outputs are experimental evidence, not independently verified factual reports. Archived results describe their original prompts and inputs; rerunning today's code may not reproduce an older prompt variant or a changing feed.
+Credentials and private notes are not part of the public project. The published files were reviewed before publication, and personal credential references were removed from the workflow export. Stored news and generated outputs are experimental evidence, not independently verified factual reports. Archived results describe their original prompts and inputs; rerunning today's code may not reproduce an older prompt variant or a changing feed.
 
 ## Copyright
 

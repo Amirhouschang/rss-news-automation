@@ -4,9 +4,9 @@
 
 ## Operational result
 
-The final prototype archives eligible same-day RSS data, selects randomly, summarizes locally, and sends one digest. The user confirmed successful **scheduled execution on 8 October 2026**, with the browser page closed. The retained schedule is **daily at 12:30 Europe/Berlin**.
+The final prototype archives eligible same-day RSS data, selects randomly, summarizes locally, and sends one digest. I confirmed successful **scheduled execution on 8 October 2026**, with the browser page closed. The retained schedule is **daily at 12:30 Europe/Berlin**.
 
-A preceding full manual run took approximately ten minutes by user observation. This is not a precise scheduled-run timing measurement or a guaranteed runtime.
+A preceding full manual run took approximately ten minutes. This observation does not establish a guaranteed runtime.
 
 ## Files and workflow
 
@@ -16,7 +16,7 @@ A preceding full manual run took approximately ten minutes by user observation. 
 
 ![n8n pipeline with scheduled and manual triggers](n8n.png)
 
-The screenshot shows both start triggers connected to the command node, with 24 queried records combined into one email item. A static screenshot does not independently establish scheduled execution; the successful scheduled test was confirmed by the user.
+The screenshot shows both start triggers connected to the command node, with 24 queried records combined into one email item. I also confirmed that the scheduled workflow completed successfully and delivered the email with the browser page closed.
 
 The final n8n workflow uses a Schedule Trigger connected to the SSH command node, followed by run-ID parsing, a PostgreSQL query of the saved selection, HTML formatting, and Gmail delivery. The manual trigger remains available for testing.
 
@@ -43,7 +43,7 @@ Active English sources are read from PostgreSQL's `sources` table. CGTN replaced
 
 Source–URL uniqueness prevents duplicate insertion. The parsed RSS entry is stored as JSON; this is not raw XML byte preservation. Eligible records are archived before selection and inference. Full article retrieval is required only for selected preparation, except that DW date resolution may need article metadata during archival.
 
-Publication dates are interpreted in Europe/Berlin. Today is computed at runtime; modification-date fallback is disabled by default. DW uses linked `datePublished` metadata when feed dates are missing.
+Publication timestamps with an explicit timezone are converted to Europe/Berlin before comparing their calendar date with today's date. Dates without a timezone are compared using the calendar date supplied by the publisher; no timezone is invented. Today's date is computed in Europe/Berlin at runtime. Modification-date fallback is disabled by default. DW uses linked `datePublished` metadata when feed dates are missing.
 
 `random.SystemRandom().sample` selects up to five unique IDs from each source's eligible archived pool. Smaller pools contribute all their candidates. No interest profile, topic ranking, or model-based selection is used. Selection IDs are saved before generation. Unselected newly archived records have `skipped` status, not a failure status.
 
@@ -87,8 +87,6 @@ The database and login role must already exist. Run these commands only for a ne
 [sources.sql](sources.sql) restores five active English feeds and the inactive historical ECNS source. It preserves source IDs and creation timestamps and restores the source identity sequence. It contains publisher configuration only, not archived news or user credentials. Credentials must be supplied separately by each user.
 
 ![PostgreSQL tables, relationships, and overview view](database_schema.png)
-
-The earlier setup/report documents are local handover materials; they are not required public README dependencies and are not linked here.
 
 ## Operating limits
 

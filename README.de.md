@@ -16,7 +16,7 @@ Der veröffentlichte n8n-Workflow startet täglich um **12:30 Uhr, Europe/Berlin
 4. Für ausgewählte Einträge wird der Text aufbereitet und mit **`mistral-small3.1:latest`** über lokales Ollama kurz auf Englisch zusammengefasst. Bereits erfolgreiche Zusammenfassungen können wiederverwendet werden.
 5. n8n erstellt und versendet eine gemeinsame E-Mail mit Originaltiteln, Zusammenfassungen und Links.
 
-Bei weniger als fünf passenden Einträgen werden alle verfügbaren Kandidaten ausgewählt. Mit fünf Quellen beträgt die maximale Auswahl 25 Nachrichten. Nicht ausgewählte RSS-Einträge bleiben ohne KI-Zusammenfassung im Archiv.
+Bei weniger als fünf passenden Einträgen werden alle verfügbaren Kandidaten ausgewählt. Mit fünf Quellen beträgt die maximale Auswahl 25 Nachrichten. Neu archivierte, nicht ausgewählte RSS-Einträge erhalten in diesem Lauf keine KI-Zusammenfassung. Bereits in früheren Läufen gespeicherte Zusammenfassungen bleiben erhalten.
 
 | Herausgeberland | Endgültige Quelle | Eingabesprache |
 |---|---|---|
@@ -73,7 +73,7 @@ Die verwendete Datenbank heißt `rss_news` und enthält `sources`, `runs`, `news
 
 ## Getesteter Betrieb und Grenzen
 
-Der Nutzer bestätigte am **8. Oktober 2026** einen erfolgreichen zeitgesteuerten Lauf mit E-Mail-Versand bei geschlossener Browserseite. Ein vorheriger vollständiger manueller Lauf dauerte nach seiner Beobachtung etwa zehn Minuten. Zehn bis fünfzehn Minuten sind ein Planungswert, keine garantierte Höchstdauer.
+Ich bestätigte am **8. Oktober 2026** einen erfolgreichen zeitgesteuerten Lauf mit E-Mail-Versand bei geschlossener Browserseite. Ein vorheriger vollständiger manueller Lauf dauerte etwa zehn Minuten. Auf Grundlage dieses Tests schätze ich die Laufzeit auf zehn bis fünfzehn Minuten; dieser Bereich ist keine garantierte Höchstdauer.
 
 - Der Rechner muss eingeschaltet, wach und online sein; die benötigten Dienste müssen laufen. Die Browserseite darf geschlossen sein.
 - Ein Feed ist ein veränderlicher Ausschnitt und kein vollständiges Tagesarchiv. Um 12:30 Uhr fehlen später veröffentlichte Artikel. Unbrauchbare Datumsangaben werden nicht stillschweigend als heutiges Datum behandelt.
@@ -85,7 +85,7 @@ Der Nutzer bestätigte am **8. Oktober 2026** einen erfolgreichen zeitgesteuerte
 
 ## Veröffentlichung
 
-Zugangsdaten und private Notizen gehören nicht zum öffentlichen Projekt. Chatlogs, Screenshots und Workflow-Exporte werden vor Veröffentlichung geprüft. Gespeicherte Meldungen und KI-Ausgaben sind Versuchsmaterial, keine unabhängig verifizierten Tatsachenberichte. Historische Ergebnisse gehören zu ihren damaligen Eingaben und Prompts; heutiger Code reproduziert nicht zwangsläufig ältere Promptvarianten oder veränderte Feeds.
+Zugangsdaten und private Notizen gehören nicht zum öffentlichen Projekt. Die veröffentlichten Dateien wurden vor der Veröffentlichung geprüft. Persönliche Zugangsdaten-Verweise wurden aus dem Workflow-Export entfernt. Gespeicherte Meldungen und KI-Ausgaben sind Versuchsmaterial, keine unabhängig verifizierten Tatsachenberichte. Historische Ergebnisse gehören zu ihren damaligen Eingaben und Prompts; heutiger Code reproduziert nicht zwangsläufig ältere Promptvarianten oder veränderte Feeds.
 
 ## Urheberrecht
 

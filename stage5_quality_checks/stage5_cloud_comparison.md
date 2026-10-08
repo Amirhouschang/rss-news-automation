@@ -19,10 +19,10 @@ Astra’s summed request time was 2.50 times Sol’s in these runs. Sol therefor
 
 Final result files:
 
-- `data/summaries/summaries_20261007_174007_180201Z.json`
-- `data/summaries/summaries_20261007_173408_673609Z.json`
-- `data/reports/comparison_report_20261007_174007_180201Z.md`
-- `data/reports/comparison_report_20261007_173408_673609Z.md`
+- [Sol results](../stage5/data/summaries/summaries_20261007_174007_180201Z.json)
+- [Astra results](../stage5/data/summaries/summaries_20261007_173408_673609Z.json)
+- [Sol report](../stage5/data/reports/comparison_report_20261007_174007_180201Z.md)
+- [Astra report](../stage5/data/reports/comparison_report_20261007_173408_673609Z.md)
 
 ## Comparison design
 
@@ -62,7 +62,7 @@ Automatic flag counts are therefore not counts of confirmed summary errors. The 
 
 The JSON and Markdown quality files retain the checker’s original flags unchanged. Manual adjudications are recorded here rather than changing the raw automatic-check output. These checks were performed on the supplied copies of the result files; the recorded input paths refer to the review environment.
 
-To reproduce locally, run from `RSS/stage5`:
+To reproduce the checks locally, run the following commands from the repository's `stage5` directory:
 
 ```bash
 python ../stage3/check_summaries.py \
