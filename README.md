@@ -86,3 +86,9 @@ The user reported successful scheduled execution and email delivery on **8 Octob
 ## Repository hygiene
 
 Credentials and private notes are not part of the public project. Review chat exports, screenshots, and workflow exports before publication. Stored news and generated outputs are experimental evidence, not independently verified factual reports. Archived results describe their original prompts and inputs; rerunning today's code may not reproduce an older prompt variant or a changing feed.
+
+## Copyright
+
+© 2026 Amirhoushang Rahmannejad. All rights reserved.
+
+Unless otherwise stated, the code and documentation created for this project may not be reused, modified, or redistributed without my permission. Third-party news content, software, and models remain subject to their respective rights and licenses.
