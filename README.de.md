@@ -47,7 +47,7 @@ Automatische Qualitätsprüfungen und dokumentierte Vergleiche mit den Quelltext
 
 ## Menschliche Arbeit und KI-Unterstützung
 
-I bestimmte Ziel, Quellenanforderungen, Auswahlverfahren, Prüfungsfragen und endgültige Entscheidungen, führte die Versuche aus und bewertete den Workflow und die E-Mail. Prompts entstanden im Dialog mit ChatGPT. ChatGPT und lokale Modelle unterstützten Codeentwicklung, Fehlerbehebung, Prüfung und Dokumentation. Lokale Modelle erzeugten außerdem die experimentellen und endgültigen Zusammenfassungen.
+Ich bestimmte Ziel, Quellenanforderungen, Auswahlverfahren, Prüfungsfragen und endgültige Entscheidungen, führte die Versuche aus und bewertete den Workflow und die E-Mail. Prompts entstanden im Dialog mit ChatGPT. ChatGPT und lokale Modelle unterstützten Codeentwicklung, Fehlerbehebung, Prüfung und Dokumentation. Lokale Modelle erzeugten außerdem die experimentellen und endgültigen Zusammenfassungen.
 
 Das Projekt dokumentiert die Anwendung und Bewertung vorhandener Modelle. Es beansprucht weder eigene Modellentwicklung noch ein blindes Benchmark-Verfahren oder vollständig manuell geschriebenen Code. Die Zusammenfassung soll den gelieferten Quelltext wiedergeben; sie überprüft nicht unabhängig die Wahrheit der Meldung.
 
