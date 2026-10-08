@@ -14,15 +14,15 @@ The project collects news from five countries, prepares available text and gener
 | 4 | Use English-language feeds and compare local models | Translation was removed; original English titles were retained; local quality review was completed |
 | 5 | Compare cloud outputs against the same English inputs | Sol and Astra each completed 25 outputs; offline and manual review were recorded |
 
-These are completed development and evaluation stages. A single scheduled, continuously operating production pipeline has not yet been established by these tests.
+These five stages are development and evaluation work. The scheduled daily pipeline was built afterwards, in Stage 6.
 
 ### Interpretation rules
 
-An RSS feed is a changing window of entries, not a complete archive of everything a publisher has published. A per-country limit selects a sample from that window. Five records per country do not establish representative coverage of that country or publisher.
+An RSS feed shows a changing window of entries, not everything a publisher has published. A per-country limit takes a sample from that window. Five records per country are a small sample and do not represent a country or a publisher.
 
-An `article` text basis means that article text was extracted. It does not certify that every paragraph on the publisher's page was captured. An `rss_summary` basis means that only the available feed description was used. These text bases must remain distinguishable in outputs and documentation.
+An `article` text basis means that article text was extracted; some paragraphs of the publisher's page may still be missing. An `rss_summary` basis means that only the feed description was available. Outputs and documentation always show which of the two was used.
 
-A generation status of `success` indicates that the script accepted the response. It is not proof that the summary is semantically correct. Offline checks flag possible problems; manual source comparison is needed to assess meaning and coverage.
+A generation status of `success` means that the script accepted the response. Whether the summary is correct is a separate question: offline checks flag possible problems, and a manual comparison with the source assesses meaning and coverage.
 
 ## Stage 1 — RSS collection and article-access diagnostics
 
@@ -56,9 +56,9 @@ Two additional diagnostic runs each tested three IRNA and three TASS URLs. Both 
 
 ### Limitations and conclusion
 
-Successful RSS access does not imply successful article access. An HTTP 200 response may contain an interstitial instead of an article. The diagnostics support a fallback to available RSS descriptions; they do not establish that access will always fail or succeed in other environments.
+A working RSS feed does not mean the article can be read, and an HTTP 200 response may contain an interstitial instead of an article. The diagnostics are the reason for the fallback to RSS descriptions. Access may differ in other environments.
 
-Stage 1 established working collection, persistence and explicit detection of unusable article responses.
+Stage 1 delivered working collection, saved results and reliable detection of unusable article responses.
 
 ## Stage 2 — Text preparation and fallback handling
 
@@ -70,21 +70,21 @@ Convert feed entries into traceable records suitable for model input, while reta
 
 `prepare_news.py` fetches feeds, selects a configurable number of entries per country and attempts article extraction. It prepares available text using article extraction or feed-provided content and summaries. It saves a raw snapshot and a prepared-results JSON file under the stage's `data/raw/` and `data/prepared/` directories.
 
-The output retains country, source, original title, URL and text provenance. Article failures must remain distinguishable from the availability of fallback text: a rejected article can still supply a usable RSS description.
+The output keeps country, source, original title, URL and text provenance. It records an article failure separately from the fallback text, because a rejected article can still come with a usable RSS description.
 
 ### Observed results
 
 The frozen input used for Stage 3, [prepared_20261007_115940_871486.json](stage2/data/prepared/prepared_20261007_115940_871486.json), contains 25 records, five per country. Fifteen records use article text and ten use RSS summaries.
 
-Early runs encountered missing optional parser attributes, uninitialized variables and malformed Python strings. Those defects were corrected before the final sample was used. Syntax compilation was used as a preliminary check; successful compilation alone did not verify network access or runtime behavior.
+Early runs encountered missing optional parser attributes, uninitialized variables and malformed Python strings. I corrected those defects before using the final sample. Compiling the script was only a first check; network access and runtime behavior were tested by running it.
 
 Network diagnostics also explained much of the early delay. A Tagesschau IPv4 request completed in approximately 0.24 seconds, while the corresponding IPv6 test timed out after 20 seconds. TASS feed access failed in some VPN tests but completed without the VPN in approximately 0.45 seconds. A later one-record-per-country preparation run completed in approximately four seconds.
 
 ### Limitations and conclusion
 
-Network behavior observed on this machine is not a universal claim about VPNs or IPv6. Source availability may change between runs. Fixed prepared input is therefore used for model comparisons rather than fetching a different sample for every model.
+These network results come from my machine; other machines and networks may behave differently. Source availability can also change between runs. For this reason, all model comparisons use one fixed prepared input instead of a fresh sample for every model.
 
-Character counts and text-basis labels describe the available input; they do not certify completeness or factual truth. Stage 2 established a reusable preparation step and made input limitations visible.
+Character counts and text-basis labels describe the input that was available, not its completeness or truth. Stage 2 delivered a reusable preparation step and made the limits of the input visible.
 
 ## Stage 3 — Local multilingual summarization
 
@@ -96,7 +96,7 @@ Test local Ollama models on the same prepared news records, generating concise E
 
 `summarize_news_test.py` reads saved prepared records, selects up to a configurable number per country and invokes the named local model. It saves response data, model identity, prompt and generation settings, elapsed times and a Markdown comparison report.
 
-The prompt requires source-faithful summaries without outside additions or political reframing. It preserves the source's meaning, certainty and existing attribution. It does not assess whether the publisher's statements are independently true.
+The prompt asks for summaries that stay faithful to the source, without outside additions or political reframing, and that keep the source's meaning, certainty and attribution. Whether the publisher's statements are true is outside the task.
 
 ### Observed runs
 
@@ -111,15 +111,15 @@ The final Qwen run produced 25 English and 25 German outputs. I observed a total
 
 ### Quality review
 
-`check_summaries.py` checked the 25 English outputs in the larger Qwen run. It marked two for review, left 23 unflagged and selected five additional unflagged samples for inspection. Unflagged outputs were explicitly not automatically verified.
+`check_summaries.py` checked the 25 English outputs in the larger Qwen run. It marked two for review, left 23 unflagged and selected five additional unflagged samples for inspection. An unflagged output has passed the heuristic check only; it has not been verified.
 
-This check does not establish that English is generally better than German, nor that one model is universally best. Evaluating translation accuracy requires comparison with the original-language inputs; comparing successful-output counts alone cannot answer that question.
+The check covers English outputs from one model, so it says nothing about English versus German or about which model is best. Translation accuracy can only be judged by comparing outputs with the original-language inputs, not by counting successful outputs.
 
 ### Limitations and conclusion
 
 The sample combines extracted article text with short RSS descriptions. Comparing speeds across countries is affected by differences in input length. Generating a summary in another language combines translation and summarization, so an error may originate in either task.
 
-Stage 3 established working local multilingual generation and repeatable output review. It motivated a separate English-input experiment rather than treating translation as a necessary part of every run.
+Stage 3 delivered working local multilingual generation and a repeatable output review. It also led to the next experiment: using English input, so that translation is no longer part of every run.
 
 ## Stage 4 — English feeds and local model comparison
 
@@ -139,7 +139,7 @@ Remove the translation task by using English-language news inputs, copy original
 
 The frozen sample is [prepared_20261007_161827_481006.json](stage4/data/prepared/prepared_20261007_161827_481006.json). The feed snapshot contains 396 entries, of which 25 were selected, five per country. Fifteen selected records use extracted article text; ten use RSS summaries. The latter are the IRNA and TASS records.
 
-For the tested TASS English feed, a request with a browser-style User-Agent and XML Accept header returned HTTP 200 after a simpler request returned HTTP 403. This observation concerns the feed endpoint and does not demonstrate successful access to TASS article pages.
+For the tested TASS English feed, a request with a browser-style User-Agent and XML Accept header returned HTTP 200 after a simpler request returned HTTP 403. This applies to the feed only; TASS article pages remained inaccessible.
 
 ### Local runs
 
@@ -154,13 +154,13 @@ Gemma 4 31B was also tested on the five-record sample, completing five accepted 
 
 ### Manual observations and prompt decision
 
-All accepted responses still required source comparison. In the Qwen sample, record 11 claimed that the Taihang Pass had maintained its structural integrity over three millennia. The input describes an ancient route and buildings recognizable from photographs taken in 1896, but does not establish three millennia of structural integrity. In record 22, the output described six destroyed houses as part of the 35 damaged houses, although the input identifies six additional destroyed houses.
+I compared the accepted responses with their sources. In the Qwen sample, record 11 claimed that the Taihang Pass had maintained its structural integrity over three millennia. The input describes an ancient route and buildings recognizable from photographs taken in 1896, but says nothing about three millennia of structural integrity. In record 22, the output described six destroyed houses as part of the 35 damaged houses, although the input identifies six additional destroyed houses.
 
-The revised Mistral prompt made the injury update clearer in record 23: it reports two injured people and two hospitalizations. The original-prompt output also mentions an earlier report of one injured person without making the update sequence clear. However, the revised run introduced other problems. Record 20 adds the year 2024 where the supplied description says `next year`; record 3 no longer preserves the uncertainty about potential CDU votes. I therefore retained the original prompt for the final comparison. This is a decision based on the observed sample, not a claim that the original prompt will always perform better.
+The revised Mistral prompt made the injury update clearer in record 23: it reports two injured people and two hospitalizations. The original-prompt output also mentions an earlier report of one injured person without making the update sequence clear. However, the revised run introduced other problems. Record 20 adds the year 2024 where the supplied description says `next year`; record 3 no longer preserves the uncertainty about potential CDU votes. I therefore kept the original prompt for the final comparison. The decision is based on this sample.
 
-The original Mistral run had remaining coverage limitations. Record 5 focuses on musicians returning to Iran but omits the article's discussion of music as political control and resistance. Record 23 has the injury-update ambiguity described above. Record 21 adds Zelensky's first name even though that name was absent from the supplied title and prepared text.
+The original Mistral run has weaknesses too. Record 5 focuses on musicians returning to Iran but omits the article's discussion of music as political control and resistance. Record 23 has the injury-update ambiguity described above. Record 21 adds Zelensky's first name even though that name was absent from the supplied title and prepared text.
 
-Record numbers are one-based positions in the saved runs' `attempts` lists. The [Stage 4 README](stage4/README.md) links these observations to the exact saved result files. These comparisons assess fidelity to the supplied input, not the independent truth of the publishers' reports.
+Record numbers are one-based positions in the saved runs' `attempts` lists. The [Stage 4 README](stage4/README.md) links these observations to the exact saved result files. These comparisons check whether a summary matches its input; they do not check whether the publisher's report is true.
 
 ### Offline quality check
 
@@ -170,7 +170,7 @@ The original Mistral run was checked in [quality_20261007_170702_468681Z.json](s
 
 English editions may publish a different selection from the original-language editions. Germany's publisher also changed from Tagesschau to DW. Stages 3 and 4 therefore do not isolate translation as the only experimental difference.
 
-The larger Mistral sample with the original prompt was retained as a documented local baseline. Qwen was faster in its recorded run, but speed and semantic fidelity were assessed separately. Small five-record tests do not establish a reliable model ranking. Stage 4 removed translation from the operational task and retained original English titles.
+I kept the larger Mistral run with the original prompt as the local baseline. Qwen was faster in its recorded run; I assessed speed and fidelity separately. The five-record tests are too small to rank the models. Stage 4 removed translation from the task and kept the original English titles.
 
 ## Stage 5 — Optional cloud comparison
 
@@ -193,7 +193,7 @@ Credentials are stored outside the project. Result files record the prompt, mode
 
 The final result files are [summaries_20261007_174007_180201Z.json](stage5/data/summaries/summaries_20261007_174007_180201Z.json) for Sol and [summaries_20261007_173408_673609Z.json](stage5/data/summaries/summaries_20261007_173408_673609Z.json) for Astra. Both runs used the same 25 selected source records and the same system prompt and user-template text.
 
-An earlier Sol run stopped at request 10 with HTTP 503 after nine successful outputs. Fifteen selected records were not attempted. The later complete Sol run is used in the final comparison. The error response did not establish the underlying cause; it is not evidence of content rejection or censorship.
+An earlier Sol run stopped at request 10 with HTTP 503 after nine successful outputs. Fifteen selected records were not attempted. The later complete Sol run is used in the final comparison. The error response gave no cause, so it is no evidence of content rejection or censorship.
 
 ### Offline quality results
 
@@ -213,15 +213,15 @@ Manual comparison of the final outputs found two small source-fidelity deviation
 1. In record 16, the source title says that the EU fears a US diesel export ban, while the body separately describes an EC observation. The output attributes the fear specifically to the EC, narrowing the actor beyond the supplied wording.
 2. In record 21, the output adds the first name `Volodymyr`, while the supplied title and text only name `Zelensky`. The issue is an addition beyond the allowed input, not a claim that the first name is incorrect.
 
-These issues were not detected by the automatic numerical checks. No clear content errors were found in the manual review of Astra's 25 outputs in this sample. Neither finding guarantees correctness in future runs. No clear numerical errors were found in either final cloud run.
+The automatic numerical checks did not detect these two issues. In Astra's 25 outputs I found no clear content errors, and in both final cloud runs I found no clear numerical errors. These findings apply to this sample; future runs may differ.
 
 ### Limitations and conclusion
 
-Sol was approximately 2.5 times faster by summed request time in these two runs. Request times include service and network effects, so this is not a general hardware or model-speed benchmark. Astra was more faithful on the two identified passages in this sample; that observation does not establish a universal quality advantage.
+Sol was approximately 2.5 times faster by summed request time in these two runs. Request times include service and network delays, so the figure describes these two runs and is not a general speed benchmark. Astra was more faithful on the two passages identified above, in this sample.
 
-Cloud and local systems differ in execution environment and available generation controls. The comparisons are practical project observations rather than a controlled benchmark of model architectures. Subscription availability and service errors can also affect execution.
+Cloud and local systems differ in execution environment and available generation controls. The comparisons are practical observations from this project, not a controlled benchmark. Subscription availability and service errors can also affect execution.
 
-Stage 5 established a working optional cloud route and documented its speed, quality observations and failure handling without replacing the local pipeline.
+Stage 5 delivered a working optional cloud route and documented its speed, quality observations and failure handling. The local pipeline remains the main approach.
 
 ## Shared quality criteria
 
@@ -229,7 +229,7 @@ For every stage that generates summaries, compare the output against the supplie
 
 An offline numerical match cannot establish that a number refers to the right event. Conversely, a mismatch may simply reflect equivalent notation. A concise summary may omit details; the review question is whether the omission changes the central meaning or creates a misleading impression.
 
-RSS-summary inputs provide less context than extracted articles. This limitation must remain visible and must not be hidden by a successful-generation label.
+RSS-summary inputs provide less context than extracted articles. A `success` label does not remove this limitation, so the text basis stays visible.
 
 ## Reproducibility and records
 

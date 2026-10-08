@@ -4,9 +4,9 @@
 
 ## Purpose and access method
 
-[summarize_news_cloud.py](summarize_news_cloud.py) tested cloud summarization using the same [frozen Stage 4 input](../stage4/data/prepared/prepared_20261007_161827_481006.json) and retained English prompt. Original titles remain unchanged; translation is disabled.
+[summarize_news_cloud.py](summarize_news_cloud.py) tested cloud summarization using the same [frozen Stage 4 input](../stage4/data/prepared/prepared_20261007_161827_481006.json) and the retained English prompt. Original titles remain unchanged; translation is disabled.
 
-Saved metadata records `sign_in_with_chatgpt_plan` as the access method. This was observed to work for the account/application during the experiment. It is not a conventional API-key billing experiment or a promise that every subscription supports these requests. Model slugs and account capabilities are recorded historical observations. Local inference remains the daily project's main approach.
+The saved metadata records `sign_in_with_chatgpt_plan` as the access method: the script signs in with a ChatGPT plan instead of using a paid API key. This worked for my account and application during the experiment. Other subscriptions may behave differently, and the model slugs and account capabilities are recorded as they were on that day. Local inference remains the main approach of the daily project.
 
 ## Saved runs
 
@@ -17,25 +17,25 @@ Saved metadata records `sign_in_with_chatgpt_plan` as the access method. This wa
 | [summaries_20261007_173408_673609Z.json](data/summaries/summaries_20261007_173408_673609Z.json) | `gpt-6-astra` | 25 | 25 | 11.06 s |
 | [summaries_20261007_174007_180201Z.json](data/summaries/summaries_20261007_174007_180201Z.json) | `gpt-5.6-sol` | 25 | 25 | 4.42 s |
 
-The interrupted Sol run selected 25 records but attempted only 10: nine were accepted, one returned HTTP 503, and fifteen were not attempted. It is excluded from the final complete-run comparison. Its diagnostic does not establish the underlying service cause or content-based rejection.
+The interrupted Sol run selected 25 records but attempted only 10: nine were accepted, one returned HTTP 503, and fifteen were not attempted. I left it out of the final comparison. The saved error gives no cause, so it is no evidence that the content was rejected.
 
-The final runs use `174007_180201Z` for Sol and `173408_673609Z` for Astra. Each accepted 25 outputs. Request means include service/network effects and do not establish a general speed ranking.
+The final runs are `174007_180201Z` for Sol and `173408_673609Z` for Astra. Each accepted 25 outputs. The request times include service and network delays, so they describe these two runs and are not a general speed ranking.
 
 ## Quality evidence
 
 - [Sol quality report](data/quality/sol/quality_report_20261007_175233_419718Z.md): 25 checked, 2 flagged, 23 unflagged.
 - [Astra quality report](data/quality/astra/quality_report_20261007_175233_497896Z.md): 25 checked, 1 flagged, 24 unflagged.
-- [Supplementary source-comparison report](../stage5_quality_checks/stage5_cloud_comparison.md): archived manual observations and earlier checker copies. Its literal file references describe the review context; use this README for repository navigation.
+- [Supplementary source-comparison report](../stage5_quality_checks/stage5_cloud_comparison.md): my manual observations and earlier copies of the checker output.
 
-The supplementary review records all three numerical flags as false positives: `mln` versus `million`, and `Thirty-five` versus `35`. It also identifies two Sol deviations not caught by the checker: EU concern narrowed to the EC and a first name added beyond the permitted input. It reports no clear content errors in the 25 Astra outputs reviewed. Those are findings for this sample, not guarantees for future generation or independent verification of the news.
+The manual review found that all three numerical flags are false positives: `mln` versus `million`, and `Thirty-five` versus `35`. It also found two Sol deviations that the checker missed: the EU's concern was narrowed to the EC, and a first name was added that is absent from the input. In the 25 Astra outputs I found no clear content errors. These findings apply to this sample; they do not predict future outputs and do not verify the news itself.
 
 ## Offline reproduction
 
-No cloud account is required to inspect the saved outputs or rerun the existing heuristic checker:
+You can inspect the saved outputs and rerun the heuristic checker without a cloud account:
 
 ```bash
 python stage3/check_summaries.py --input stage5/data/summaries/summaries_20261007_174007_180201Z.json --language en --output-dir stage5/data/quality/sol --report-all
 python stage3/check_summaries.py --input stage5/data/summaries/summaries_20261007_173408_673609Z.json --language en --output-dir stage5/data/quality/astra --report-all
 ```
 
-Commands run from the repository root. Live cloud reproduction depends on current authorized service capabilities; the recorded login experiment is preserved as historical code. Authentication data belongs outside the repository.
+Run the commands from the repository root. A live cloud run depends on what the service currently allows for your account; the login code is kept as a record of the experiment. Keep authentication data outside the repository.

@@ -4,7 +4,7 @@
 
 ## Objective
 
-Compare existing local Ollama models on frozen multilingual news input, producing English and German summaries. This combines translation and summarization rather than testing translation alone.
+Compare existing local Ollama models on frozen multilingual news input, producing English and German summaries. Each output therefore combines two tasks, translation and summarization.
 
 ## Files and inputs
 
@@ -28,15 +28,15 @@ Compare existing local Ollama models on frozen multilingual news input, producin
 | [summaries_20261007_151313_799927.json](data/summaries/summaries_20261007_151313_799927.json) | `qwen3.6:35b` | 10 | 10 | 8.16 s |
 | [summaries_20261007_152729_414957.json](data/summaries/summaries_20261007_152729_414957.json) | `qwen3.6:35b` | 50 | 50 | 7.14 s |
 
-Mean request times are computed from the saved `elapsed` fields, include loading/request overhead, and are not total workflow runtimes. The early mixed-model run used a different configuration; its Qwen errors must not be hidden by later successful runs. Prompt and thinking changes are recorded in the individual JSON files.
+Mean request times are computed from the saved `elapsed` fields. They include model loading and request overhead and are shorter than the total runtime of a workflow. The early mixed-model run used a different configuration, and its five Qwen errors stay in the table alongside the later successful runs. Each JSON file records the prompt and thinking settings that were used.
 
-The larger Qwen run accepted **50 outputs**, 25 English and 25 German. This is technical response acceptance, not proof of translation or summary quality.
+The larger Qwen run accepted **50 outputs**, 25 English and 25 German. Accepted means the response was technically valid; translation and summary quality were checked separately.
 
 ## Quality check
 
 The [quality report](data/quality/quality_report_20261007_154526_295540Z.md) checks the 25 English outputs from the larger Qwen run: **2 need review, 23 are unflagged**, with five additional unflagged review samples. The [JSON check](data/quality/quality_20261007_154526_295540Z.json) preserves the results.
 
-The checker is not a semantic fact checker or reliable language detector. Matching numbers can still describe the wrong event. These counts do not establish that English is generally better than German.
+The checker compares numbers and scripts; it does not understand meaning. A number can match and still describe the wrong event. Only the English outputs were checked, so these counts say nothing about whether English or German output is better.
 
 ## Reproduce a generation or check
 
@@ -47,4 +47,4 @@ python stage3/summarize_news_test.py --input stage2/data/prepared/prepared_20261
 python stage3/check_summaries.py --input stage3/data/summaries/summaries_20261007_152729_414957.json --language en
 ```
 
-Current code represents a saved final version, not every historic prompt variant. Read each run's recorded prompt and settings when interpreting earlier results.
+The code in this folder is the final saved version. Earlier runs used earlier prompt variants, so read each run's recorded prompt and settings when interpreting older results.

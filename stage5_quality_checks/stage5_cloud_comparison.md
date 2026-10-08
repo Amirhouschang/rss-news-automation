@@ -6,7 +6,7 @@ Review date: 2026-10-07
 
 Both final runs completed 25 English-language records, five per country. Each record received one or two English summary strings, and every original headline was copied unchanged. Local Ollama remains the project’s primary approach; Stage 5 is an optional cloud comparison using ChatGPT plan sign-in.
 
-Manual comparison against the supplied title and prepared text found two minor source-fidelity/prompt-compliance issues in the final Sol run, described below. No clear content errors were identified in the 25 Astra summaries. This is a finding about this fixed sample, not a guarantee for future output. No clear numerical errors were identified in either final run.
+I compared every summary with its supplied title and prepared text. The final Sol run has two minor issues, described below. In the 25 Astra summaries I found no clear content errors, and in both final runs I found no clear numerical errors. These findings apply to this fixed sample; future output may differ.
 
 ## Final runs and timing
 
@@ -15,7 +15,7 @@ Manual comparison against the supplied title and prepared text found two minor s
 | GPT-5.6-Sol | 25 | 25 | 0 | 110.62 s | 4.42 s | 110.97 s |
 | GPT-6-Astra | 25 | 25 | 0 | 276.55 s | 11.06 s | 276.91 s |
 
-Astra’s summed request time was 2.50 times Sol’s in these runs. Sol therefore completed the same workload in about 40% of Astra’s request time. These are single sequential runs, including network and service latency; they do not isolate model computation or establish a general speed ranking.
+Astra’s summed request time was 2.50 times Sol’s in these runs. Sol therefore completed the same workload in about 40% of Astra’s request time. Each figure comes from a single sequential run and includes network and service latency, so it describes these runs and is not a general speed ranking.
 
 Final result files:
 
@@ -32,7 +32,7 @@ Final result files:
 - Translation is disabled. English source titles are preserved unchanged.
 - There are 15 article-based inputs and 10 RSS-summary-based inputs. IRNA and TASS use RSS summaries; the other three sources use extracted article text.
 - Each model produced one final output per record. There was no prompt tuning between the two final runs.
-- The title and prepared text define the evidence boundary; this review does not determine whether the publishers’ underlying news claims are true.
+- The review checks each summary against its title and prepared text. It does not check whether the publishers’ news claims are true.
 
 System-prompt SHA-256:
 
@@ -42,7 +42,7 @@ System-prompt SHA-256:
 
 Structural checks verified 25 successful attempts per final run, unchanged titles, one or two summary strings per attempt, identical source selection and prompts, and agreement between the final Sol JSON summaries and their generated Markdown report. The Astra report was checked against its JSON in the earlier review.
 
-All 25 outputs from each model were manually compared with the supplied original title and prepared text for meaning, attribution, certainty, names, numbers, units, chronology, and main-topic coverage. This is a descriptive review, without blind independent raters or a numerical quality score. A successful JSON/schema response alone does not establish source fidelity.
+All 25 outputs from each model were manually compared with the supplied original title and prepared text for meaning, attribution, certainty, names, numbers, units, chronology, and main-topic coverage. This is a descriptive review, without blind independent raters or a numerical score. A valid JSON response says nothing about source fidelity, which is why I compared each output by hand.
 
 ## Automated quality check using the unchanged Stage 3 checker
 
@@ -58,9 +58,9 @@ All three automatic flags were manually checked against the corresponding title 
 - Sol, record 20: the checker did not match `$468 million` and `$17.55 million` with `$468 mln` and `$17.55 mln`. These are equivalent units; the title supplies the $468 mln figure and the body supplies $17.55 mln. This is a false positive.
 - Sol and Astra, record 22: the checker did not match the digit `35` with the source’s spelled-out `Thirty-five`. The number of damaged private houses is correct in both outputs. These are false positives.
 
-Automatic flag counts are therefore not counts of confirmed summary errors. The checker did not detect Sol’s EU-to-EC attribution shift or the added first name in record 21. The manual findings remain applicable even though those records were not automatically flagged. Likewise, “not flagged” does not mean automatically verified.
+So the automatic flag counts are not counts of confirmed errors, in both directions: all three flags were false alarms, and the checker missed Sol’s EU-to-EC attribution shift and the added first name in record 21.
 
-The JSON and Markdown quality files retain the checker’s original flags unchanged. Manual adjudications are recorded here rather than changing the raw automatic-check output. These checks were performed on the supplied copies of the result files; the recorded input paths refer to the review environment.
+The JSON and Markdown quality files keep the checker’s original flags unchanged; my manual decisions are recorded only in this document. The checks in this folder were run on copies of the result files, so the input paths recorded in them point to the review environment.
 
 To reproduce the checks locally, run the following commands from the repository's `stage5` directory:
 
@@ -80,11 +80,11 @@ python ../stage3/check_summaries.py \
 
 The headline says “EU fears US diesel export ban — Der Spiegel.” The body says the EC noted that awareness of damage to US companies might not prevent Washington from acting. Sol writes “The EC fears Washington may ban US diesel exports.”
 
-This narrows the institution expressing concern from the EU to the European Commission without that narrower attribution being explicit in the input. This is a small attribution shift, not an invented export ban: the possibility remains uncertain. Astra preserves EU/Der Spiegel in the first sentence and EC’s observation in the second.
+This narrows the institution expressing concern from the EU to the European Commission without that narrower attribution being explicit in the input. This is a small attribution shift. The export ban itself is not invented: the output keeps it as an uncertain possibility. Astra preserves EU/Der Spiegel in the first sentence and EC’s observation in the second.
 
 ### Record 21 — Added first name
 
-The supplied title and text use “Zelensky.” Sol writes “President Volodymyr Zelensky.” The first name is absent from the permitted title/text input. This violates the rule against supplementing the source with outside details; it is not evidence that the first name itself is wrong. The figures of 18 deaths, four children and 15 rescued match the source. Astra uses “Zelensky” without adding the first name.
+The supplied title and text use “Zelensky.” Sol writes “President Volodymyr Zelensky.” The first name is absent from the permitted title/text input. The first name is correct, but adding it breaks the rule against supplementing the source with outside details. The figures of 18 deaths, four children and 15 rescued match the source. Astra uses “Zelensky” without adding the first name.
 
 ## Record-by-record review
 
@@ -120,11 +120,11 @@ The supplied title and text use “Zelensky.” Sol writes “President Volodymy
 
 An earlier 25-record selection (`summaries_20261007_173234_262887Z.json`) stopped after nine successful requests and an HTTP 503 on request ten. Fifteen selected records were not attempted. Its nine accepted outputs were preserved. The exact service cause was not available in the saved diagnostic (`unknown_error`, no request ID).
 
-That incomplete run is excluded from the final timing table and final 25-record quality comparison. The later complete Sol run is the benchmark used here. The HTTP failure is an operational availability observation, not a content-quality failure or evidence that an Iranian source was rejected because of its content.
+That incomplete run is excluded from the final timing table and final 25-record quality comparison. The later complete Sol run is the benchmark used here. The HTTP failure is a service availability problem. It says nothing about content quality, and it is no evidence that an Iranian source was rejected because of its content.
 
 ## Limits and project decision
 
-The same prompt and input support a direct descriptive comparison, but neither model was repeatedly sampled and generation settings do not fully control all model behavior. Subscription inference uses model defaults and omits the local temperature/seed controls, so a later comparison with Ollama is not a fully controlled model-only experiment.
+Both models received the same prompt and input, which allows a direct comparison. Each model was run only once, and the generation settings do not control all model behavior. Subscription inference uses model defaults and omits the local temperature/seed controls, so a later comparison with Ollama is not a fully controlled model-only experiment.
 
 The sample is small, feed-selected and unequal in text length and source type. Short RSS summaries allow fewer compression decisions than full articles. English editions may select different stories from the publishers’ original-language editions. This is not a full archive of all news published by each source.
 
