@@ -1,0 +1,7 @@
+requests
+feedparser
+trafilatura
+psycopg[binary]
+
+# Only for the optional cloud comparison in stage5:
+PyJWT[crypto]
