@@ -47,7 +47,7 @@ Heuristic checks and source-comparison observations are retained separately. Aut
 
 ## Human and AI contribution
 
-Amirhoushang Rahmannejad defined the project goal, source requirements, selection strategy, evaluation questions, and final decisions; ran the experiments; and assessed the resulting workflow and digest. Prompts were developed through dialogue with ChatGPT. ChatGPT and local models assisted with code generation, debugging, review, and documentation. Local models also generated the experimental and final summaries.
+I defined the project goal, source requirements, selection strategy, evaluation questions, and final decisions; ran the experiments; and assessed the resulting workflow and digest. Prompts were developed through dialogue with ChatGPT. ChatGPT and local models assisted with code generation, debugging, review, and documentation. Local models also generated the experimental and final summaries.
 
 The repository documents practical use and evaluation of existing models. It does not claim independent model development, training, a blind benchmark, or fully manual coding. The final summarizer follows the supplied source text rather than independently fact-checking the publisher.
 
