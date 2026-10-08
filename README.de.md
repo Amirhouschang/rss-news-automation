@@ -86,3 +86,9 @@ Der Nutzer bestätigte am **8. Oktober 2026** einen erfolgreichen zeitgesteuerte
 ## Veröffentlichung
 
 Zugangsdaten und private Notizen gehören nicht zum öffentlichen Projekt. Chatlogs, Screenshots und Workflow-Exporte werden vor Veröffentlichung geprüft. Gespeicherte Meldungen und KI-Ausgaben sind Versuchsmaterial, keine unabhängig verifizierten Tatsachenberichte. Historische Ergebnisse gehören zu ihren damaligen Eingaben und Prompts; heutiger Code reproduziert nicht zwangsläufig ältere Promptvarianten oder veränderte Feeds.
+
+## Urheberrecht
+
+© 2026 Amirhoushang Rahmannejad. Alle Rechte vorbehalten.
+
+Sofern nicht anders angegeben, dürfen der für dieses Projekt erstellte Code und die Dokumentation ohne meine Zustimmung nicht weiterverwendet, verändert oder weiterverbreitet werden. Nachrichteninhalte, Software und Modelle Dritter unterliegen den jeweiligen Rechten und Lizenzen.
