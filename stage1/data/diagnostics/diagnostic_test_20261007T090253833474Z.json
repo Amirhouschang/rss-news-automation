@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-10-07T09:02:55.425213+00:00",
+  "input_file": "/home/amir/Dokumente/Github_projects/RSS/data/articles/articles_test_20261007T083820504493Z.json",
+  "feed_errors": [],
+  "results": [
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "آیت‌الله دری: ایمان و تقوا سلاح مؤمنان در برابر نفوذ دشمن است",
+      "published_at": "Wed, 07 Oct 2026 09:01:22 GMT",
+      "original_url": "https://www.irna.ir/news/86285914/%D8%A2%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AF%D8%B1%DB%8C-%D8%A7%DB%8C%D9%85%D8%A7%D9%86-%D9%88-%D8%AA%D9%82%D9%88%D8%A7-%D8%B3%D9%84%D8%A7%D8%AD-%D9%85%D8%A4%D9%85%D9%86%D8%A7%D9%86-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D9%86%D9%81%D9%88%D8%B0-%D8%AF%D8%B4%D9%85%D9%86-%D8%A7%D8%B3%D8%AA",
+      "rss_summary": "اراک - ایرنا - نماینده ولی‌فقیه در استان مرکزی گفت: مؤمنان باید با تقویت ایمان، تقوا، نماز و بصیرت، در برابر وسوسه‌های شیطانی و جریان‌های انحرافی ایستادگی کنند.",
+      "rss_content": [
+        {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": ""
+        }
+      ],
+      "rss_summary_text": "اراک - ایرنا - نماینده ولی‌فقیه در استان مرکزی گفت: مؤمنان باید با تقویت ایمان، تقوا، نماز و بصیرت، در برابر وسوسه‌های شیطانی و جریان‌های انحرافی ایستادگی کنند.",
+      "rss_content_text": "",
+      "article_status": "interstitial",
+      "http_status": 200,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": "Transferring to the website...\nدر ﺣﺎل اﻧﺘﻘﺎل ﺑﻪ ﺳﺎﯾﺖ ﻣﻮرد ﻧﻈﺮ ﻫﺴﺘﯿﺪ...",
+      "error_message": "Interstitial page detected: 'Transferring to the website' found"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "توضیح سخنگوی قوه قضاییه درباره پرونده حمید رسایی/ ثبت ۶۰ فقره شکایت و ۲۵ مورد قرار مجرمیت",
+      "published_at": "Wed, 07 Oct 2026 09:01:09 GMT",
+      "original_url": "https://www.irna.ir/news/86285755/%D8%AA%D9%88%D8%B6%DB%8C%D8%AD-%D8%B3%D8%AE%D9%86%DA%AF%D9%88%DB%8C-%D9%82%D9%88%D9%87-%D9%82%D8%B6%D8%A7%DB%8C%DB%8C%D9%87-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87-%D8%AD%D9%85%DB%8C%D8%AF-%D8%B1%D8%B3%D8%A7%DB%8C%DB%8C-%D8%AB%D8%A8%D8%AA-%DB%B6%DB%B0-%D9%81%D9%82%D8%B1%D9%87",
+      "rss_summary": "تهران- ایرنا- سخنگوی قوه قضاییه با تشریح جزئیات پرونده حجت الاسلام حمید رسایی، روند رسیدگی به پرونده را توضیح داد و گفت: حکم ۱۰ ماه حبس وی در دادگاه تجدیدنظر تأیید و قطعی شده و مستند قانونی محکومیت، ماده ۷۴۶ قانون مجازات اسلامی است.",
+      "rss_content": [
+        {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": ""
+        }
+      ],
+      "rss_summary_text": "تهران- ایرنا- سخنگوی قوه قضاییه با تشریح جزئیات پرونده حجت الاسلام حمید رسایی، روند رسیدگی به پرونده را توضیح داد و گفت: حکم ۱۰ ماه حبس وی در دادگاه تجدیدنظر تأیید و قطعی شده و مستند قانونی محکومیت، ماده ۷۴۶ قانون مجازات اسلامی است.",
+      "rss_content_text": "",
+      "article_status": "interstitial",
+      "http_status": 200,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": "Transferring to the website...\nدر ﺣﺎل اﻧﺘﻘﺎل ﺑﻪ ﺳﺎﯾﺖ ﻣﻮرد ﻧﻈﺮ ﻫﺴﺘﯿﺪ...",
+      "error_message": "Interstitial page detected: 'Transferring to the website' found"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "معاون قوه قضاییه: پیش از شکل‌گیری ناهنجاری، برای جلوگیری اقدام کنیم",
+      "published_at": "Wed, 07 Oct 2026 09:00:39 GMT",
+      "original_url": "https://www.irna.ir/news/86285863/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%82%D9%88%D9%87-%D9%82%D8%B6%D8%A7%DB%8C%DB%8C%D9%87-%D9%BE%DB%8C%D8%B4-%D8%A7%D8%B2-%D8%B4%DA%A9%D9%84-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%86%D8%A7%D9%87%D9%86%D8%AC%D8%A7%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AC%D9%84%D9%88%DA%AF%DB%8C%D8%B1%DB%8C-%D8%A7%D9%82%D8%AF%D8%A7%D9%85",
+      "rss_summary": "شیراز-ایرنا- معاون اجتماعی و پیشگیری از وقوع جرم قوه قضاییه با تاکید بر ضرورت تغییر رویکرد در حوزه پیشگیری گفت: باید پیش از آنکه اندیشه، گفتمان و رفتاری شکل بگیرد که آثار و تبعات ناهنجار به دنبال داشته باشد و موجب افزایش هزینه برای نظام اجتماعی و ایجاد اشکال در تامین حقوق مردم شود، برای جلوگیری از آن اقدام کنیم.",
+      "rss_content": [
+        {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": ""
+        }
+      ],
+      "rss_summary_text": "شیراز-ایرنا- معاون اجتماعی و پیشگیری از وقوع جرم قوه قضاییه با تاکید بر ضرورت تغییر رویکرد در حوزه پیشگیری گفت: باید پیش از آنکه اندیشه، گفتمان و رفتاری شکل بگیرد که آثار و تبعات ناهنجار به دنبال داشته باشد و موجب افزایش هزینه برای نظام اجتماعی و ایجاد اشکال در تامین حقوق مردم شود، برای جلوگیری از آن اقدام کنیم.",
+      "rss_content_text": "",
+      "article_status": "interstitial",
+      "http_status": 200,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": "Transferring to the website...\nدر ﺣﺎل اﻧﺘﻘﺎل ﺑﻪ ﺳﺎﯾﺖ ﻣﻮرد ﻧﻈﺮ ﻫﺴﺘﯿﺪ...",
+      "error_message": "Interstitial page detected: 'Transferring to the website' found"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Лихачев: Росатом благодарен Шишкареву за семь лет партнерства",
+      "published_at": "Wed, 07 Oct 2026 11:58:50 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189723",
+      "rss_summary": "Его профессиональный взгляд, опыт и компетенции помогли становлению логистического дивизиона госкорпорации, отметил гендиректор",
+      "rss_content": [],
+      "rss_summary_text": "Его профессиональный взгляд, опыт и компетенции помогли становлению логистического дивизиона госкорпорации, отметил гендиректор",
+      "rss_content_text": "",
+      "article_status": "download_failed",
+      "http_status": null,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": null,
+      "error_message": "403 Client Error: Forbidden for url: https://tass.ru/ekonomika/28189723"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Рубио заявил о планах США нарастить поставки СПГ в Грецию",
+      "published_at": "Wed, 07 Oct 2026 11:58:38 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189747",
+      "rss_summary": "Уже сейчас энергетическое сотрудничество стран вышло на новый уровень, отметил американский госсекретарь",
+      "rss_content": [],
+      "rss_summary_text": "Уже сейчас энергетическое сотрудничество стран вышло на новый уровень, отметил американский госсекретарь",
+      "rss_content_text": "",
+      "article_status": "download_failed",
+      "http_status": null,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": null,
+      "error_message": "403 Client Error: Forbidden for url: https://tass.ru/ekonomika/28189747"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Новосибирске арестовали главу межрайонной инспекции ФНС по делу о взятке",
+      "published_at": "Wed, 07 Oct 2026 11:58:31 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189671",
+      "rss_summary": "Сумма взятки составила 300 тыс. рублей",
+      "rss_content": [],
+      "rss_summary_text": "Сумма взятки составила 300 тыс. рублей",
+      "rss_content_text": "",
+      "article_status": "download_failed",
+      "http_status": null,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": null,
+      "error_message": "403 Client Error: Forbidden for url: https://tass.ru/proisshestviya/28189671"
+    }
+  ]
+}

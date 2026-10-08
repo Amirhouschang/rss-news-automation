@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-10-07T09:05:14.502193+00:00",
+  "input_file": "/home/amir/Dokumente/Github_projects/RSS/data/articles/articles_test_20261007T083820504493Z.json",
+  "feed_errors": [],
+  "results": [
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "طرح ملی خانه امید در استان قزوین وارد فاز اجرایی شد",
+      "published_at": "Wed, 07 Oct 2026 09:02:57 GMT",
+      "original_url": "https://www.irna.ir/news/86285887/%D8%B7%D8%B1%D8%AD-%D9%85%D9%84%DB%8C-%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%D9%85%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D9%82%D8%B2%D9%88%DB%8C%D9%86-%D9%88%D8%A7%D8%B1%D8%AF-%D9%81%D8%A7%D8%B2-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%B4%D8%AF",
+      "rss_summary": "قزوین - ایرنا - مدیرکل بنیاد مسکن انقلاب اسلامی قزوین گفت: اجرای طرح سراسری \"خانه امید\" در راستای ماموریت اصلی این نهاد مبنی بر تامین مسکن برای محرومان، در استان وارد فاز اجرایی خود شد.",
+      "rss_content": [
+        {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": ""
+        }
+      ],
+      "rss_summary_text": "قزوین - ایرنا - مدیرکل بنیاد مسکن انقلاب اسلامی قزوین گفت: اجرای طرح سراسری \"خانه امید\" در راستای ماموریت اصلی این نهاد مبنی بر تامین مسکن برای محرومان، در استان وارد فاز اجرایی خود شد.",
+      "rss_content_text": "",
+      "article_status": "interstitial",
+      "http_status": 200,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": "Transferring to the website...\nدر ﺣﺎل اﻧﺘﻘﺎل ﺑﻪ ﺳﺎﯾﺖ ﻣﻮرد ﻧﻈﺮ ﻫﺴﺘﯿﺪ...",
+      "error_message": "Interstitial page detected: 'Transferring to the website' found"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "دبیر: سابقه فوتبالی‌ام از خیلی‌ها بیشتر است/ هنوز ساق و کفش کوچک دوران فوتبال خودم را دارم",
+      "published_at": "Wed, 07 Oct 2026 09:02:50 GMT",
+      "original_url": "https://www.irna.ir/news/86285911/%D8%AF%D8%A8%DB%8C%D8%B1-%D8%B3%D8%A7%D8%A8%D9%82%D9%87-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%DB%8C-%D8%A7%D9%85-%D8%A7%D8%B2-%D8%AE%DB%8C%D9%84%DB%8C-%D9%87%D8%A7-%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1-%D8%A7%D8%B3%D8%AA-%D9%87%D9%86%D9%88%D8%B2-%D8%B3%D8%A7%D9%82-%D9%88-%DA%A9%D9%81%D8%B4-%DA%A9%D9%88%DA%86%DA%A9",
+      "rss_summary": "تهران- ایرنا- رئیس فدراسیون کشتی گفت: سابقه فوتبالی من از خیلی از این‌ها بیشتر است. اگر سابقه پدرم را هم حساب کنیم، سال‌های زیادی با فوتبال در ارتباط بوده‌ایم.",
+      "rss_content": [
+        {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": ""
+        }
+      ],
+      "rss_summary_text": "تهران- ایرنا- رئیس فدراسیون کشتی گفت: سابقه فوتبالی من از خیلی از این‌ها بیشتر است. اگر سابقه پدرم را هم حساب کنیم، سال‌های زیادی با فوتبال در ارتباط بوده‌ایم.",
+      "rss_content_text": "",
+      "article_status": "interstitial",
+      "http_status": 200,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": "Transferring to the website...\nدر ﺣﺎل اﻧﺘﻘﺎل ﺑﻪ ﺳﺎﯾﺖ ﻣﻮرد ﻧﻈﺮ ﻫﺴﺘﯿﺪ...",
+      "error_message": "Interstitial page detected: 'Transferring to the website' found"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "بسته خبرهای کوتاه چهارمحال و بختیاری",
+      "published_at": "Wed, 07 Oct 2026 09:02:14 GMT",
+      "original_url": "https://www.irna.ir/news/86285744/%D8%A8%D8%B3%D8%AA%D9%87-%D8%AE%D8%A8%D8%B1%D9%87%D8%A7%DB%8C-%DA%A9%D9%88%D8%AA%D8%A7%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%D8%AD%D8%A7%D9%84-%D9%88-%D8%A8%D8%AE%D8%AA%DB%8C%D8%A7%D8%B1%DB%8C",
+      "rss_summary": "شهرکرد - ایرنا- جمهوری اسلامی (ایرنا) چهارمحال و بختیاری با گشایش یک صفحه جدید، برخی خبرهای استان را روزانه در قالب اخبار کوتاه و به صورت جمع‌بندی منتشر می‌کند که این صفحه به مهمترین رویدادهای روز نخست مهرماه ۱۴۰۵ تعلق دارد.",
+      "rss_content": [
+        {
+          "type": "text/html",
+          "language": null,
+          "base": "",
+          "value": ""
+        }
+      ],
+      "rss_summary_text": "شهرکرد - ایرنا- جمهوری اسلامی (ایرنا) چهارمحال و بختیاری با گشایش یک صفحه جدید، برخی خبرهای استان را روزانه در قالب اخبار کوتاه و به صورت جمع‌بندی منتشر می‌کند که این صفحه به مهمترین رویدادهای روز نخست مهرماه ۱۴۰۵ تعلق دارد.",
+      "rss_content_text": "",
+      "article_status": "interstitial",
+      "http_status": 200,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": "Transferring to the website...\nدر ﺣﺎل اﻧﺘﻘﺎل ﺑﻪ ﺳﺎﯾﺖ ﻣﻮرد ﻧﻈﺮ ﻫﺴﺘﯿﺪ...",
+      "error_message": "Interstitial page detected: 'Transferring to the website' found"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Оранжевую ветку Московского метрополитена планируется продлить до Мытищ",
+      "published_at": "Wed, 07 Oct 2026 12:02:33 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189771",
+      "rss_summary": "Она протянется на 3,5 км от станции \"Медведково\"",
+      "rss_content": [],
+      "rss_summary_text": "Она протянется на 3,5 км от станции \"Медведково\"",
+      "rss_content_text": "",
+      "article_status": "download_failed",
+      "http_status": null,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": null,
+      "error_message": "403 Client Error: Forbidden for url: https://tass.ru/obschestvo/28189771"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Рубио попросил журналиста называть ИИ суперинтеллектом",
+      "published_at": "Wed, 07 Oct 2026 12:01:46 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189761",
+      "rss_summary": "Госсекретарь США напомнил, что правительство страны собрало рабочую группу для изучения вариантов регулирования искусственного интеллекта и связанных с ним угроз",
+      "rss_content": [],
+      "rss_summary_text": "Госсекретарь США напомнил, что правительство страны собрало рабочую группу для изучения вариантов регулирования искусственного интеллекта и связанных с ним угроз",
+      "rss_content_text": "",
+      "article_status": "download_failed",
+      "http_status": null,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": null,
+      "error_message": "403 Client Error: Forbidden for url: https://tass.ru/mezhdunarodnaya-panorama/28189761"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Hindustan Times: Индия предложила план перемирия на Украине из трех пунктов",
+      "published_at": "Wed, 07 Oct 2026 12:01:35 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189753",
+      "rss_summary": "Он предусматривает прекращение атак на энергетические объекты и другую инфраструктуру, обеспечение бесперебойных поставок зерна и энергоносителей через порты Черного моря и прекращение ударов по коммерческим судам",
+      "rss_content": [],
+      "rss_summary_text": "Он предусматривает прекращение атак на энергетические объекты и другую инфраструктуру, обеспечение бесперебойных поставок зерна и энергоносителей через порты Черного моря и прекращение ударов по коммерческим судам",
+      "rss_content_text": "",
+      "article_status": "download_failed",
+      "http_status": null,
+      "article_text": null,
+      "text_char_count": 0,
+      "rejected_text": null,
+      "error_message": "403 Client Error: Forbidden for url: https://tass.ru/mezhdunarodnaya-panorama/28189753"
+    }
+  ]
+}

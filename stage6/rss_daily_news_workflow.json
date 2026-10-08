@@ -1,0 +1,185 @@
+{
+  "name": "RSS Daily News",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -416,
+        16
+      ],
+      "id": "1b7368de-eda6-4a60-b8bd-19ae9caaa8c7",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "command": "PGPASSFILE=/path/to/pgpass /path/to/python -u /path/to/RSS/stage6/daily_news.py --sample-per-source 5 --non-interactive"
+      },
+      "type": "n8n-nodes-base.ssh",
+      "typeVersion": 1,
+      "position": [
+        -192,
+        -80
+      ],
+      "id": "cca20ef6-63a4-4a41-82de-d8483697cb46",
+      "name": "Execute a command"
+    },
+    {
+      "parameters": {
+        "sendTo": "recipient@example.com",
+        "subject": "={{ $json.subject }}",
+        "message": "={{ $json.html }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        704,
+        -80
+      ],
+      "id": "f69c0b17-a84d-4a55-aa67-7c979ca1b055",
+      "name": "Send a message"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n    n.news_id,\n    r.run_id,\n    n.country,\n    n.source,\n    n.original_title,\n    n.summary_text,\n    n.original_url,\n    n.published_at,\n    n.text_basis\nFROM runs AS r\nCROSS JOIN LATERAL jsonb_array_elements_text(\n    COALESCE(\n        r.generation_settings->'selected_news_ids',\n        '[]'::jsonb\n    )\n) AS selection(news_id)\nJOIN news_overview AS n\n    ON n.news_id = selection.news_id::bigint\nWHERE r.run_id = $1\n  AND n.processing_status = 'success'\n  AND NULLIF(TRIM(n.summary_text), '') IS NOT NULL\nORDER BY n.country, n.published_at DESC NULLS LAST, n.news_id;",
+        "options": {
+          "queryReplacement": "={{ [$json.run_id] }}"
+        }
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.7,
+      "position": [
+        256,
+        -80
+      ],
+      "id": "c9a4f96b-df2d-4100-b61c-aa058aa243ab",
+      "name": "Execute a SQL query"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Read the result of the SSH command.\nconst result = $input.first().json;\nconst stdout = String(result.stdout ?? \"\");\n\n// Stop if the Python command failed.\nif (Number(result.code) !== 0) {\n  throw new Error(\"The daily news command failed. Check the SSH output.\");\n}\n\n// End this execution if another daily process is already running.\nif (stdout.includes(\"Another daily_news process is already running\")) {\n  return [];\n}\n\n// Extract the completed run ID.\nconst match = stdout.match(/Run ID:\\s*(\\d+)/);\n\nif (!match) {\n  throw new Error(\"No completed run ID was found in the SSH output.\");\n}\n\nconst runId = Number(match[1]);\n\nif (!Number.isSafeInteger(runId) || runId <= 0) {\n  throw new Error(\"The run ID is invalid.\");\n}\n\n// Pass the run ID to the Postgres node.\nreturn [{ json: { run_id: runId } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        32,
+        -80
+      ],
+      "id": "6b2fa30a-e6ee-4d5f-b75d-77d75e131d6b",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Collect all news records from the Postgres node.\nconst records = $input.all().map(item => item.json);\n\nif (records.length === 0) {\n  return [];\n}\n\n// Escape text before inserting it into HTML.\nfunction escapeHtml(value) {\n  return String(value ?? \"\").replace(/[&<>\"']/g, character => ({\n    \"&\": \"&amp;\",\n    \"<\": \"&lt;\",\n    \">\": \"&gt;\",\n    '\"': \"&quot;\",\n    \"'\": \"&#39;\"\n  })[character]);\n}\n\n// Use the current date in the workflow's local timezone.\nconst date = new Intl.DateTimeFormat(\"en-GB\", {\n  timeZone: \"Europe/Berlin\",\n  year: \"numeric\",\n  month: \"long\",\n  day: \"numeric\"\n}).format(new Date());\n\n// Create one formatted section for each news record.\nconst sections = records.map(record => {\n  const url = String(record.original_url ?? \"\").trim();\n  const link = /^https?:\\/\\/[^\\s]+$/i.test(url)\n    ? `<p><a href=\"${escapeHtml(url)}\">Read the original article</a></p>`\n    : \"\";\n\n  const summary = escapeHtml(record.summary_text)\n    .replace(/\\r?\\n/g, \"<br>\");\n\n  return `\n    <div style=\"padding:20px 0;border-bottom:1px solid #dddddd;\">\n      <p style=\"color:#666666;font-size:13px;\">\n        ${escapeHtml(record.country)} · ${escapeHtml(record.source)}\n      </p>\n      <h2 style=\"font-size:20px;margin:8px 0;\">\n        ${escapeHtml(record.original_title)}\n      </h2>\n      <p style=\"line-height:1.6;\">${summary}</p>\n      ${link}\n    </div>\n  `;\n}).join(\"\");\n\n// Return one item so the Gmail node sends one combined email.\nreturn [{\n  json: {\n    run_id: records[0].run_id,\n    news_count: records.length,\n    subject: `RSS Daily News — ${date}`,\n    html: `\n      <div style=\"max-width:720px;margin:auto;padding:24px;\n                  font-family:Arial,sans-serif;color:#222222;\">\n        <h1>RSS Daily News</h1>\n        <p style=\"line-height:1.6;color:#555555;\">\n          Today’s news from different parts of the world.\n          A broader view begins with reading beyond familiar perspectives,\n          without having to agree with everything we read.\n        </p>\n        <p>${escapeHtml(date)} · ${records.length} news items</p>\n        ${sections}\n      </div>\n    `\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        -80
+      ],
+      "id": "890148f6-6203-4563-b61f-50c4f7ef8bc2",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 12,
+              "triggerAtMinute": 30
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -416,
+        -176
+      ],
+      "id": "f5245c68-3ff2-4163-87ab-7177e46038b0",
+      "name": "Schedule Trigger"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Execute a command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a command": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a SQL query": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Execute a SQL query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Execute a command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "timezone": "Europe/Berlin"
+  }
+}

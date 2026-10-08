@@ -1,0 +1,530 @@
+{
+  "checked_at": "2026-10-07T15:45:26.295540+00:00",
+  "input_path": "/home/amir/Dokumente/Github_projects/RSS/stage3/data/summaries/summaries_20261007_152729_414957.json",
+  "language_filter": "en",
+  "sample_seed": 42,
+  "sample_per_country": 1,
+  "limitations": [
+    "Heuristic checks cannot establish semantic accuracy or verify source truth.",
+    "Numeric matching can produce false positives and false negatives.",
+    "Unflagged output is not automatically approved."
+  ],
+  "counts": {
+    "checked": 25,
+    "needs_review": 2,
+    "not_flagged": 23,
+    "unflagged_samples": 5
+  },
+  "records": [
+    {
+      "input_index": 0,
+      "attempt_number": 1,
+      "model": "qwen3.6:35b",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Chemie-Nobelpreis geht an Franzosen Kagan und Japaner Soai",
+      "original_url": "https://www.tagesschau.de/wissen/forschung/chemie-nobelpreis-fuer-kagan-und-soai-100.html",
+      "prepared_text": "Auszeichnung für Entdeckung Chemie-Nobelpreis für Franzosen und Japaner\nDer Nobelpreis für Chemie geht an den 1930 geborenen Franzosen Henri B. Kagan und den Japaner Kenso Soai. Sie werden für Entdeckungen ausgezeichnet, die etwa bei der Herstellung von Arzneimitteln entscheidend seien.\nDer französische Wissenschaftler Henri B. Kagan und der Japaner Kenso Saoi sind mit dem Chemie-Nobelpreis ausgezeichnet worden. Die beiden würden für die \"Entdeckung nichtlinearer Effekte und der Autokatalyse in der asymmetrischen organischen Synthese\" geehrt, teilte die Königlich-Schwedische Akademie der Wissenschaften in Stockholm mit.\n\"Henri Kagan und Kenso Soai haben eine Lösung für ein über ein Jahrhundert altes chemisches Rätsel geliefert: wie Homochiralität spontan entstehen kann\", erklärte der Vorsitzende des Nobelkomitees für Chemie, Heiner Linke.\nWas bedeutet Chiralität?\nViele Moleküle wie Aminosäuren existieren als zwei Varianten, die sich wie Spiegelbilder zueinander verhalten - vergleichbar der linken und rechten menschlichen Hand. Die beiden Varianten, die sogenannte L- und R-Form, weisen völlig unterschiedliche Eigenschaften auf.\nIn der Natur dominiert meist eine der beiden Varianten. An Andockstellen etwa von menschlichen Zellen passt eine Variante eines Moleküls perfekt - wie ein Schlüssel in ein Schloss. Der andere, seitenverkehrte Schlüssel passt dagegen nicht und kann das Schloss sogar beschädigen.\nViele moderne Medikamente werden gezielt als ein einzelnes sogenanntes Enantiomer entwickelt, das eine gewünschte Wirkung hat. Die andere Variante, die unwirksam oder toxisch sein kann, wird dagegen vermieden. Bedeutung hatte das Phänomen unter anderem beim Contergan-Skandal der 1960er-Jahre: Während die eine Form des Contergan-Wirkstoffs Thalidomid Entzündungen hemmt, führt sein Spiegelbild zu Missbildungen bei ungeborenen Kindern.\nEiner der ältesten Nobelpreis-Gewinner überhaupt\nDer 95-jährige in Frankreich geborene Kagan hatte 1086 an der Université Paris-Sud in Orsay (Frankreich) eine Möglichkeit zur Beeinflussung chemischer Reaktionen entdeckt. So konnte er einen größeren Überschuss von einem der beiden Spiegelbilder erzeugen. Kagan ist einer der ältesten Wissenschaftler, denen der Nobelpreis verliehen wurde. Den Rekord hält John B. Goodenough, der 2019 im Alter von 97 Jahren ebenfalls den Chemie-Nobelpreis für die Entwicklung von Lithium-Ionen-Batterien verliehen bekam.\nDer in Japan geborene Soai von der Tokyo University of Science stellte in einer Veröffentlichung 1995 eine chemische Reaktion vor, die das theoretische Potenzial hatte, homochirale Moleküle zu erzeugen. Im Jahr 2003 präsentierte er dann eine Reaktion, bei der tatsächlich nur eines der beiden Spiegelbilder gebildet wurde. Abgesehen vom Leben selbst habe noch niemand zuvor dieses Kunststück vollbracht, schreibt das Nobelkomitee. \"Die von ihnen entwickelten chemischen Reaktionen sind spektakulär\", so Linke.\nZur Preisvergabe in Stockholm wurde Soai zugeschaltet. \"Ich freue mich sehr, diese wunderbare Nachricht zum Nobelpreis erhalten zu haben. Das ist einer der aufregendsten Tage meines Lebens\", sagte er. Er sei sehr erfreut, sich den Preis mit Kagan teilen zu dürfen.\nMedizin- und Physik-Preise schon verliehen\nDer Nobelpreis gilt international als eine der wichtigsten wissenschaftlichen Auszeichnungen. Im vergangenen Jahr erhielten drei Wissenschaftler den Chemie-Nobelpreis für die Entwicklung neuartiger Molekülstrukturen, die große Mengen Gas in ihrem Inneren einschließen können; damit legten sie den Grundstein dafür, möglicherweise Treibhausgase aus der Atmosphäre zu entfernen oder Feuchtigkeit aus Wüstenregionen zu gewinnen.\nDie Bekanntgabe der diesjährigen Preise begann bereits am Montag mit der Vergabe des Nobelpreises für Medizin an drei Wissenschaftler. Deren Arbeit führte zu einem Verfahren, das Licht nutzt, um die Funktionsweise des Gehirns zu entschlüsseln. Am Dienstag wurde ein in Belgien geborener Forscher für maßgebliche Beiträge zur Entdeckung hochenergetischer Neutrinos astrophysikalischen Ursprungs mit dem Physik-Nobelpreis geehrt.\nMorgen wird der Nobelpreis für Literatur verkündet, am Freitag folgt der Friedensnobelpreis. Den Abschluss bildet die Bekanntgabe der Auszeichnung für Wirtschaftswissenschaften am kommenden Montag. Der Nobelpreis ist in diesem Jahr mit zwölf Millionen schwedischen Kronen (etwa eine Million Euro) dotiert.",
+      "translated_title": "Chemistry Nobel Prize Goes to Frenchman Kagan and Japanese Soai",
+      "summary_sentences": [
+        "Henri B. Kagan and Kenso Soai have been awarded the Chemistry Nobel Prize for their discoveries of nonlinear effects and autocatalysis in asymmetric organic synthesis, which provide a solution to how homochirality can arise spontaneously.",
+        "The Royal Swedish Academy of Sciences honored their work as crucial for pharmaceutical manufacturing, noting that their reactions allow for the creation of single enantiomers to avoid toxic side effects."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 2,
+      "attempt_number": 3,
+      "model": "qwen3.6:35b",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Themen im Koalitionsausschuss: Was Schwarz-Rot jetzt vor sich hat",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-reformen-106.html",
+      "prepared_text": "Themen im Koalitionsausschuss Was Schwarz-Rot jetzt vor sich hat\nDie schwarz-rote Koalition will ihre Reformvorhaben voranbringen, doch bei wichtigen Projekten liegen die Partner überkreuz. Und die jüngsten Wahlergebnisse setzen der Regierung zu. Welche Themen werden heute diskutiert?\nAm Abend trifft sich der Koalitionsausschuss der Bundesregierung. Konkrete inhaltliche Beschlüsse zu umstrittenen Vorhaben werden nicht erwartet, aber möglicherweise ein Zeitplan für die Umsetzung.\nAuf jeden Fall dürfte es eine offene Diskussion darüber geben, ob aus den Landtagswahlen im September mit teils drastischen Verlusten für die Regierungsparteien Konsequenzen für den weiteren Kurs gezogen werden sollen. Auch die Wahl des ersten AfD-Landtagspräsidenten in Sachsen-Anhalt mit möglicherweise Stimmen aus der CDU dürfte viele Themen überlagern. Zugleich hat sich die schwarz-rote Koalition vorgenommen, bei den geplanten Reformen Tempo zu machen. Die SPD fordert Änderungen am Reformpaket, während Bundeskanzler Friedrich Merz und die Union die bisherige Linie fortsetzen wollen.\nSPD-Fraktionschef Matthias Miersch sagte vor der Sitzung, er erwarte eine \"sehr ehrliche Aussprache miteinander, wie wir jetzt die Aufgaben auch in den nächsten Monaten angehen\". Unionsfraktionschef Thorsten Frei (CDU) sagte, es gehe nun darum, \"in welcher Reihenfolge und wie wir jetzt in den nächsten Wochen diesen großen Arbeitsberg abarbeiten möchten\".\nDer Ausschuss hatte bei der letzten Sitzung Anfang Juli ein Reformpaket beschlossen, das Regelungen zu Rente, Steuer, Pflege und Arbeitsmarkt enthält. Einiges ist schon abgehakt, an vielen Stellen gibt es aber noch Streit. Das sind die Knackpunkte:\nDer Haushalt\nWenn die Einnahmen aus den geplanten Steuererhöhungen fehlen, steht es schlecht um Klingbeils Haushalt. Zur Debatte stehen außerdem Zusatzforderungen der Union, etwa nach höherem Elterngeld und einem Ausgleich der inflationsbedingten kalten Progression. Damit dürfte Klingbeils Entwurf für den Bundeshaushalt 2027 nicht mehr aufgehen. Das ist jetzt vor allem ein Problem der Haushälter der Koalitionsfraktionen. Denn derzeit laufen die Beratungen im Haushaltsausschuss, Mitte November soll in der sogenannten Bereinigungssitzung alles festgezurrt, Ende November im Bundestag abgestimmt werden. Doch dafür müssten die Parlamentarier noch einige Milliarden auftreiben. In der Koalition wird nicht ausgeschlossen, dass der Termin verschoben und eventuell vor Jahresende gar kein Haushalt mehr beschlossen wird.\nDie Arbeitszeitreform\nDie Koalition will Arbeitszeitregeln flexibler machen. In ihrem Koalitionsvertrag hatten Union und SPD vereinbart, eine wöchentliche Höchstarbeitszeit - statt der festen acht Stunden pro Tag - auf den Weg zu bringen. Bisher kommt das Vorhaben aber kaum voran, deshalb erhöht die SPD-Basis jetzt den Druck. Verschiedene Arbeitsgruppen der Partei fordern, dass diese Wochenarbeitszeit nur unter bestimmten Bedingungen kommt - zum Beispiel nur in Betrieben mit Tarifverträgen. Bei CDU/CSU dürften die Forderungen auf Widerstand stoßen.\nDie Pflegereform\nDie Pflegereform wurde vergangene Woche vom Bundeskabinett auf den Weg gebracht. In einem ersten Schritt ging es darum, die Finanzlücke in der Pflegeversicherung zu schließen. In einem zweiten Schritt soll die Versicherung grundlegend reformiert werden. Denn: Immer mehr Menschen sind auf Pflege angewiesen, gleichzeitig gibt es aber weniger Menschen, die Geld in die Versicherung einzahlen. Die für heute geplante Einsetzung einer Pflegekommission wurde kurzfristig verschoben.\nBundesgesundheitsminister Carsten Linnemann von der CDU erwartet, dass die Expertinnen und Experten bis Ende Januar Vorschläge machen, wie das System langfristig funktionieren kann.\nDie Rentenreform\nEine Kommission gab es auch bei der Rente. Im Sommer hat sie ein Paket aus verschiedenen Maßnahmen vorgelegt. Das Ziel: die Rente langfristig bezahlbar und fair gegenüber jüngeren Menschen aufzustellen. Besonders umstritten ist die geplante Abschaffung der abschlagsfreien Rente nach 45 Beitragsjahren - umgangssprachlich auch \"Rente mit 63\" genannt.\nFür viele in der Union ist sie vor allem ein teures Geschenk für gutverdienende Fachkräfte, die körperlich nicht hart gearbeitet haben. Für die SPD geht es stärker um die Anerkennung nach 45 Jahren Arbeit. Wer so lange eingezahlt hat, soll auch die Möglichkeit haben, früher ohne Abschläge in Rente zu gehen.\nDie Steuerreform\nDie Steuerreform soll Menschen mit niedrigen und mittleren Einkommen um mehrere Hundert Euro im Jahr entlasten. Dafür soll unter anderem der Grundfreibetrag erhöht werden - das ist der Betrag, auf den gar keine Einkommensteuer fällig wird.\nDen Gesetzentwurf für die Reform hat die Bundesregierung schon auf den Weg gebracht. Am Donnerstag soll er zum ersten Mal im Bundestag beraten werden. Da gibt es allerdings Kritik: Die Union findet die Entlastungen zu gering und lehnt neue oder höhere Steuern ab. Deshalb könnte sich an den Plänen noch einiges ändern.\nDie Zuckersteuer\nMit der geplanten Zuckersteuer sollen vor allem zwei Dinge erreicht werden: Die Menschen sollen gesünder leben, und der Staat soll mehr Geld einnehmen. Der Gesetzentwurf aus dem Finanzministerium sieht vor: Ab fünf Gramm Zucker pro 100 Milliliter soll eine Steuer fällig werden, das soll Hersteller dazu bewegen, weniger Zucker in ihre Getränke zu mischen. Die Einnahmen sollen vor allem helfen, das Finanzloch der gesetzlichen Krankenkassen zu schließen.\nDoch dieser Plan steckt vorerst fest, denn gerade in der Union befürchten viele, die Steuer könne eine Belastung für mittelständische Getränkehersteller sein. Der bisherige Entwurf sieht die neue Abgabe ab Juli vor.\nQuelle: Isabell Karras, ARD-Hauptstadtstudio und dpa",
+      "translated_title": "Topics in the Coalition Committee: What Schwarz-Rot Faces Next",
+      "summary_sentences": [
+        "The German coalition government is set to discuss urgent reforms and political consequences following recent election losses, with key debates centering on the 2027 budget, working time regulations, pension changes, tax relief, and a proposed sugar tax.",
+        "While no concrete decisions are expected from the committee meeting, tensions remain high between the SPD and CDU/CSU over specific policy details and the timing of implementation."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 4,
+      "attempt_number": 5,
+      "model": "qwen3.6:35b",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Pflege-Reform: Regierung verschiebt Einsetzung einer Kommission",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/pflege-kommission-sozialpolitik-100.html",
+      "prepared_text": "Gremium für Reformvorschläge Einsetzung der Pflegekommission verschoben\nEigentlich sollte es heute soweit sein: Gesundheitsminister Linnemann wollte die Kommission einsetzen, die Vorschläge für die Pflegereform erarbeiten soll. Doch es gibt noch Abstimmungsbedarf mit der SPD.\nDas Bundeskabinett hat die Einsetzung der zweiten Kommission zur Reform der Pflegeversicherung verschoben. Das Gremium soll nun erst kommende Woche eingesetzt werden, sagte der parlamentarische Geschäftsführer der SPD-Bundestagsfraktion, Dirk Wiese, in Berlin.\nSPD will Pflegedeckel prüfen lassen\nBundesgesundheitsminister Carsten Linnemann (CDU) hatte die Einsetzung der Kommission für diesen Mittwoch angekündigt. Das Gremium solle bis Ende Januar Vorschläge liefern, wie die soziale Pflegeversicherung für die 2030er Jahre stabil aufgestellt werden kann, sagte Linnemann in der vergangenen Woche.\nWiese verwies darauf, dass es noch Diskussionen über die personelle Zusammensetzung der Kommission gebe. Außerdem betonte er, dass die SPD darauf bestehe, dass etwa auch ein sogenannter Pflegedeckel für die Kosten in Pflegeheimen sowie ein Risikostrukturausgleich von der privaten zur gesetzlichen Pflegeversicherung von der Kommission geprüft werden müssten.\nDie schwarz-rote Koalition hatte sich vergangene Woche darauf geeinigt, die Reform der Pflegeversicherung zu splitten. In einem ersten Schritt wurden die Maßnahmen beschlossen, die einen Anstieg des Pflegeversicherungsbeitrages für die gesetzlich Versicherten verhindern sollen. Vorschläge für strukturelle Veränderungen soll dann die neue Kommission machen.\nGute Erfahrungen mit Kommissionen\nIn der Bundesregierung wird darauf verwiesen, dass man mit Kommissionen etwa zur Rente und Gesundheit - anders als mit der Arbeitsgruppe von Bund und Ländern zur Pflege - gute Erfahrungen gemacht habe. Ein Grund sei, dass sowohl Wissenschaftler als auch Politiker in den Kommissionen säßen.",
+      "translated_title": "Care Reform: Government Delays Appointment of Commission",
+      "summary_sentences": [
+        "The German federal cabinet has postponed the appointment of a commission tasked with proposing reforms for the long-term care insurance system until next week due to ongoing coordination needs with the SPD.",
+        "While Health Minister Carsten Linnemann had originally announced the commission's establishment for Wednesday, SPD parliamentary leader Dirk Wiese cited discussions over personnel composition and the party's insistence that the commission also examine a potential cap on nursing home costs and risk structure adjustment."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 6,
+      "attempt_number": 7,
+      "model": "qwen3.6:35b",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "SPD-Bundesspitze fordert von der CDU Aufklärung zu Sachsen-Anhalt",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/spd-reaktion-koalition-sachsenanhalt-100.html",
+      "prepared_text": "AfD-Erfolg in Sachsen-Anhalt SPD-Bundesspitze will von der CDU Erklärungen\nDie Wahl des AfD-Politikers Rausch zum Landtagspräsidenten wirkt sich auf die Bundespolitik aus. Die SPD fordert vom Koalitionspartner CDU Aufklärung, die SPD-Fraktion protestierte in Berlin an einem symbolträchtigen Ort.\nDer Ärger in der SPD über die Wahl des AfD-Politikers Tobias Rausch zum sachsen-anhaltischen Landtagspräsidenten und seines Parteifreunds Hans-Thomas Tillschneider zum Vizepräsidenten ist groß. Diese Unruhe strahlt auch auf Bundesebene auf das Verhältnis zum Koalitionspartner CDU ab.\nSPD-Chef Lars Klingbeil verlangte Erklärungen von den Christdemokraten: \"Dass der Kandidat der als gesichert rechtsextremistisch eingestuften AfD in Sachsen-Anhalt mit deutlich mehr als den AfD-Stimmen zum Landtagspräsidenten gewählt wurde, wirft sehr drängende Fragen auf. Es ist ein Tabubruch, Rechtsextreme in solche Ämter zu wählen.\" Nicht nur das BSW, sondern auch die CDU müsse dringend erklären, wie es dazu kam.\nSPD-Generalsekretär Tim Klüssendorf sagte der Rheinischen Post: \"Meine klare Erwartung an die CDU ist, dass sie umgehend aufklärt, wer diese fatale Entscheidung aus ihren Reihen womöglich für richtig hielt.\"\nWer stimmte für AfD-Politiker Rausch?\nRausch war gestern mit 48 Stimmen in der konstituierenden Landtagssitzung in Magdeburg gewählt worden. Die AfD und das BSW kommen zusammen auf 44 Stimmen. Die CDU-Fraktionsspitze hatte ihren 15 Abgeordneten Enthaltung empfohlen. Es gab jedoch nur fünf Enthaltungen, ein CDU-Abgeordneter war laut MDR bei der Sitzung nicht anwesend. Da die Wahl geheim stattfand, ist unklar, wer für die AfD-Kandidaten stimmte.\nDie Fraktionen von SPD, Grünen und Linkspartei hatten angekündigt, gegen Rausch zu stimmen. Sie kommen zusammen auf 24 Mandatsträger. Insgesamt gab es 29 Nein-Stimmen.\nBei der Wahl der Landtagsvizepräsidenten scheiterte der SPD-Kandidat Armin Willingmann. Er erhielt nur 33 Ja-Stimmen. 48 Abgeordnete votierten gegen ihn. CDU-Landtagsvizekandidat Carsten Borchert war hingegen erfolgreich.\nSPD-Protest in Berlin\nGestern hatten sich viele Mitglieder der SPD-Bundestagsfraktion zu einem Protestmarsch mitten in Berlin versammelt. Gemeinsam gingen die Abgeordneten vom Bundestag durch das Brandenburger Tor zum Bebelplatz, dem Ort der Bücherverbrennung nach der Machtergreifung der Nationalsozialisten 1933. Mehrere Parlamentarier trugen dabei Ausgaben des Grundgesetzes. Am Ende stimmte Verteidigungsminister Boris Pistorius nach einer engagierten Rede die Nationalhymne an.\n\"Dieses ist kein normaler Tag\", betonte Fraktionschef Matthias Miersch. Die SPD spüre die Pflicht, Flagge zu zeigen, wenn die Demokratie unter Druck stehe. Erstmals seit Gründung der Bundesrepublik seien Rechtsextreme in ein Landtagspräsidium gewählt worden. \"Das muss uns alle alarmieren.\"\nUnionsfraktionschef will nicht spekulieren\nDer Unionsfraktionschef im Bundestag, Thorsten Frei (CDU), hatte ebenfalls gestern gesagt: \"Es ist eine geheime Wahl, und da kommt natürlich grundsätzlich jeder infrage.\" Frei betonte, er lasse sich nicht auf Spekulationen dazu ein. \"Die Tatsache, dass es so ist, ist aus meiner Sicht in höchstem Maße bedenklich und besorgniserregend.\"\nCDU-Chef Friedrich Merz äußerte sich bislang nicht dazu. Dennoch geht die Debatte darüber weiter, ob die \"Brandmauer\" - also die Abgrenzung der CDU von der AfD - noch Gültigkeit hat.\n\"Wir haben als Bundespartei klare Beschlüsse, die wir einfordern werden\", betonte Bundesbildungsministerin Karin Prien (CDU) im Gespräch mit der Nachrichtenagentur dpa. \"Ich will mich von dem Erstarken der Rechtspopulisten nicht geschlagen geben oder mich zermürben lassen von dieser Entwicklung. Ich werde das nicht hinnehmen\", sagte sie auf der Rückfahrt im Zug von einer Ukraine-Reise. Die Würde des Menschen sei unantastbar und dazu passe weder ein rechtsextremistischer Landtagspräsident noch eine rechtsextremistische Regierung.\nCDU-Generalsekretärin Franziska Hoppermann bezeichnete die Wahl von Rausch als \"schweren Schlag\" für die CDU. \"Es ist ein politisch-historischer Einschnitt für unser Land\", so Hoppermann gegenüber der Funke-Mediengruppe. Wie und ob die Aufklärung einer geheimen Wahl gelingen könne, werde in den Landtagsfraktionen zu klären sein, erklärte sie zur Frage nach einer möglichen Stimmabgabe von CDU-Abgeordneten für Rausch.\n\"Brandmauer ist gescheitert\"\nDie BSW-Spitze kommt zu einer anderen Einschätzung. \"Die 'Brandmauer' ist gescheitert\", sagte Bundeschef Fabio De Masi dem Hamburger Abendblatt. \"Man muss die AfD hinter der Brandmauer hervorziehen. Dort musste sie bisher nichts beweisen und konnte ihre inneren Widersprüche kaschieren. Ich will nicht, dass die AfD hinter der Brandmauer weiterwächst.\"\nDie Linkspartei ging mit der CDU scharf ins Gericht. \"Wer einem Rechtsextremen seine Stimme gibt, hat jedes Recht verloren, sich als Demokrat zu bezeichnen\", sagte Bundestags-Fraktionschefin Heidi Reichinnek der Nachrichtenagentur AFP. Wer sich da \"enthält, hat keine Haltung\".\nAuch die Grünen kritisierten die Wahl. \"Es ist eine schleichende Normalisierung der rechtsextremen Landnahme, die wir hier wieder mal erleben - und das nicht nur, wie angekündigt, durch die Abgeordneten des BSW\", sagte Co-Parteichef Felix Banaszak dem Redaktionsnetzwerk Deutschland.\nThema im Koalitionsausschuss?\nDie \"Brandmauer\" könnte auch Thema beim Koalitionsausschuss von Union und SPD werden, der sich heute Abend in Berlin trifft. Der Termin ist keine Reaktion auf die Ereignisse in Sachsen-Anhalt, sondern findet regelhaft nach einer dreimonatigen Sommerpause statt. Im Mittelpunkt stehen die anstehenden Reformvorhaben, die SPD kündigte aber an, auch den Austausch über Sachsen-Anhalt zu suchen. Unklar ist, ob es direkt nach dem Treffen öffentliche Stellungnahmen geben wird.",
+      "translated_title": "SPD Leadership Demands Clarification from CDU Regarding Saxony-Anhalt",
+      "summary_sentences": [
+        "The SPD leadership is demanding explanations from the CDU coalition partner after AfD politician Tobias Rausch was elected as President of the Saxony-Anhalt state parliament with support that likely included votes from CDU members.",
+        "While the exact voting patterns remain unclear due to the secret ballot, the incident has triggered protests by SPD MPs in Berlin and intensified debates within the governing coalition about the validity of the 'firewall' against the AfD."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 8,
+      "attempt_number": 9,
+      "model": "qwen3.6:35b",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Bund untersagt Zippel-Übernahme durch chinesische Cosco",
+      "original_url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/zippel-cosco-china-aussenhandel-100.html",
+      "prepared_text": "Geplante Zippel-Übernahme Bund stoppt Verkauf von Logistikfirma an chinesische Cosco\nDas Kartellamt hatte schon grünes Licht gegeben, jetzt trat die Bundesregierung auf die Bremse: Die chinesische Cosco-Reederei darf doch nicht die Mehrheit des Logistikunternehmens Zippel übernehmen. Aus Sicherheitsgründen, wie es hieß.\nDie Bundesregierung untersagt wegen Sicherheitsbedenken den Verkauf von 80 Prozent der Anteile des Hamburger Logistikunternehmens Zippel an die chinesische Staatsreederei Cosco. Das sagte ein Sprecher des Bundeswirtschaftsministeriums nach einer Kabinettssitzung.\n\"Erwerb hätte Abhängigkeiten vertieft\"\nDas Ministerium werde im Anschluss den Untersagungsbescheid erlassen. Grund seien Sicherheitsbedenken. \"Der Erwerb hätte Abhängigkeiten vertieft und die Resilienz von Lieferketten Deutschlands und der EU gefährdet.\" Deutschland als größte Volkswirtschaft Europas heiße ausländische Investitionen willkommen. \"Gleichzeitig kann es Investitionen geben, die die Sicherheit des Landes gefährden.\"\nDie Bundesregierung könne daher auf Grundlage des Außenwirtschaftsgesetzes und der Außenwirtschaftsverordnung den Erwerb eines deutschen Zielunternehmens durch einen ausländischen Investor im Einzelfall prüfen, sagte der Sprecher des Ministeriums. Prüfmaßstab sei dabei, ob der Erwerb voraussichtlich die öffentliche Ordnung oder Sicherheit gefährde.\nKartellamt gab Übergabe frei\nDas Bundeskartellamt hatte im Februar mitgeteilt, dass die Großreederei Cosco aus Wettbewerbssicht 80 Prozent der Zippel-Anteile übernehmen darf. Ende April wurde bekannt, dass das Bundesamt für Verfassungsschutz Bedenken gegen die Übernahme hat. Zippel transportiert mit Zügen, Schiffen und Lastwagen Waren, die unter anderem an den Seehäfen Hamburg und Bremerhaven ankommen. Das Unternehmen hat nach zurückliegenden Angaben rund 350 Beschäftigte.\nCosco hält Anteile an einem Terminal\nDie Reederei Cosco gehört nach der Transportmenge zu den größten der Welt. Cosco ist bereits mit 24,99 Prozent am Hamburger Containerterminal Tollerort beteiligt. In der damaligen Bundesregierung war 2022 ein heftiger politischer Streit entbrannt über die Frage, ob eine chinesische Beteiligung zugelassen werden soll. Das Kabinett beschloss dann, dass ein Anteilserwerb von Cosco unter 25 Prozent zugelassen wird.",
+      "translated_title": "Federal Government Bans Zippel Takeover by Chinese Cosco",
+      "summary_sentences": [
+        "The German federal government has prohibited the Chinese state-owned shipping company Cosco from acquiring an 80 percent stake in logistics firm Zippel, citing security concerns that the acquisition would deepen dependencies and endanger the resilience of supply chains in Germany and the EU.",
+        "This decision overrides prior approval from the Federal Cartel Office, with the government invoking the Foreign Trade Act to block the deal on grounds of public order and safety."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 10,
+      "attempt_number": 11,
+      "model": "qwen3.6:35b",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "ونس و روایت ناقص از مذاکره با ایران؛ آنچه معاون ترامپ سانسور کرد",
+      "original_url": "https://www.irna.ir/news/86285975/%D9%88%D9%86%D8%B3-%D9%88-%D8%B1%D9%88%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D9%82%D8%B5-%D8%A7%D8%B2-%D9%85%D8%B0%D8%A7%DA%A9%D8%B1%D9%87-%D8%A8%D8%A7-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A2%D9%86%DA%86%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%B3%D8%A7%D9%86%D8%B3%D9%88%D8%B1",
+      "prepared_text": "تهران-ایرنا- ادعای تازه جی‌دی ونس، معاون رئیس‌جمهوری آمریکا درباره ضرورت کاهش ظرفیت غنی‌سازی ایران، در حالی بر مطالبه واشنگتن از تهران متمرکز شده است که بررسی روند مذاکرات پیش از جنگ نشان می‌دهد طرفین درباره محدودیت‌های هسته‌ای، ذخایر اورانیوم و افزایش نظارت‌های آژانس گفت‌وگو کرده بودند؛ موضوعی که در روایت اخیر ونس از مذاکرات سانسور شده‌است.",
+      "translated_title": "Vance and the Incomplete Narrative of Negotiations with Iran: What Trump's Deputy Censored",
+      "summary_sentences": [
+        "JD Vance's recent claim regarding the necessity of reducing Iran's enrichment capacity focuses on Washington's demands, while pre-war negotiation records show discussions had already covered nuclear limits, uranium stockpiles, and increased IAEA monitoring.",
+        "These previously discussed topics have been omitted from Vance's recent account of the negotiations."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 12,
+      "attempt_number": 13,
+      "model": "qwen3.6:35b",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "بهره‌برداری از ساختمان جدید فراجا در آبشناسان رباط‌کریم",
+      "original_url": "https://www.irna.ir/news/86286038/%D8%A8%D9%87%D8%B1%D9%87-%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%81%D8%B1%D8%A7%D8%AC%D8%A7-%D8%AF%D8%B1-%D8%A2%D8%A8%D8%B4%D9%86%D8%A7%D8%B3%D8%A7%D9%86-%D8%B1%D8%A8%D8%A7%D8%B7-%DA%A9%D8%B1%DB%8C%D9%85",
+      "prepared_text": "رباط‌کریم- ایرنا- ساختمان جدید فرماندهی انتظامی در منطقه آبشناسان شهرستان رباط‌کریم همزمان با هفته نیروی انتظامی و با حضور فرمانده انتظامی ویژه غرب استان تهران و جمعی از مسئولان شهرستان به بهره‌برداری رسید.",
+      "translated_title": "Commissioning of the New Fajra Building in Abshasan, Robat Karim",
+      "summary_sentences": [
+        "The new building of the Law Enforcement Command in the Abshasan area of Robat Karim County was commissioned during Police Week.",
+        "The ceremony was attended by the commander of the special law enforcement for western Tehran Province and a number of county officials."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 14,
+      "attempt_number": 15,
+      "model": "qwen3.6:35b",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "هزینه سفر عتبات عالیات برای خوزستانی‌ها تا ۵۰ میلیون ریال کاهش می‌یابد",
+      "original_url": "https://www.irna.ir/news/86286130/%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D8%B3%D9%81%D8%B1-%D8%B9%D8%AA%D8%A8%D8%A7%D8%AA-%D8%B9%D8%A7%D9%84%DB%8C%D8%A7%D8%AA-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AE%D9%88%D8%B2%D8%B3%D8%AA%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D8%AA%D8%A7-%DB%B5%DB%B0-%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D8%B1%DB%8C%D8%A7%D9%84-%DA%A9%D8%A7%D9%87%D8%B4",
+      "prepared_text": "اهواز- ایرنا- مدیر حج و زیارت خوزستان از برنامه‌ریزی برای کاهش هزینه سفر زائران عتبات عالیات خبر داد و گفت: بر اساس برنامه‌ریزی صورت گرفته هزینه سفر به عتبات عالیات برای مردم خوزستان تا سقف ۵۰ میلیون ریال کاهش خواهد یافت.",
+      "translated_title": "Cost of Travel to Holy Shrines for Khuzestanis to Decrease by Up to 50 Million Rials",
+      "summary_sentences": [
+        "The head of Hajj and Pilgrimage in Khuzestan announced plans to reduce travel costs to the Holy Shrines for residents of Khuzestan.",
+        "According to the plan, the cost will be reduced by up to 50 million rials."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 16,
+      "attempt_number": 17,
+      "model": "qwen3.6:35b",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "آئین اختتامیه هفتمین دوره المیپاد ورزشی قرچک برگزار شد",
+      "original_url": "https://www.irna.ir/news/86286122/%D8%A2%D8%A6%DB%8C%D9%86-%D8%A7%D8%AE%D8%AA%D8%AA%D8%A7%D9%85%DB%8C%D9%87-%D9%87%D9%81%D8%AA%D9%85%DB%8C%D9%86-%D8%AF%D9%88%D8%B1%D9%87-%D8%A7%D9%84%D9%85%DB%8C%D9%BE%D8%A7%D8%AF-%D9%88%D8%B1%D8%B2%D8%B4%DB%8C-%D9%82%D8%B1%DA%86%DA%A9-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF",
+      "prepared_text": "قرچک- ایرنا- آئین اختتامیه هفتمین دوره المپیاد ورزشی شهرداری قرچک با تقدیر از برگزیدگان رشته‌های مختلف ورزشی برگزار شد.",
+      "translated_title": "Closing Ceremony of the Seventh Korachak Municipal Sports Olympiad Held",
+      "summary_sentences": [
+        "The closing ceremony for the seventh edition of the Korachak Municipality Sports Olympiad was held.",
+        "During the event, awards were presented to winners across various sports disciplines."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 18,
+      "attempt_number": 19,
+      "model": "qwen3.6:35b",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "needs_review",
+      "issues": [
+        {
+          "code": "number_not_matched",
+          "message": "These output quantities could not be matched automatically to source quantities: 1,700. Verify units, written numbers, dates, and rounding manually."
+        }
+      ],
+      "original_title": "یکهزار و ۷۰۰ قطعه زمین برای ساخت خانه امید در خوزستان اختصاص یافت",
+      "original_url": "https://www.irna.ir/news/86286126/%DB%8C%DA%A9%D9%87%D8%B2%D8%A7%D8%B1-%D9%88-%DB%B7%DB%B0%DB%B0-%D9%82%D8%B7%D8%B9%D9%87-%D8%B2%D9%85%DB%8C%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%D9%85%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%AE%D9%88%D8%B2%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5",
+      "prepared_text": "دزفول- ایرنا- مدیرکل بنیاد مسکن انقلاب اسلامی خوزستان گفت: طی توافقی که با راه و شهرسازی انجام شده یکهزار و ۷۰۰ قطعه زمین برای ساخت خانه امید در سطح شهرها و روستاهای خوزستان اختصاص یافته است.",
+      "translated_title": "1,700 Land Plots Allocated for 'House of Hope' Construction in Khuzestan",
+      "summary_sentences": [
+        "The head of the Islamic Revolution Housing Foundation in Khuzestan stated that 1,700 land plots have been allocated for the construction of 'House of Hope' units across cities and villages in the province.",
+        "This allocation was made following an agreement with the Ministry of Roads and Urban Development."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 20,
+      "attempt_number": 21,
+      "model": "qwen3.6:35b",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "needs_review",
+      "issues": [
+        {
+          "code": "unexpected_script",
+          "message": "Chinese characters remain in the output: 环比. Check whether they are untranslated words or legitimate names."
+        }
+      ],
+      "original_title": "10月6日全社会跨区域人员流动量30346.0万人次",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708788.shtml",
+      "prepared_text": "10月6日全社会跨区域人员流动量30346.0万人次\n中新网10月7日电 据“交通运输部”微信公众号消息，2026年10月6日(国庆假期第6日)，全社会跨区域人员流动量30346.0万人次，环比增长0.04%，比2025年同期(10月7日，中秋国庆假期第7日，下同)下降1.9%。其中：\n铁路客运量2160.5万人次，环比增长2.7%，同比增长11.8%；\n公路人员流动量27799万人次，环比下降0.1%，同比下降2.9%(其中公路营业性客运量4315万人次，环比增长8.4%，同比增长4.5%；高速公路及普通国省道非营业性小客车人员出行量23484万人次，环比下降1.5%，同比下降4.1%)；\n水路客运量137.8万人次，环比下降9.9%，同比增长24.1%；\n民航客运量248.7万人次，环比增长1.5%，同比增长0.9%。",
+      "translated_title": "Total Cross-Regional Passenger Flow on October 6 Reaches 303.46 Million",
+      "summary_sentences": [
+        "On October 6, the total cross-regional passenger flow reached 303.46 million person-times, a环比 increase of 0.04% but a year-on-year decrease of 1.9% compared to the same date in 2025.",
+        "Railway passenger volume grew by 11.8% year-on-year to 21.605 million, while highway flow decreased by 2.9% year-on-year to 277.99 million person-times."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 22,
+      "attempt_number": 23,
+      "model": "qwen3.6:35b",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "全国铁路迎来返程客流最高峰 预计发送旅客2415万人次",
+      "original_url": "https://www.chinanews.com.cn/tp/2026/10-07/10708787.shtml",
+      "prepared_text": "全国铁路迎来返程客流最高峰 预计发送旅客2415万人次\n10月7日，旅客在江西南昌西站出行。当日是国庆假期最后一天，全国铁路迎来返程客流最高峰，预计发送旅客2415万人次，计划加开旅客列车2449列。中新社记者 刘力鑫 摄",
+      "translated_title": "National Railways Face Peak Return Travel, Expecting to Transport 24.15 Million Passengers",
+      "summary_sentences": [
+        "On October 7, the last day of the National Day holiday, national railways experienced their peak return travel period.",
+        "The system is expected to transport 24.15 million passengers and has planned to add 2,449 passenger trains."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 24,
+      "attempt_number": 25,
+      "model": "qwen3.6:35b",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "国庆假期最后一天 哈尔滨太阳岛大熊猫馆热度不减",
+      "original_url": "https://www.chinanews.com.cn/tp/2026/10-07/10708784.shtml",
+      "prepared_text": "国庆假期最后一天 哈尔滨太阳岛大熊猫馆热度不减\n10月7日，黑龙江哈尔滨，大熊猫“芝士”将竹筐放在头上萌态十足。当日是国庆假期最后一天，哈尔滨太阳岛大熊猫馆热度不减，大熊猫“芝士”、“芝麻”吸引众多游客驻足拍照。中新社记者 赵宇航 摄",
+      "translated_title": "Harbin Sun Island Panda Pavilion Remains Popular on the Last Day of National Day Holiday",
+      "summary_sentences": [
+        "On October 7, the last day of the National Day holiday, the panda pavilion at Harbin's Sun Island continued to attract large crowds.",
+        "Visitors gathered to take photos of pandas Zhishi and Zhima, with Zhishi notably balancing a bamboo basket on its head."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 26,
+      "attempt_number": 27,
+      "model": "qwen3.6:35b",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "全国秋粮收获已过四成 各地保障颗粒归仓",
+      "original_url": "https://www.chinanews.com.cn/cj/2026/10-07/10708786.shtml",
+      "prepared_text": "全国秋粮收获已过四成 各地保障颗粒归仓\n我国秋粮收获加紧推进。农业农村部最新农情调度显示，全国秋粮收获已过四成。各地抢抓农时，多措并举，保障粮食颗粒归仓。\n眼下，东北地区进入秋粮收获高峰。黑龙江粮食已收获超6800万亩，占全省秋粮面积约三成。在双鸭山市友谊县，10万亩糯稻迎来集中收获期。通过实施标准化种植，这里的糯稻生产基本实现了“耕、种、收、储”全程机械化。当地还积极推广订单种植模式，糯稻收割后统一送往企业仓储加工，让“好收成”成为农户的“好收入”。\n辽宁秋粮收获进度近半，速度较去年同期有所提升。辽宁各地统筹调配农机、组织跨区作业。在铁岭市昌图县，400多万亩玉米收割全面铺开。今年，当地进一步推广玉米机械化收获与黑土地保护性耕作相结合，通过配套粉碎和抛撒装置，让秸秆还田，保护土层。\n黄淮海地区秋粮收获加紧推进。河北省玉米收获近3100万亩，占种植面积的约六成。今年，河北全省调配农机具81万台，推广“机收、烘干、仓储”一体化作业模式。在邢台市任泽区，大型联合收割机往来穿梭，摘穗、剥皮、秸秆粉碎还田等环节一气呵成，大大加快了玉米的收获进度。安徽全省已收秋粮面积超过三成，新设备成为减损增收的重要保障。在亳州市涡阳县，成片的玉米长势饱满、穗粒充盈。今年，当地大力推广籽粒直收智能农机，一次下地可以完成玉米摘穗、脱粒多环节作业。从过去的收穗到现在的收粒，玉米籽粒全程不落地，保障秋粮收获提质减损。",
+      "translated_title": "Over 40% of China's Autumn Grain Harvest Completed as Regions Ensure Full Collection",
+      "summary_sentences": [
+        "According to the Ministry of Agriculture and Rural Affairs, over 40% of autumn grain has been harvested nationwide, with regions accelerating efforts to ensure full collection.",
+        "In Northeast China, harvest progress is advancing rapidly in Heilongjiang and Liaoning through mechanization and protective farming practices, while the Huang-Huai-Hai region is utilizing integrated machinery and smart equipment to improve efficiency and reduce losses."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 28,
+      "attempt_number": 29,
+      "model": "qwen3.6:35b",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "全国迎来集中返程车流 大中城市周边高速公路通行压力大",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708785.shtml",
+      "prepared_text": "全国迎来集中返程车流 大中城市周边高速公路通行压力大\n国庆假期最后一天，全国迎来集中返程车流，公路方面，京哈、沈海、杭瑞、沪昆等高速车流集中。北京、上海、广州等大中城市周边高速公路通行压力大。\n新疆7个路段因天气原因封闭管控\n截至今天下午3时，新疆维吾尔自治区因天气原因，共有7个国省干线的路段采取主动封闭管控措施。出行的朋友一定要记得提前了解实时路况，妥善规划行程。\n环京高速迎来集中返京车流\n进京方向，主干高速交通流量大幅回升，城市环线及省界通道压力最为突出。目前车流主要集中在跨省返京主干通道，进城匝道、省界检查站易出现阶段性车多缓行。提示过境车辆有序排队安检，保持低速平稳通行，切勿占用应急车道。\n长三角片区多城联动迎来返程高峰\n长三角城市群今日全面进入跨市、跨省返程模式，以上海、杭州、南京为核心的辐射通道车流十分饱和。由于自驾、家庭返程车流密集，互通立交与枢纽路段易发生排队缓行。根据交通运输部的画面来看，车流呈现出白天持续高位、午后拥堵加剧的特征，长三角区域内跨江、跨湖主干通道通行压力最大。\n粤港澳大湾区跨城通道饱和\n另外，粤港澳大湾区今日全域返程热度居高不下，广深、广佛、肇云等通勤干线车流持续高位，跨江跨海通道通行负荷满载。提醒司乘人员谨慎通过桥梁、隧道等风险易发路段。\n国庆假期全国水路预计发送超1100万人次\n记者从交通运输部海事局了解到，国庆假期7天，全国水路预计发送旅客超1100万人次。在辽宁丹东的鸭绿江断桥景区，凭借独特的边境滨江风光，水上客运迎来客流高峰。假期船舶日均运行约280艘次，日均接待游客超1.4万人次。当前，假期收官保障工作仍在有序推进。\n温馨提醒，高速公路免费通行将在今晚24时截止，请大家注意合理规划行程。\n(总台记者 翟壮 孙继文 郑忠营)",
+      "translated_title": "Nationwide Concentrated Return Traffic Puts Pressure on Highways Around Major Cities",
+      "summary_sentences": [
+        "On the final day of the National Day holiday, China experienced concentrated return traffic, causing significant pressure on highways around major cities such as Beijing, Shanghai, and Guangzhou.",
+        "The Yangtze River Delta and Greater Bay Area saw saturated cross-city channels, while water transport is expected to carry over 11 million passengers during the seven-day holiday."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 30,
+      "attempt_number": 31,
+      "model": "qwen3.6:35b",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "В Москве откроют памятник Марису Лиепе",
+      "original_url": "https://tass.ru/kultura/28190539",
+      "prepared_text": "Скульптором выступает Александр Рукавишников",
+      "translated_title": "Monument to Maris Liepa to be Unveiled in Moscow",
+      "summary_sentences": [
+        "A monument to Maris Liepa will be opened in Moscow.",
+        "The sculptor is Alexander Rukavishnikov."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 32,
+      "attempt_number": 33,
+      "model": "qwen3.6:35b",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Минфин разместил ОФЗ 26252 на 39,13 млрд рублей",
+      "original_url": "https://tass.ru/ekonomika/28190631",
+      "prepared_text": "Спрос на аукционе достиг 134,371 млрд рублей",
+      "translated_title": "Ministry of Finance Placed OFZ 26252 for 39.13 Billion Rubles",
+      "summary_sentences": [
+        "The Ministry of Finance placed OFZ 26252 for 39.13 billion rubles.",
+        "Demand at the auction reached 134.371 billion rubles."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 34,
+      "attempt_number": 35,
+      "model": "qwen3.6:35b",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Главы Тувы и ПАО \"Россети\" обсудили работу электросетевого комплекса региона",
+      "original_url": "https://tass.ru/ekonomika/28190501",
+      "prepared_text": "Также обсуждались проекты развития, консолидация энергообъектов и вопросы погашения задолженности предприятий ЖКХ",
+      "translated_title": "Heads of Tuva and PJSC Rosseti Discussed the Region's Power Grid Operations",
+      "summary_sentences": [
+        "The heads of Tuva and PJSC Rosseti discussed the operations of the region's power grid complex.",
+        "They also addressed development projects, consolidation of energy assets, and issues related to the repayment of debts by housing and utility enterprises."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 36,
+      "attempt_number": 37,
+      "model": "qwen3.6:35b",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Кахигао уверен, что болельщики \"Спартака\" примут Даку",
+      "original_url": "https://tass.ru/sport/28190627",
+      "prepared_text": "Нападающий перешел летом из казанского \"Рубина\"",
+      "translated_title": "Kahigao is confident that Spartak fans will accept Daku",
+      "summary_sentences": [
+        "Kahigao expressed confidence that the fans of Spartak will accept striker Daku.",
+        "Daku transferred from Kazan's Rubin in the summer."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 38,
+      "attempt_number": 39,
+      "model": "qwen3.6:35b",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Дело об убийстве россиянки передали в генпрокуратуру Абхазии для расследования",
+      "original_url": "https://tass.ru/proisshestviya/28190611",
+      "prepared_text": "Задержанного по этому уголовному делу Эльдара Абухбу ранее взяли под стражу сроком на два месяца",
+      "translated_title": "Case of the murder of a Russian woman transferred to Abkhazia's General Prosecutor's Office for investigation",
+      "summary_sentences": [
+        "The case regarding the murder of a Russian citizen has been handed over to Abkhazia's General Prosecutor's Office for investigation.",
+        "Eldar Abukh, who was detained in connection with this criminal case, had previously been placed in custody for two months."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 40,
+      "attempt_number": 41,
+      "model": "qwen3.6:35b",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "ВООЗ запросила в Росії дані про можливий другий випадок чуми у Сибіру",
+      "original_url": "https://www.ukrinform.ua/rubric-world/4171949-vooz-zaprosila-v-rosii-dani-pro-mozlivij-drugij-vipadok-cumi-u-sibiru.html",
+      "prepared_text": "ВООЗ запросила в Росії дані про можливий другий випадок чуми у Сибіру\nПро це у соцмережі Х повідомив гендиректор ВООЗ Тедрос Адханом Гебреєсус, передає Укрінформ.\nЗа його словами, ВООЗ від початку стежить за повідомленнями про смерть співробітниці Іркутського протичумного інституту. Жінка померла 2 жовтня після госпіталізації з тяжкою пневмонією. У перших повідомленнях ЗМІ йшлося про легеневу чуму, якою вона могла заразитися в лабораторії внаслідок випадкового контакту з інфекцією.\nНа запит ВООЗ у межах перевірки відповідно до Міжнародних медико-санітарних правил російські органи охорони здоров’я заявили, що останнім часом в Іркутській області випадків чуми не реєстрували.\nЗа даними російської сторони, було проведено епідеміологічне розслідування, вжито профілактичних і протиепідемічних заходів, а людей, які контактували з померлою, взяли під медичний нагляд та обстежили. Серед них, за версією російських органів охорони здоров’я, не виявили збудників, що становлять високу загрозу, а медичний нагляд за всіма контактними особами вже завершили.\n«ВООЗ підтримує контакт із російськими органами охорони здоров’я та пропонує технічну підтримку. ВООЗ звернулася з проханням надати додаткову інформацію, щоб з’ясувати причину тяжкої пневмонії, ідентифікувати збудника, через який було вжито заходів у сфері громадського здоров’я, а також перевірити повідомлення ЗМІ про другого працівника з пневмонією невідомої етіології», — зазначив Гебреєсус.\nЗа його словами, своєчасний, повний і прозорий обмін інформацією відповідно до Міжнародних медико-санітарних правил має вирішальне значення для перевірки суперечливих повідомлень і точної оцінки потенційних ризиків для громадського здоров’я.\nЯк повідомлялося, 2 жовтня у Росії в Іркутській області зафіксували смерть 28-річної лаборантки Іркутського протичумного інституту Дар'ї Шипілової. У неї запідозрили легеневу форму чуми. За одними даними, 25 вересня вона розбила в лабораторії пробірку зі збудником хвороби, за іншими - повернулася з робочої поїздки до Бурятії, де фіксувався осередок чуми на кордоні з Монголією.\nОднак чуму в Росії заперечують. Зокрема, за твердженням Роспотребнадзора, Шипілова померла від «пневмонії невстановленої етіології», що пов'язано з її професійною діяльністю. Мікроорганізмів у неї не виявили, а аварій під час роботи з патогенами в інституті не було.\nПопри це російська влада запровадила карантинні заходи на низці об’єктів Іркутська, зокрема у клінічній і дитячій лікарнях та пологовому будинку. Із 2 жовтня співробітників Іркутського науково-дослідного протичумного інституту ізолювали в будівлі установи. Того ж дня до Іркутська приїхала глава Роспотребнадзору Анна Попова, яка взяла участь у засіданні обласної санітарно-протиепідемічної комісії через підозру на «особливо небезпечну інфекцію». За офіційними даними, усіх встановлених контактних осіб узяли під медичне спостереження.",
+      "translated_title": "WHO Requests Data from Russia on Possible Second Case of Plague in Siberia",
+      "summary_sentences": [
+        "The World Health Organization has requested data from Russian authorities regarding a possible second case of plague in Siberia, following the death of an Irkutsk institute employee from severe pneumonia.",
+        "While Russian health officials deny any plague cases and state that contact tracing is complete, the WHO continues to seek additional information to identify the pathogen and verify reports of another infected worker."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 42,
+      "attempt_number": 43,
+      "model": "qwen3.6:35b",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Укрзалізниця отримає €130 мільйонів кредиту ЄБРР для підтримки стабільної роботи",
+      "original_url": "https://www.ukrinform.ua/rubric-vidbudova/4171946-ukrzaliznica-otrimae-130-miljoniv-kreditu-ebrr-dla-pidtrimki-stabilnoi-roboti.html",
+      "prepared_text": "Укрзалізниця отримає €130 мільйонів кредиту ЄБРР для підтримки стабільної роботи\nПро це повідомляє пресслужба УЗ, передає Укрінформ.\n\"Домовленість дозволяє спрямувати 130 млн євро з уже погодженого кредиту обсягом 180 млн євро на підтримку ліквідності компанії\", - йдеться у повідомленні.\nУ залізничній компанії зауважили, що раніше передбачені кошти для проєкту розподіленої генерації, тепер можна буде використати для критично важливих ремонтів, відновлення інфраструктури та забезпечення перевезень людей і вантажів.\nЗалізничникам через постійні російські атаки доводиться щодня відновлювати пошкоджені об’єкти. Водночас скорочення вантажних перевезень зменшує доходи компанії. Тому Укрзалізниці необхідно отримати доступ до цих коштів уже в перші тижні жовтня.\nКрім того, додаткового фінансування потребує й оновлення локомотивного парку. Від початку повномасштабного вторгнення РФ уразила 550 локомотивів, понад 335 із них — цього року.\nВ УЗ додали, що проєкт будівництва 200 МВт газової генерації продовжується, зокрема завдяки грантовій підтримці ЄС та Великої Британії. Будівельні роботи Укрзалізниця виконує власними силами, що дозволяє оптимізувати витрати та спрямувати частину кредитного фінансування на нагальні потреби.\nЯк повідомляв Укрінформ, проєкт «УЗ Енергія» (або «УЗ Енерго») — це ініціатива АТ «Укрзалізниця», створена для розвитку власної розподіленої генерації електроенергії та забезпечення стабільної роботи залізничного транспорту в умовах дефіциту в енергосистемі.\nУ 2024 році Укрзалізниця заснувала спеціалізовану компанію «УЗ Енерго» задля побудови газових електростанцій загальною потужністю до 250 МВт у різних регіонах України.\nНа реалізацію енергетичних проєктів та підтримку інфраструктури Європейський банк реконструкції та розвитку (ЄБРР) виділив кредит на загальну суму 180 мільйонів євро.\nФото: Укрзалізниця",
+      "translated_title": "Ukrainian Railways to Receive €130 Million EBRR Loan to Support Stable Operations",
+      "summary_sentences": [
+        "Ukrainian Railways will redirect €130 million from an approved €180 million European Bank for Reconstruction and Development loan to support liquidity, critical repairs, and infrastructure restoration.",
+        "The funds are urgently needed due to daily damage from Russian attacks, which have destroyed 550 locomotives since the full-scale invasion, as well as reduced freight revenues."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 44,
+      "attempt_number": 45,
+      "model": "qwen3.6:35b",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "У Броварському районі через атаку РФ пошкоджений приватний будинок, є постраждала",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171945-u-brovarskomu-rajoni-cerez-ataku-rf-poskodzenij-privatnij-budinok-e-postrazdala.html",
+      "prepared_text": "У Броварському районі через атаку РФ пошкоджений приватний будинок, є постраждала\nУкрінформ\nУ Броварському районі Київської області внаслідок російської атаки пошкоджено приватний житловий будинок, постраждала 77-річна жінка.\nПро це написав начальник Київської ОВА Тимур Ткаченко у Телеграмі, передає Укрінформ.\n«Унаслідок атаки ворожого БпЛА у Броварському районі пошкоджений приватний житловий будинок. Постраждала 77-річна жінка. Вона отримала опіки ноги. Їй надається необхідна медична допомога», - поінформував Ткаченко.\nЯк повідомляв Укрінформ, в Обухівському районі на Київщині внаслідок російської атаки зруйнований центр порятунку птахів \"Садиба Нюшанік\".\nФото ілюстративне",
+      "translated_title": "Private house damaged in Brovary district due to Russian attack, one injured",
+      "summary_sentences": [
+        "A private residential house was damaged and a 77-year-old woman suffered leg burns in the Brovary district of Kyiv Oblast following a Russian drone attack.",
+        "The woman is receiving necessary medical assistance, according to Kyiv Regional Military Administration head Tymur Tkachenko."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 46,
+      "attempt_number": 47,
+      "model": "qwen3.6:35b",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Анастасія Соболєва - у другому раунді змагань WTT у Болгарії",
+      "original_url": "https://www.ukrinform.ua/rubric-sports/4171938-anastasia-soboleva-u-drugomu-raundi-zmagan-wtt-u-bolgarii.html",
+      "prepared_text": "Анастасія Соболєва - у другому раунді змагань WTT у Болгарії\nУкрінформ\nУкраїнська тенісистка Анастасія Соболєва успішно стартувала в основній сітці турніру World Tennis Tour (WTT) W50 у болгарському місті Бургас.\nАнастасія (№180 WTA) обіграла Галену Крастенову з Болгарії - 6:1, 6:4, передає Укрінформ.\nСуперниці провели на корті 1 годину 16 хвилин.\nУ другому колі українка протистоятиме переможниці зустрічі Марія Фогт (Німеччина, 456) - Лідія Енчева (Болгарія, 357).\nФото: Арата Ямаока TENNIS Club/ФТУ.",
+      "translated_title": "Anastasiia Soboleva in the second round of WTT competitions in Bulgaria",
+      "summary_sentences": [
+        "Ukrainian tennis player Anastasiia Soboleva successfully started in the main draw of the World Tennis Tour (WTT) W50 tournament in Burgas, Bulgaria, defeating Galina Krasteva of Bulgaria 6-1, 6-4.",
+        "In the second round, Soboleva will face the winner of the match between Germany's Maria Focht and Bulgaria's Lidia Encheva."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 48,
+      "attempt_number": 49,
+      "model": "qwen3.6:35b",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Україна виступає за повну інтеграцію агросектору до єдиного ринку ЄС - Ченцов",
+      "original_url": "https://www.ukrinform.ua/rubric-economy/4171931-ukraina-vistupae-za-povnu-integraciu-agrosektoru-do-edinogo-rinku-es-cencov.html",
+      "prepared_text": "Україна виступає за повну інтеграцію агросектору до єдиного ринку ЄС - Ченцов\nПро це заявив у коментарі Укрінформу віцепремʼєр-міністр з питань європейської та євроатлантичної інтеграції України Всеволод Ченцов.\nВін зауважив, що будь-які спеціальні підходи розширення ЄС щодо обмеженого переліку чутливих товарів, включно з їх параметрами, тривалістю та можливими супровідними заходами, зокрема інструментами підтримки адаптації сектору та розширення його можливостей на зовнішніх ринках, мають визначатися в межах переговорів про вступ.\n«Нашою відправною точкою залишається повноцінна інтеграція до Єдиного ринку, а можливі перехідні механізми мають бути обґрунтованими, пропорційними та обмеженими в часі», – сказав урядовець.\nЧенцов звернув увагу, що сьогодні ЄС має значний профіцит у торгівлі з Україною, а взаємозалежність і взаємодоповнюваність економік продовжують зростати навіть в умовах війни.\nМайбутня інтеграція українського агросектору, на думку віцепремʼєр-міністра, може ще більше посилити ці взаємні переваги та стати частиною відповіді на низку стратегічних викликів, які стоять перед ЄС, - від декарбонізації, зміцнення продовольчої безпеки та стратегічної автономності до забезпечення конкурентоспроможної європейської харчової промисловості та посилення позицій Європи на глобальних ринках.\nУ цьому зв'язку Ченцов наголосив на важливості того, щоб у європейській дискусії про інтеграцію українського агросектору дедалі більше уваги приділялося не лише потенційним ризикам, а й стратегічним можливостям для об’єднаної Європи.\nЯк повідомляв Укрінформ, 6 жовтня Європейська комісія запропонувала масштабну стратегію підготовки Євросоюзу до майбутнього розширення, в якій Україні відведено особливе місце, зважаючи на її значний потенціал у сфері продовольчої безпеки та оборони.\nМіністр аграрної політики Тарас Висоцький заявив, що Україна не може погодитися на модель членства в Євросоюзі, яка на постійній основі обмежувала б їй продаж певних харчових продуктів до блоку.\nФото: Офіс Віцепрем'єра з питань європейської та євроатлантичної інтеграції",
+      "translated_title": "Ukraine Advocates for Full Integration of Its Agricultural Sector into the EU Single Market - Chentsov",
+      "summary_sentences": [
+        "Ukrainian Deputy Prime Minister Vsevolod Chentsov stated that Ukraine aims for full integration of its agricultural sector into the EU single market, with any transitional mechanisms being justified, proportional, and time-limited.",
+        "Chentsov emphasized that this integration could strengthen mutual benefits and help address strategic challenges for the EU, while Ukrainian Agriculture Minister Taras Vysotskyi rejected any membership model that permanently restricts food exports to the bloc."
+      ],
+      "sampled_for_review": true
+    }
+  ]
+}

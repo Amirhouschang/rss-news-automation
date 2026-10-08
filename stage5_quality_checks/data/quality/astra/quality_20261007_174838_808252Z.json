@@ -1,0 +1,517 @@
+{
+  "checked_at": "2026-10-07T17:48:38.808252+00:00",
+  "input_path": "/workspace/scratch/e07713bf15fd/upload/summaries_20261007_173408_673609Z.json",
+  "language_filter": "en",
+  "sample_seed": 42,
+  "sample_per_country": 1,
+  "limitations": [
+    "Heuristic checks cannot establish semantic accuracy or verify source truth.",
+    "Numeric matching can produce false positives and false negatives.",
+    "Unflagged output is not automatically approved."
+  ],
+  "counts": {
+    "checked": 25,
+    "needs_review": 1,
+    "not_flagged": 24,
+    "unflagged_samples": 5
+  },
+  "records": [
+    {
+      "input_index": 0,
+      "attempt_number": 1,
+      "model": "gpt-6-astra",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "German politicians warn of antisemitism on October 7 anniversary",
+      "original_url": "https://www.dw.com/en/german-politicians-warn-of-antisemitism-on-october-7-anniversary/a-79583326?maca=en-rss-en-all-1573-rdf",
+      "prepared_text": "Politicians warn of antisemitism on October 7 anniversary\nOctober 7, 2026\nHigh-ranking German politicians marked the anniversary of the terrorist attacks that took place in Israel on October 7, 2023.\nGerman Chancellor Friedrich Merz spoke about doing more to fight antisemitism within Germany, while also pressing for a two-state solution between Israelis and Palestinians.\n\"We are witnessing rising antisemitism in Germany — antisemitism that far too often goes unchallenged,\" Merz said, adding that his government \"will do everything\" to combat it.\n\"Jewish people must be able to live without fear throughout Germany,\" Merz said in a statement, also emphasizing Germany's support for Israel. \"Our Israeli friends can count on our commitment to ensuring that such a crime never happens again.\"\n'Political action' needed\nGerman President Frank-Walter Steinmeier said antisemitism in Germany \"flared up in an intolerable manner since October 7.\"\n\"Germany must continue to stand up against antisemitism and for Israel’s security, for the dignity and self-determination of the Palestinians, and for the prospect of peaceful coexistence in the Middle East,\" he said in a statement.\nFederal Parliamentary Speaker Julia Klöckner commemorated the day by emphasizing that more needs to be done to combat antisemitism through \"political action.\"\n\"Antisemitism should not be allowed to have a place on our streets or our political debates,\" she said.\nGermany stands with Israel\nSome 1,200 people were killed in the attack, carried out by Palestinian militant group Hamas and its affiliates, while 251 people were kidnapped to Gaza, in the deadliest attack on Jews since the end of the Holocaust.\nMore than 74,000 people have been killed in the Gaza Strip in Israel's war following the attack, with some countries and human rights groups saying Israel is committing genocide against Palestinians.\nDemonstrations were held across Germany for victims of both the Hamas attacks and the Israeli war that followed.\nIn Berlin, a crowd of around 1,700 people, many waving Israeli flags, gathered at Bebelplatz, according to police estimates. Israeli Ambassador Ron Prosor and German Interior Minister Alexander Dobrindt also attended. Bebelplatz was the site of Nazi book burnings following the party's seizure of power in 1933.\nGermany has supported Israel throughout the war, although Merz did halt of delivery of some military equipment to Israel following growing legal concerns over the war in Gaza, including arrest warrants issued by the International Criminal Court (ICC) against Prime Minister Benjamin Netanyahu and then-Defense Minister Yoav Gallant.\nAlthough Germany is a party to the treaty that created the ICC, Merz vowed not to arrest Netanyahu should he travel to Germany.\nDon't let the algorithm hide the news. If you rely on our team for trusted reporting, please take a moment to select us as your Preferred Source on Google, so you'll always see our verified news first.\nEdited by: Sean Sinico",
+      "translated_title": "German politicians warn of antisemitism on October 7 anniversary",
+      "summary_sentences": [
+        "German Chancellor Friedrich Merz, President Frank-Walter Steinmeier and Federal Parliamentary Speaker Julia Klöckner called for stronger action against rising antisemitism on the anniversary of the October 7, 2023 terrorist attacks in Israel.",
+        "Merz reaffirmed Germany’s support for Israel and pressed for a two-state solution, while Steinmeier urged support for Israel’s security, Palestinian dignity and self-determination, and peaceful coexistence in the Middle East."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 1,
+      "attempt_number": 2,
+      "model": "gpt-6-astra",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Transgressive, edgy DIY: What the 90s meant for British art",
+      "original_url": "https://www.dw.com/en/transgressive-edgy-diy-what-the-90s-meant-for-british-art/a-79581777?maca=en-rss-en-all-1573-rdf",
+      "prepared_text": "Transgressive, edgy DIY: What the 90s meant for British art\nOctober 7, 2026\nThe 1990s in Britain are often remembered through a haze of n,ostalgia consisting of rave culture, Britpop and provocative art and fashion by the likes of Tracey Emin and Alexander McQueen.\nUndeniably, the decade was a time of major change in British society — the long reign of Margaret Thatcher had come to an end and the West entered a period of relative post-Cold War stability.\nMeanwhile, British cultural icons like Oasis, the Spice Girls and Vivienne Westwood garnered international fame.\nBut Tate Britain's new exhibition \"The 90s: Art and Fashion,\" which opens on October 8 and runs through February 14, 2027, urges viewers to look beyond the familiar names and images.\nEven though now prominent artists such as Damien Hirst and Juergen Teller are among the show's 70 contributors, the exhibition also aims to highlight the creative input of those in communities which were left out of the mainstream discourse.\nAfter all, says chief curator Edward Enninful in the exhibition's program, \"the energy of the 90s was not concentrated in a single movement, but distributed across communities, disciplines and geographies that have not always been equally represented.\"\nAn inclusive perspective\nFor Enninful, the exhibition is personal: The Ghanaian-born British fashion editor, stylist and creative director became the youngest-ever fashion director of i-D Magazine in the 90s at age 18, helping shape the diverse and experimental London fashion scene of the 1990s. He later became editor-in-chief of British Vogue in 2017.\nEnninful writes that he and his co-curators aimed to present a body of work which \"reflects a broader landscape of practices and voices that shaped the period, many of which operated beyond the structures of visibility at the time.\" The exhibition pays special attention to artists of color and women whose work was not necessarily showcased as prominently at the time.\nBlack masculinity became \"a site of cultural negotiation\" in Britain in the 90s, writes co-curator Helen Little in the program text: \"Figures such as Chris Ofili, Steve McQueen, Keith Piper, Koto Bolofo and Ozwald Boateng reimagined the Black masculine, challenging the racist specter of Black men, who had been defined as part of a masculinity crisis linked to post-industrial decline and excluded from the narrative of 'Cool Britannia.'\"\nJust like \"Swinging London\" in the 1960s, \"Cool Britannia\" became a widespread phrase to refer to the 1990s as an era during which British youth culture, pop music, art and political optimism boomed.\nDIY meets Dr. Martens\nThe 90s also offered artists plenty of chances to create without waiting for support from traditional gatekeepers. Britain entered the decade in recession, but that economic uncertainty also left artists free to do what they wished.\nEmpty buildings and industrial spaces were turned into informal venues. A 23-year-old Damien Hirst orchestrated \"Freeze,\" a self-organized student exhibition in 1988 in a disused London warehouse. It became a landmark early art exhibition for the generation of artists known as the \"Young British Artists\" or YBA.\nArtists Sarah Lucas and Tracey Emin opened The Shop, a temporary art gallery and social space in 1992, as a place where exhibitions could develop outside established galleries. Lucas and Emin also paved the way for women artists thanks to their deeply personal works and their edgy expressions of female liberation.\nWhile the Spice Girls helped make feminism accessible to a younger generation of Brits in the 90s by popularizing the \"girl power\" slogan and shaping \"identity through agency power and resistance,\" as argues Tate curator Helen Little, Emin and Lucas meanwhile \"presented a new visual language of clothing as art to tackle societal taboos around female sexuality, vulnerability and desire\" — from t-shirts with provocative slogans to a grunge look of scuffed Dr. Martens boots with razor blades. Their work \"held a mirror up to gender, behavior and identity,\" Little writes.\nFashion and haute couture in the spotlight\nAt the same time, the British fashion industry came into the international spotlight.\nIn a feminine sensuality counter to the gender stereotypes dismissed by Emin and Lucas, waif-like Kate Moss came to represent the feminine ideal of the 1990s. Dubbed \"heroin-chic,\" the style was an antithesis to the glamorous, athletic physiques of the supermodels who preceded her. Corinne Day's photographs of the model led to the raw aesthetic to be labelled \"grunge\" after the anguished style of rock music hailing from Seattle and led by Nirvana.\nThe trend has faced a significant cultural reexamination since: \"Along with the look also came criticism that the strung-out look of drug or alcohol addiction was glamorized while encouraging serious eating disorders in a generation of young women,\" points out Alex Farquharson, director of the Tate Gallery in his foreword to the exhibition.\nThe 1990s were also an exciting era for Britain in haute couture, as legendary designers John Galliano led Diorwhile Alexander McQueen started directing Givenchy at the age of 27.\nMcQueen's runway presentations were more akin to performance art than commercial fashion shows — and they often included historical critiques. Among them was the famous finale of his Fall/Winter 1998 collection at a London warehouse, during which the model stood in a circle of flames. Titled \"Joan,\" the show was a reference to the killing of Joan of Arc. \nMcQueen designed several other runway shows that reflected on British history, with topics of conquest and punishment repeatedly coming to the forefront. His 1995 presentation \"Highland Rape\" referenced the history of Scotland's subjugation, with the designer describing it as \"England's rape of Scotland.\"\nAs co-curator Jessica Vaughan points out in her exhibition text: \"Art, fashion and photography were not simply transgressive reactions … but reflected a genuine public unease with Britain's global identity and its past.\"\nIn a world that can now feel increasingly mediated by screens, algorithms and established platforms, the artwork of the 90s offers a reminder of the value of physical spaces and fresh DIY creativity of the last smartphone-free decade. \nEdited by: Elizabeth Grenier",
+      "translated_title": "Transgressive, edgy DIY: What the 90s meant for British art",
+      "summary_sentences": [
+        "Tate Britain’s exhibition “The 90s: Art and Fashion,” opening October 8 and running through February 14, 2027, brings together 70 contributors to explore British creativity beyond familiar names, highlighting women, artists of color and communities left out of mainstream discourse.",
+        "Led by chief curator Edward Enninful, the exhibition examines the decade’s DIY culture and transgressive art, fashion and photography, including their challenges to gender conventions and reflections on Britain’s history and identity."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 2,
+      "attempt_number": 3,
+      "model": "gpt-6-astra",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Germany news: Merz rails against extremism, AfD sympathizers",
+      "original_url": "https://www.dw.com/en/germany-news-merz-rails-against-extremism-afd-sympathizers/live-79570924?maca=en-rss-en-all-1573-rdf",
+      "prepared_text": "Germany news: Merz rails against extremism, AfD sympathizers\nPublished October 7, 2026last updated October 7, 2026\nWhat you need to know\n- Chancellor Merz has called the election of an AfD politician to the position of state parliamentary speaker a 'historic break'\n- A new \"Infraplan\" outlining next steps in making the railroad network more reliable aims to make the process more transparent\n- Former BND spy chief Hanning ordered to remain in pretrial detention\n- Merz stressed Germany's friendship with Israel on the 3rd anniversary of the deadly October 7 terror attacks\nHere is a roundup of top stories from and about Germany on Wednesday, October 7, 2026:\nTired of missing our real-time updates? Click here to add DW as a Preferred Source on Google.\nSaxony-Anhalt AfD and BSW lawmakers call for end to Ukraine aid, sanctions on Russia\nImmediately following its initial parliamentary session on Tuesday, Saxony-Anhalt state legislators from the far-right AfD and far-left BSW called for the federal government in Berlin to drop sanctions on Russia over its invasion of Ukraine, as well as demanding an end to all arms deliveries and financial aid for Ukraine as Kyiv defends itself from a nearly five-year Russian invasion.\nBoth parties are known for their Russia \"friendly\" stances and their ties to the Kremlin.\nThey have also latched onto Moscow's claim that Berlin and other EU and NATO governments are the true \"war mongers\" in Ukraine, baselessly claiming that Russia is a peace-loving nation forced to defend itself against hostile neighbors.\nBSW founder Sahra Wagenknecht echoed AfD co-chair Alice Weidel in labeling the initiative \"a signal for peace.\"\n\"Economic sanctions against Russia must end immediately,\" a statement said.\nGermany's federal leadership, under two chancellors, has shown steadfast — if at times cautious — support for Ukraine and demanded Russia end its killing of civilians before entering into further dialogue.\nBeyond dropping sanctions, the AfD and BSW insist Germany must normalize relations with Moscow, and stop \"financing the war,\" arguing instead that money spent helping Ukraine defend its democracy would be better spent in Germany.\nState governments in Germany have no say in federal foreign and energy policy, but the parties say they launched their effort in an attempt to force change in Berlin.\nMerz rails against extremism, AfD sympathizers in own ranks\nGerman Chancellor Friedrich Merz on Wednesday addressed the threat of political extremism to the existing social order, accusing the far-right Alternative for Germany (AfD) and far-left BSW parties of wanting to wipe out \"the DNA of our democracy.\"\n\"Extremism,\" said Merz, \"is forcing its way into our state legislatures with a vengeance.\"\nMerz, speaking in Berlin, called this week’s election of an AfD politician as speaker of Saxony-Anhalt's state parliament — the first time a far-right politician has been tapped to lead a statehouse since 1945 — a \"historic break.\"\nMoreover, Merz slammed politicians — potentially from his own conservative CDU party — for casting ballots in favor of Tobias Rausch in the Saxony-Anhalt vote, saying he was \"deeply concerned and somewhat appalled\" when the AfD's candidate was elected to the speaker position.\nRausch received 48 votes but the AfD and BSW only have 44 between them. It is unclear from whom Rausch picked up four extra votes — he was elected in a secret ballot.\nObservers assume these came from within the CDU, but Merz said \"false flag\" attacks also occur in politics, implying the Social Democrats, the Left party and the Greens, all of which are also represented in the state's parliament, could be attempting to weaken or sow division in the CDU.\n\"Anyone who casts their vote for the AfD is playing the extremists' game and undermining credibility,\" said Merz. \"In any case, this is incompatible with the values of my party, the CDU.\"\nIN DEPTH: German spy scandal threatens national security\nThe arrest of August Hanning, former president of Germany's foreign intelligence service, the Bundesnachrichtendienst (BND), and his former chief-of-staff, Manfred D., is threatening to cause a major rupture in Germany's intelligence relationships, according to analysts, as the full scale of the scandal begins to be understood abroad.\nRead all about it in this article by DW's Ben Knight: German spy scandal threatens national security\nPolice warn of potential puma on the loose near Munich airport\nPolice in Oberding, Bavaria, on Wednesday warned residents in Notzinger Moos near Munich airport to remain vigilant and urged them to keep children and small animals indoors amid a spate of puma sightings.\n\"According to initial expert assessments,\" a spokesperson for the local government said, \"it could be a puma.\"\nAuthorities say it is unclear where such a cat would have come from, adding that no circuses are currently operating in the area.\nIt is unclear what actions — if any — local police will take.\nPolice have reportedly received one photo of the animal, though they have not yet published it.\nAuthorities encouraged anyone with information on the animal, its location or origin to contact police in the city of Erding.\nFrankfurt Book Fair kicks off with literature, politics and AI debates\nThe Frankfurt Book Fair opened with the Czech Republic as guest of honor. The program ranges from presentations of literary works to political debates. In addition, Latin America's 50th anniversary as the first guest of honor at the fair will be commemorated on a special stage, and Chile will present its plans as the guest country for 2027.\n\"Our future guest country, Chile, will have a strong presence, contributing to the program with 14 authors and illustrators,\" said Ines Bachor, the fair's director of public relations, at a press conference. \"In addition, there will be a truly broad program featuring works from a wide range of countries, from Argentina to Guatemala, including comics.\"\nThe fair will be attended by prominent literary figures, such as the French-British essayist, lawyer and novelist Philippe Sands, who will receive the German Booksellers' Peace Prize on Sunday. On Saturday, he will participate in a roundtable discussion on the possibilities of prosecuting war crimes and the destruction of ecosystems.\nThe organization Writers in Exile will present some of its scholarship recipients who have found refuge in Germany, such as the Chinese philosopher Zhang Xiaomao and the Afghan writer Maryam Kishawarz, who will speak about the situation of women in her country.\nBelarusian Nobel Peace Prize laureate Ales Bialiatski will also take part in a debate on the repression of critical literature in his country.\nAnother key topic will be the impact of artificial intelligence on issues related to intellectual property and historical memory.\nThe \"Frankfurt Calling\" program of the 78th Frankfurt Book Fair will feature 120 cultural events.\nOn Friday and over the weekend, the fair will open its doors to the general public, with authors signing books and presenting new releases.\nIN DEPTH: Ex-spy chief Hanning in pretrial detention\nThe arrest of August Hanning, the former head of Germany's BND foreign intelligence agency, on charges of espionage and treason has sent shockwaves through the country.\nHe has now been sent to prison awaiting trial.\nDW looks at the latest developments surrounding Hanning in this article: Germany: Ex-spy chief sent to pretrial detention on treason charges\nIN DEPTH: Did CDU lawmakers vote for AfD speaker Rausch?\nThe question of which lawmakers besides those of the far-right Alternative for Germany (AfD) and populist BSW voted to elect the AfD's Tobias Rausch as parliamentary speaker in Saxony-Anhalt on Tuesday continues to fuel speculation — and outrage.\nThe choice of a far-right figure to preside over a state parliament for the first time since World War II has been described as a \"breaking of taboos\" by the center-left Social Democrats (SPD).\nMost observers suspect that politicians from the center-right Christian Democrats are the most likely to have backed Rausch, despite their party's official adherence to the \"firewall\" principle rejecting cooperation with the AfD.\nDW looks at the growing mystery surrounding the affair in this article: Germany: Did CDU lawmakers support the far-right AfD?\nNew Hannover-Hamburg rail line set to be built by 2050\nAs mentioned at the start of this blog, railroad woes are one major theme in our Germany coverage.\nBut here is some very positive news for once: The parliamentary transport committee has finally endorsed a plan by railway operator Deutsche Bahn (DB) to build a new line linking Hannover and Hamburg by 2050.\nThe project for what is one of Germany's most important transport routes is planned to cost at least €9 billion ($10 billion) and had prompted years of wrangling.\nIt still requires backing by the full Bundestag, or lower house of parliament, on Thursday, but that is likely to be a formality.\nHigh-speed train line\nThe new two-track line will be designed for speeds of up to 250 kilometers per hour (155 miles per hour), cutting journey times between the two cities by 18 minutes.\nHowever, it will be some time before construction begins: The preliminary planning report that forsees submitting approval documents in 2034, with construction to start in 2036.\nRenovation of the existing line between the two cities is also planned for 2029 under the agreement.\nAccording to DB, that route is already heavily congested, carrying up to 147% of intended capacity.\nThe agreement was reached despite opposition from lawmakers representing constituencies affected by the new construction, including Vice Chancellor Lars Klingbeil of the Social Democrats (SPD).\nFinal day of Backstreet Boys mania in Düsseldorf\nUS group the Backstreet Boyswill play their final of 10 concerts in Düsseldorf tonight, capping off a week of street parties and sing-alongs to celebrate the band.\n\"We'll take you on a trip back in time,\" member Howie Dorough promised.\nTo the rhythm of \"Larger Than Life\", Nick, Howie, Brian, AJ and Kevin appeared floating above the venue, crossing the Merkur Spiel-Arena on hoverboards each night.\nAgainst the backdrop of a giant screen displaying futuristic graphics, accompanied by pyrotechnics and a laser show, the American stars have almost finished their short German residency.\nThe five musicians had already presented the show, Into The Millennium, at the Sphere in Las Vegas.\nAccording to Live Nation, the event organizer, around 450,000 tickets have been sold for the performances. These 10 concerts are the only shows the band will perform in Europe on this tour.\nThe Boys' return to Germany\nThe concert series carried the subtitle Homecoming: Live in Germany, because the band have enjoyed a loyal fan base since their early days in Germany, as the singers emphasized in Düsseldorf.\n\"Germany, you were our first love. You loved us before everyone else, and we loved you,\" Kevin Richardson said. \"So many years, so many memories,\" Nick Carter added.\nThe boy band was founded in 1993 in Orlando, Florida and was part of the pop boom of the late 1990s.\nGermany blocks sale of Hamburg logistics firm to China's COSCO\nThe German government has said the acquisition of a majority of shares in Hamburg logistics company Zippel by China's state-owned shipping giant Cosco could pose a security threat and has blocked the sale.\nThe purchase of 80% of shares in Zippel by a Chinese company \"would have deepened dependencies and jeopardized the resilience of Germany’s and the EU’s supply chains,\" an Economy Ministry spokesman said.\nSpeaking after a Cabinet meeting in Berlin, the spokesman said that although Germany welcomed foreign investment in general, \"there may be investments that threaten the country's security.\"\nReports at the end of April said that the BfV domestic intelligence agency already had reservations about the takeover, which had been approved by the Cartel Office in February.\nThe business daily Handelsblatt reported at the end of September that the government was intending to block the sale, though this was not confirmed by Berlin at the time.\nCosco already holds a 24.99% stake in the Hamburg container terminal Tollerort.\nThat deal prompted a debate at the time about China's participation in critical infrastructure in Germany.\nMajority finds Merz a failure as chancellor — survey\nMost people in Germany consider that Chancellor Friedrich Merz is not up to the job, a new survey has shown.\nIn all, 67% of respondents in the survey by the Ipsos institute were either wholly or fairly in agreement with the statement \"The chancellorship of Friedrich Merz has failed.\"\nA whole 48% completely agreed on Merz's insufficiency as leader, according to the survey published in the Spiegel news magazine.\nThere were regional differences in assessment's of Merz's performance, with 80% of people in eastern states completely or somewhat dissatisfied compared with 64% in the west.\nHowever, there was much less agreement on which conservative politician could replace him if he were to step down or be ousted.\nThe survey gave a choice between the leader of the Bavarian Christian Social Union (CSU), Markus Söder, his party colleague Interior Minister Alexander Dobrindt or the premier of the state of North Rhine-Westphalia, Hendrik Wüst.\nAltogether 43% of those surveyed said none of those named came into question, while some 14% responded with \"Don't know.\"\nSöder was, however, the favorite with 20% support, followed by Wüst on 16%.\nDobrindt lagged far behind on just 5%.\nSPD questions CDU, BSW role in election of far-right speaker\nThe co-leader of the Social Democrats (SPD), Lars Klingbeil, says coalition partner the Christian Democrats (CDU) has questions to answer after the election of Tobias Rausch, a politician from the Alternative for Germany (AfD), as parliamentary speaker in Saxony-Anhalt.\n\"The fact that the candidate of the AfD in Saxony-Anhalt, which is classified as 'confirmed right-wing extremist,' was elected as state parliament speaker with considerably more than just AfD votes raises very urgent questions,\" said Klingbeil, who is also deputy chancellor and finance minister.\n\"Electing right-wing extremists to such positions breaks with a taboo,\" he said.\n\"Not just the BSW, but also the CDU must urgently explain how this could happen.\"\nThe SPD federal parliamentary party staged a march through Berlin's Brandenburg Gate on Tuesday to protest at the election result.\nThe state chapter of the AfD, which won a landslide victory at September elections, is classified as \"confirmed right-wing extremist\" by domestic intelligence.\nMysterious extra votes for Rausch\nRausch was elected speaker with 48-29 votes, though just 44 votes for him would have resulted if only his party (39 seats) and the populist BSW (five seats), which had pledged to back him, had voted in his favor.\nThe CDU parliamentary leader, Sven Schulze, had recommended that the 15 parliamentarians in his party abstain from voting, but there were only five abstentions altogether in the secret ballot. One CDU member was absent.\nThe other three parties represented in the legislature — the SPD, the Left Party and the Greens — had all declared their opposition to Rausch.\nSchulze said he could not believe that the four extra votes for Rausch came from the ranks of the CDU, although there has been widespread speculation that this was the case.\nAll mainstream parties in Germany have so far officially stated that they reject any form of cooperation with the AfD in keeping with the so-called \"firewall.\"\nEx-spy chief August Hanning to face court for allegedly selling state secrets\nAugust Hanning, the former president of Germany's foreign intelligence service (BND), who was arrested on suspicion of espionage, is due to appear on Wednesday before an investigating judge at the Federal Court of Justice in Karlsruhe, who will decide whether he should remain in custody pending trial.\nHanning, who stepped down as head of the BND in 2005, is under investigation on suspicion of espionage-related offenses, including high treason, obtaining state secrets, attempted high treason, and acting as an agent for a foreign intelligence service.\nMerz reaffirms solidarity with Israel amid October 7 commemorations\nChancellor Friedrich Merz has reaffirmed Germany's support for Israel in remarks on the anniversary of the deadly October 7, 2023 attacks led by the Palestinian militant group Hamas.\n\"Germany stands firmly by Israel's side. Our Israeli friends can count on our commitment to ensuring that such a crime is never repeated,\" Merz said.\n\"We stand for the security and existence of Israel — this is a lesson drawn from the Shoah [Holocaust] and part of German identity,\" he said.\nMerz said Germany believed that the two-state solution was the best way to establish peace in the region.\nHe also said the German government would do all in its power to combat rising antisemitism, adding that Jews had to be able to live in Germany without fear.\nMerz said his thoughts on the anniversary were with the victims and their families, survivors and former hostages.\n\"And we hope that the deep pain and wounds inflicted by this day — by these monstrous, barbaric acts — can heal,\" he said.\nSeveral events are being held in Berlin to mark the anniversary.\nThe Palestinian militant group Hamas led attacks in southern Israel on October 7, 2023 in which some 1,200 people were killed and more than 250 others abducted.\nThe attacks triggered the ongoing war on Hamas in Gaza, which left some 74,000 Palestinians dead, most of them civilians.\nCabinet mulls bill criminalizing rape videos, sexual deepfakes\nThe German government is planning a bill that criminalizes the possession, production and distribution of videos depicting rape.\nThe Cabinet will be discussing the bill, which also includes new offences covering identity misuse and the unauthorized creation and distribution of sexual deepfakes, at a meeting on Wednesday.\nCurrently, German law does not generally prohibit the possession and production of videos showing rape, and whether this is a criminal offence depends on what is shown, how and where they were recorded and who receives them.\nUnder the draft legislation, it would also be a criminal offence to take or distribute unauthorized images of someone else's naked genitals, buttocks or of female breasts.\nThe bill, which has been put forward by Justice Minister Stefanie Hubig, would also criminalize the use of a fake profile under the name of a real person for the purpose of damaging that person's reputation.",
+      "translated_title": "Germany news: Merz rails against extremism, AfD sympathizers",
+      "summary_sentences": [
+        "German Chancellor Friedrich Merz accused the far-right AfD and far-left BSW of wanting to wipe out \"the DNA of our democracy,\" calling the election of AfD politician Tobias Rausch as Saxony-Anhalt parliamentary speaker a \"historic break.\"",
+        "Merz condemned lawmakers who backed Rausch, potentially including members of his own CDU, but the origin of four votes beyond the AfD and BSW's combined 44 seats remains unclear because the ballot was secret."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 3,
+      "attempt_number": 4,
+      "model": "gpt-6-astra",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "EU enlargement: European Commission tables reforms to prepare bloc for new members",
+      "original_url": "https://www.dw.com/en/eu-enlargement-european-commission-tables-reforms-to-prepare-bloc-for-new-members/a-79582493?maca=en-rss-en-all-1573-rdf",
+      "prepared_text": "EU enlargement: Reforms seek to prepare bloc for new members\nOctober 7, 2026\nThe European Commission wants to inject new momentum into its enlargement process, which has seen some candidate countries waiting for decades to join.\nAlbania, Montenegro, Moldova and Ukraine are currently the frontrunners to join the bloc, with EU officials expressing the hope that Montenegro could do so as early as 2028.\n\"A larger union is a long-term investment in Europe's peace, security and prosperity,\" Enlargement Commissioner Marta Kos told journalists in Strasbourg on October 6.\nOne key question is how the EU can take in more countries in the near future without becoming harder to run or running the risk of democratic backsliding in new member states.\nThe Commission's answer to this question is to simultaneously require candidate countries to meet EU standards and get the bloc itself to reform by removing obstacles in the accession process and protecting its democratic values.\nLess unanimity, more qualified majority votes\nOne of the main stumbling blocks in accession negotiations so far has been the need for unanimous decisions across all 27 members. In the past, individual states have often blocked a candidate's progress because of bilateral issues.\nThe delays caused by Hungary's blocking of Ukraine's negotiation process are a prominent example.\nNow — and not for the first time — the Commission is recommending that member states move away from the principle of unanimity for decisions like the opening of negotiation clusters, replacing it with qualified majority voting.\nThe unanimity dilemma\n\"Every cluster that you open is subject to three individual decisions, and every single decision is subject to unanimity. It's mind-blowing, and I think this clearly needs to go,\" a Commission official, who wished to remain anonymous, told journalists on Tuesday.\nThe catch is that a shift to qualified majority voting would itself require a unanimous decision.\n\"I have some reservations as to whether there will be unanimous agreement from the member states to move to qualified majority voting,\" Tinatin Akhvlediani, head of the enlargement program at the Centre for European Policy Studies (CEPS) told DW, pointing to previous attempts to change voting rules that were shot down by member states.\nGradual access to membership benefits\nTo incentivize reform in candidate countries, the Commission is proposing gradual integration, which means that these countries could be granted some of the benefits of membership before joining — as long as they meet the EU's criteria.\n\"Gradual integration is not a substitute for full membership. It is the accelerator for enlargement,\" Kos said on Tuesday, underlining that the process would stay merit-based.\nThis could have a motivational effect on candidate countries, Nina Vujanovic, a research fellow at Brussels-based think tank Bruegel, told DW: \"Reforms are important, but it is also important to reward that process a little bit earlier, ahead of accession,\" she said.\nEarlier access to EU benefits is not entirely new: Montenegro, for example, already participates in the Single Euro Payments Area (SEPA) even though it is not yet a member.\nAddressing geopolitical realities\nThe Commission now wants to give candidate countries such early access more systematically and link it to strategic alignment.\n\"This is not something that will be available [to candidate countries] unless they really orient themselves on the EU,\" a Commission official told journalists.\nMaking strategic alignment a condition is new and reflects the EU's efforts to adjust to the geopolitical tensions members and candidates are facing.\nCandidates' choice: Russia or the EU?\n\"The EU is trying to keep candidate countries out of the hands of Russia,\" Heather Grabbe, a senior fellow at Bruegel, told DW. \"Strategic alignment is aimed very squarely at politicians like Aleksandar Vucic in Serbia, who has clearly promoted Russian interests,\" she said.\nThe new procedures would demand alignment not only with the EU's foreign and security policy, but also with its standards on economic security. \"Trading gas with Russia is simply not something that builds trust with the European Union,\" said Nina Vujanovic.\nThe lessons the EU learned from Hungary, Poland\nTo prevent breaches of democratic rules by new member states, the Commission proposes a 15-year period within which it would be easier to sanction new members by cutting financial support or restricting voting rights.\nIn an interview with The Guardian and other European media, Commissioner Kos made it clear that the EU had learned its lesson from the democratic backsliding it saw in the past in countries like Poland or Hungary: \"No more Viktor Orban. We have to have quicker mechanisms than only Article 7.\"\nDouble standard or necessary protection?\nCritics point out that this safeguard would create unequal conditions within the union.\n\"It is inherently unfair,\" says Heather Grabbe. \"In the 2040s, why should Montenegro face different conditions to, say, Slovenia?\"\nMany current candidate countries have a shaky record when it comes to democratic norms, as Tinatin Akhvlediani points out: \"They are actually fragile democracies. So, this approach vis-a-vis these countries can be very much justified.\"\nExperts say that while it might be desirable to apply similarly strict rules to all members, it is not realistically feasible as it would have to be approved unanimously and, as Grabbe says, \"it's very hard to get turkeys to vote for Christmas.\"\nAlthough the Commission's push for new rules in relation to enlargement is likely to move the debate forward, it is ultimately up to member states to decide how much of it becomes reality.\nThe European Council, which is made up of the heads of state or government of the 27 EU member states, the European Council president and the president of the European Commission, is expected to discuss the proposals at its upcoming meeting on October 15–16.\nThe outcome of those talks will determine how quickly the Commission's new enlargement agenda can move forward.\nEdited by: Aingeal Flanagan",
+      "translated_title": "EU enlargement: European Commission tables reforms to prepare bloc for new members",
+      "summary_sentences": [
+        "The European Commission has proposed enlargement reforms to replace unanimity with qualified majority voting for some accession decisions, grant candidates gradual access to membership benefits tied to EU criteria and strategic alignment, and introduce a 15-year period allowing easier sanctions against new members for democratic breaches.",
+        "Member states will decide whether to adopt the reforms, with the European Council expected to discuss them on October 15–16; changing the voting rules would itself require unanimous approval."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 4,
+      "attempt_number": 5,
+      "model": "gpt-6-astra",
+      "country": "Germany",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Why music in Iran is more than just entertainment",
+      "original_url": "https://www.dw.com/en/why-music-in-iran-is-more-than-just-entertainment/a-79583224?maca=en-rss-en-all-1573-rdf",
+      "prepared_text": "Why music in Iran is more than just entertainment\nOctober 7, 2026\nAfter spending 47 years abroad, Iranian musician Bijan Mortazavi returned to his homeland at the end of September.\nMortazavi is one of Iran's most renowned violinists, singers, and composers.\nIn July 2026, he performed with his famous white violin at the closing ceremony of the FIFA World Cup alongside the New York Philharmonic Orchestra.\nIn the videos that he and his wife have now posted on social media, the couple can be seen taking walks through the city of the Iranian capital, Tehran, while passersby greet the musician warmly and welcome him.\nSinger Mohsen Namjoo also recently returned to Iran after about 20 years in exile.\nInternationally renowned for his experimental Persian music, he blends traditional Persian singing and poetic lyrics with elements of blues, rock, jazz, and folk.\nIn 2009, Namjoo was sentenced in absentia by a court in Tehran to five years in prison.\nHe was accused of insulting holy sites and mocking verses from the Quran, among other things.\nIn a video posted online after his return to Iran, Namjoo said he had returned to the country to spend more time with his family and friends.\nReturn as a political tool\nOn August 27, Abbas Salehi, Iran's minister of culture and Islamic guidance, said in an interview with the prominent Iranian media outlet Farhikhtegan that his ministry had compiled a list containing the names of more than 100 distinguished Iranians living abroad.\nThe goal, he said, was to remove obstacles to their travel or return to Iran.\nSalehi stressed that even \"critics of the Islamic Republic\" could return at any time. He added, however, that the return of artists does not necessarily mean they would perform in Iran. Instead, they could simply visit the country, the minister said.\nSina Yousefi, a human rights lawyer, pointed to international law, specifically Article 12 of the International Covenant on Civil and Political Rights, to which Iran is also a signatory.\nAccording to this provision, no one may be arbitrarily prevented from entering their own country. This right cannot be made contingent on a citizen's level of loyalty to the government, he told DW.\n\"The idea of seeking out certain well-known figures — who the reformists, in particular, believe are less likely to cross the red lines — and winning them over to collaborate or bringing them back to the country is not new,\" said Sepideh Raissadat , an ethnomusicologist who has been studying the history and development of Persian music for years.\nAs an internationally renowned performer of classical Persian music, she combines her artistic work with scholarly research, with her dissertation focusing on the lives of Iranian female singers since the 1979 Islamic Revolution.\nBetween control and resistance\n\"The 1979 revolution in Iran was a revolution against music. Music was one of the red lines,\" said Raissadat, referring to statements by the leader of the revolution, Ayatollah Ruhollah Khomeini, who as early as July 1979 had publicly described music as harmful to society and called for its complete abolition.\nIn a speech to employees of Radio Darya on July 21, 1979, Khomeini is said to have described music as \"a betrayal of the country\" and \"a betrayal of the youth.\" A few days later, the Iranian newspaper Keyhan quoted him as saying that music was \"like a drug” and must be completely eradicated.\nDuring the Iran-Iraq War from 1980 to 1988, however, music made a comeback in the form of revolutionary and religious songs. It was also used to stir up feelings of national pride and a sense of belonging.\nThe regime also failed to completely banish the female voice from the public sphere. \"They couldn't completely eliminate the voice of women. The female voice returned through choral singing,\" said Raissadat.\nBut the conflict between the state and music continued.\nFor years, musical instruments were not allowed to be shown on Iranian television. Instruments were confiscated or destroyed on the streets. Fearing repercussions, musicians did not carry their instruments in public, while some hid them in their cars.\n\"Listening to banned music at home was a political act. And when women began to sing, that, too, became a political act,\" Raissadat noted. The development of Iranian pop music was also part of this political and cultural tension, she underscored. \"People began producing new domestic pop music to compete with music from Los Angeles.\"\nOver the past ten years, social media — which is not entirely under government control — has become increasingly important and now wields considerable influence.\nThis change is particularly evident among young people, with young women now even playing the guitar without headscarves and performing in public.\nMusic as an expression of protest\nRaissadat observes a particular trend among the families of the young people who were killed during the nationwide mass protests in late December 2025 and January 2026.\nThe demonstrations began on December 28, 2025, and were violently suppressed by security forces.\nHuman rights organizations report that thousands of protesters were killed, but the exact figures are unknown due to the extensive information blackout imposed by the regime.\n\"The most important thing we've seen in recent years has been the use of music by the bereaved families of those killed in the protests. This stands in complete contrast to Shiite tradition and our history,\" said Raissadat.\nAt some funerals, families turned the memorial service for their loved ones into a new form of protest.\nInstead of religious hymns, music played, and the mourners sang and danced along to it. In doing so, they created a deliberate contrast to traditional religious mourning rituals, the musician said.\n\"Music became a weapon. Those who were mourning were able to connect with it on their own, and at the same time, it stood in opposition to what the political system stands for,\" Raissadat pointed out, adding, \"Dancing in white clothing also became an expression of this resistance.\"\nThis article was originally written in German.",
+      "translated_title": "Why music in Iran is more than just entertainment",
+      "summary_sentences": [
+        "Iranian musicians Bijan Mortazavi and Mohsen Namjoo have returned after decades abroad, as Culture Minister Abbas Salehi says his ministry is working to remove obstacles to visits or returns for more than 100 distinguished Iranians living overseas.",
+        "Ethnomusicologist Sepideh Raissadat describes music in Iran as a longstanding arena of state control and resistance, with families of people killed in the December 2025 and January 2026 protests using music, singing and dancing at funerals as expressions of protest."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 5,
+      "attempt_number": 6,
+      "model": "gpt-6-astra",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Strait of Hormuz will stay closed until Iran’s demands are met: IRGC advisor",
+      "original_url": "https://en.irna.ir/news/86286279/Strait-of-Hormuz-will-stay-closed-until-Iran-s-demands-are-met",
+      "prepared_text": "Tehran, IRNA – A senior advisor to the commander-in-chief of the Islamic Revolution Guards Corps (IRGC) says the Strait of Hormuz is ​closed, and the Armed Forces of the Islamic Republic of Iran ​have full control over it, adding that this situation will continue until Iran’s legitimate demands are met.",
+      "translated_title": "Strait of Hormuz will stay closed until Iran’s demands are met: IRGC advisor",
+      "summary_sentences": [
+        "A senior advisor to the commander-in-chief of the Islamic Revolution Guards Corps (IRGC) says the Strait of Hormuz is closed and under the full control of Iran’s Armed Forces, and will remain so until Iran’s legitimate demands are met."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 6,
+      "attempt_number": 7,
+      "model": "gpt-6-astra",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "‘False flags’ used to justify war against Iran, says FM spokesperson",
+      "original_url": "https://en.irna.ir/news/86286323/False-flags-used-to-justify-war-against-Iran-says-FM-spokesperson",
+      "prepared_text": "Tehran, IRNA – Foreign Ministry spokesperson Esmaeil Baqaei has criticized those behind the war against Iran for resorting to “false flags” to manufacture incidents, assign blame, and justify an unlawful war of aggression.",
+      "translated_title": "‘False flags’ used to justify war against Iran, says FM spokesperson",
+      "summary_sentences": [
+        "Foreign Ministry spokesperson Esmaeil Baqaei criticized those behind the war against Iran for using “false flags” to manufacture incidents, assign blame, and justify an unlawful war of aggression."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 7,
+      "attempt_number": 8,
+      "model": "gpt-6-astra",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Pezeshkian and Putin stress strengthening strategic ties between Iran and Russia",
+      "original_url": "https://en.irna.ir/news/86286337/Pezeshkian-and-Putin-stress-strengthening-strategic-ties-between",
+      "prepared_text": "Tehran, IRNA – President Masoud Pezeshkian and Russian President Vladimir Putin stressed the need to maintain and strengthen bilateral and strategic cooperation between Tehran and Moscow during a phone call on Wednesday.",
+      "translated_title": "Pezeshkian and Putin stress strengthening strategic ties between Iran and Russia",
+      "summary_sentences": [
+        "President Masoud Pezeshkian and Russian President Vladimir Putin stressed the need to maintain and strengthen bilateral and strategic cooperation between Iran and Russia during a phone call on Wednesday."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 8,
+      "attempt_number": 9,
+      "model": "gpt-6-astra",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Pezeshkian to visit Turkmenistan for CIS, Caspian summits",
+      "original_url": "https://en.irna.ir/news/86286324/Pezeshkian-to-visit-Turkmenistan-for-CIS-Caspian-summits",
+      "prepared_text": "Tehran, IRNA – Iranian President Masoud Pezeshkian will leave for Turkmenistan on October 8 to attend the Council of Heads of State of the Commonwealth of Independent States (CIS) and the Environmental Summit of the Heads of Caspian Sea Littoral States.",
+      "translated_title": "Pezeshkian to visit Turkmenistan for CIS, Caspian summits",
+      "summary_sentences": [
+        "Iranian President Masoud Pezeshkian will leave for Turkmenistan on October 8 to attend the Council of Heads of State of the Commonwealth of Independent States (CIS) and the Environmental Summit of the Heads of Caspian Sea Littoral States."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 9,
+      "attempt_number": 10,
+      "model": "gpt-6-astra",
+      "country": "Iran",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Pezeshkian says resistance will continue as Iran faces full-scale war",
+      "original_url": "https://en.irna.ir/news/86286272/Pezeshkian-says-resistance-will-continue-as-Iran-faces-full-scale",
+      "prepared_text": "Tehran, IRNA – Iran is engaged in a full-scale war but will continue talks while defending the rights and interests of its people from a position of strength, President Masoud Pezeshkian said on Wednesday.",
+      "translated_title": "Pezeshkian says resistance will continue as Iran faces full-scale war",
+      "summary_sentences": [
+        "President Masoud Pezeshkian said on Wednesday that Iran is engaged in a full-scale war but will continue talks while defending its people’s rights and interests from a position of strength."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 10,
+      "attempt_number": 11,
+      "model": "gpt-6-astra",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Millennia-old Taihang Pass",
+      "original_url": "http://www.ecns.cn/video/2026-10-06/detail-ihfkxmcz6609906.shtml",
+      "prepared_text": "The Taihang Pass is one of the Eight Passes of the Taihang Mountains. It reached north to the heartland of Zezhou and south to the Central Plains, serving as a vital strategic thoroughfare for the ancient Central Plains dynasties entering and exiting the Taihang region.\nThe winding goat track was perilous; Li Bai lamented it. Tianjing Fortress was not a single pass but a comprehensive defence system spanning a contiguous area.\nIn addition to Tianjing Fortress, it included Xingyao Post Station, Dakou Pass, Xiaokou Pass and Wanzi Fortress, among others. During the Song, Jin and Yuan Dynasties, this place was known as \"Langche\"; today it is called \"Lanche.\"\nWith the rise of China's \"Ten-Thousand-Li Tea Route,\" it became a vital corridor for Zezhou merchants travelling south to the Central Plains and north to Mongolia and Russia.\nIn 1896, an Italian named Angelo Rosadi travelled along this ancient Taihang Pass route into Zezhou, Jincheng, and sent photographers to explore and take photographs. At the same position, the same buildings, the same tower, the same gate and basically the same village shape can be found. Through three thousand years, the road and its stories continue.",
+      "translated_title": "Millennia-old Taihang Pass",
+      "summary_sentences": [
+        "Taihang Pass, one of the Eight Passes of the Taihang Mountains, was a vital strategic thoroughfare for ancient Central Plains dynasties and later a corridor for Zezhou merchants travelling along China's \"Ten-Thousand-Li Tea Route.\"",
+        "Its extensive defence system included Tianjing Fortress and several other posts and passes, while buildings and the village layout remain largely recognizable from photographs commissioned by Angelo Rosadi during his 1896 journey."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 11,
+      "attempt_number": 12,
+      "model": "gpt-6-astra",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Hong Kong deepens Middle East ties amid global realignment: HKSAR financial chief",
+      "original_url": "http://www.ecns.cn/china/2026-10-04/detail-ihfkteqw7942252.shtml",
+      "prepared_text": "Paul Chan, financial secretary of the Hong Kong Special Administrative Region (HKSAR) government, said on Sunday that Hong Kong's cooperation with the Middle East and the Global South deepens and makes substantive progress, with such collaboration evolving from two-way capital and personnel flows toward broader cooperation on innovation, technology and industrial projects, as well as deeper exchanges of experience in institutional development.\nChan wrote in his blog that in the first nine months of 2026, average daily stock market turnover reached 272.9 billion Hong Kong dollars (about 34.77 billion U.S. dollars), up 6.4 percent year-on-year. The IPO market was equally active, with 116 companies listing in Hong Kong and raising over 388 billion Hong Kong dollars, more than double the amount from the same period last year and surpassing the total amount in 2025. However, with U.S. long-term bond yields hitting 24-year highs, growing concerns over the global economic outlook have recently weighed on local market sentiment.\nDespite such short-term fluctuations, the trend of global asset and supply chain realignment continues to move forward, Chan said. Summing up his visit to Doha the previous week for the Asian Infrastructure Investment Bank annual meeting, he noted that wide-ranging exchanges with global political and business leaders showed that Hong Kong's cooperation with the Middle East and the Global South is deepening and making real progress.\nMiddle Eastern economies have been actively pushing for economic diversification, Chan said, highlighting a clear rise in Middle Eastern capital joining Hong Kong IPOs over the past year. Facing shifts in the geopolitical and economic landscape, businesses in the Middle East are also looking more closely at investments in warehousing and logistics, an area where Hong Kong has rich experience and stands out as a partner they are keen to explore cooperation with.\nHe said that in an increasingly complex environment, Hong Kong's institutional advantages under \"one country, two systems,\" together with its international connectivity, transparency and compatibility, continue to make the city a preferred choice for trade and investment partners worldwide.",
+      "translated_title": "Hong Kong deepens Middle East ties amid global realignment: HKSAR financial chief",
+      "summary_sentences": [
+        "Hong Kong's cooperation with the Middle East and the Global South is deepening and expanding beyond capital and personnel flows into innovation, technology, industrial projects and institutional exchanges, HKSAR Financial Secretary Paul Chan said on Sunday.",
+        "Chan highlighted increased Middle Eastern participation in Hong Kong IPOs and interest in warehousing and logistics investments, saying global asset and supply chain realignment continues despite short-term market fluctuations."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 12,
+      "attempt_number": 13,
+      "model": "gpt-6-astra",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Xi and other Party and state leaders attend ceremony to present flower baskets to national heroes on Martyrs' Day in Beijing",
+      "original_url": "http://www.ecns.cn/china/politics/2026-10-03/detail-ihfkteqw7941628.shtml",
+      "prepared_text": "Honoring the glory of fallen national heroes and forging mighty strength to advance national rejuvenation, a Martyrs' Day ceremony to present flower baskets to the nation's fallen heroes was solemnly held on the morning of Sept. 30 at Tian'anmen Square, Beijing. Leaders of the Communist Party of China (CPC) and the state Xi Jinping, Li Qiang, Zhao Leji, Wang Huning, Cai Qi, Ding Xuexiang, Li Xi and Han Zheng attended the ceremony along with representatives from all walks of life.\nAt the grand Tian'anmen Square, a bright Five-Star Red Flag fluttered in the wind and the Monument to the People's Heroes stood tall and majestic. A giant flower basket inscribed with Chinese characters reading \"Best Wishes to Our Motherland\" was placed in the center of the square, expressing the hope for the nation to become stronger and more prosperous. To the north of the monument, 18 wreaths made of white chrysanthemums and other fresh flowers were arranged on two flower beds, conveying the profound remembrance of all Chinese people for the heroes.\nApproaching 10 o'clock, Party and state leaders Xi Jinping, Li Qiang, Zhao Leji, Wang Huning, Cai Qi, Ding Xuexiang, Li Xi and Han Zheng arrived at Tian'anmen Square for the ceremony.\nTrumpeters of the People's Liberation Army (PLA) band played the \"Martyrs' Day Bugle.\" The powerful, resonant sound of the trumpet stirred the hearts of those present.\nAt the word of the command \"Guards of honor on your marks,\" PLA guards of honor marched in parade steps to the front of the monument and stood still, holding their rifles.\nAt 10 a.m., the ceremony commenced. The military band played the national anthem \"The March of the Volunteers,\" and all participants sang in unison.\nAfter the anthem, all present stood solemnly for a moment of silence to pay tribute to the heroes who laid down their lives for the liberation of the Chinese people and the development of the People's Republic of China.\nFollowing that, a group of children holding flowers and facing the monument sang the song \"We Are Communist Successors,\" and saluted the monument as Young Pioneers.\nIn front of the formations, nine large flower baskets were placed in a line in the name of the CPC Central Committee; the National People's Congress (NPC) Standing Committee; the State Council; the National Committee of the Chinese People's Political Consultative Conference (CPPCC); the Central Military Commission (CMC); non-Communist parties, the All-China Federation of Industry and Commerce (ACFIC) and patriots without party affiliations; people's organizations and people from all walks of life; veterans, retired senior cadres and relatives of martyrs; and the Chinese Young Pioneers. \"Eternal Glory to the People's Heroes,\" read the eye-catching characters on the red ribbons hung on the flower baskets.\nAs the military band played the soulful \"Flower Presenting Melody,\" 18 guards of honor steadily lifted the flower baskets, walked slowly to the monument, and laid them on the pedestal.\nXi and other leaders of the Party and the state walked up to the pedestal, stopped in front of the flower baskets and gazed forward. Bright-colored anthuriums, blossoming lilies, and fragrant oncidiums... all were telling people's cherished memories of and sincere respect for the deceased heroes.\nXi took a few steps forward and carefully arranged the satin ribbons on the flower baskets. He and the other leaders then walked slowly around the monument and paid their tribute.\nThis year marks the 105th anniversary of the founding of the CPC and the 90th anniversary of the Long March victory of the Chinese Workers' and Peasants' Red Army. On the new \"long march\" in the new era, under the strong leadership of the CPC Central Committee with Comrade Xi Jinping at its core, the whole Party, the entire military, and the Chinese people of all ethnic groups are preserving and carrying forward the great \"founding spirit of the Party\" and the \"spirit of the Long March,\" pressing ahead with enterprise and resolve, and striving relentlessly in building a great country and advancing national rejuvenation on all fronts through Chinese modernization.\nChildren and representatives from all walks of life walked up to the monument, laid flowers and looked up at it with reverence.\nThe ceremony was presided over by Yin Li, a member of the Political Bureau of the CPC Central Committee and secretary of the CPC Beijing Municipal Committee.\nMembers of the Political Bureau of the CPC Central Committee and members of the Secretariat of the CPC Central Committee in Beijing, vice chairperson of the CMC, some vice chairpersons of the NPC Standing Committee, state councilors, president of the Supreme People's Court, procurator-general of the Supreme People's Procuratorate, and some vice chairpersons of the CPPCC National Committee attended the ceremony.\nAmong others attending the ceremony were leading officials of relevant departments of the CPC Central Committee, the central government, the military and people's organizations, and leading officials of the Beijing Municipal Government. Present at the ceremony were also leading officials of the central committees of the non-CPC parties and the ACFIC, representatives of personages without party affiliation, representatives of veterans, retired senior cadres and relatives of martyrs in Beijing, representatives of recipients of honorary titles and awards in Beijing, members of the national ethnic minority visiting group, and representatives from all walks of life in the capital.",
+      "translated_title": "Xi and other Party and state leaders attend ceremony to present flower baskets to national heroes on Martyrs' Day in Beijing",
+      "summary_sentences": [
+        "Xi Jinping and other Party and state leaders attended a solemn Martyrs' Day ceremony at Tian'anmen Square in Beijing on the morning of Sept. 30, honoring fallen national heroes alongside representatives from all walks of life.",
+        "Participants observed a moment of silence, and guards of honor placed nine flower baskets at the Monument to the People's Heroes before Xi arranged the ribbons and joined other leaders in walking around the monument to pay tribute."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 13,
+      "attempt_number": 14,
+      "model": "gpt-6-astra",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Xi calls for firm confidence, solid steps for China's national rejuvenation",
+      "original_url": "http://www.ecns.cn/china/2026-09-30/detail-ihfkteqw7939121.shtml",
+      "prepared_text": "Chinese President Xi Jinping on Wednesday called on the nation to forge ahead with firm confidence and solid steps to achieve the great national rejuvenation.\nXi, also general secretary of the Communist Party of China Central Committee and chairman of the Central Military Commission, made the remarks at a reception held at the Great Hall of the People in Beijing to celebrate the 77th anniversary of the founding of the People's Republic of China.\nChina's National Day falls on Oct. 1.",
+      "translated_title": "Xi calls for firm confidence, solid steps for China's national rejuvenation",
+      "summary_sentences": [
+        "Chinese President Xi Jinping on Wednesday called on the nation to forge ahead with firm confidence and solid steps to achieve the great national rejuvenation.",
+        "He made the remarks at a reception at the Great Hall of the People in Beijing celebrating the 77th anniversary of the founding of the People's Republic of China."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 14,
+      "attempt_number": 15,
+      "model": "gpt-6-astra",
+      "country": "China",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "'Meet China' film program brings Chinese cinema, cultural exchanges to Paris",
+      "original_url": "http://www.ecns.cn/cns-wire/2026-09-30/detail-ihfkteqw7938631.shtml",
+      "prepared_text": "(ECNS) -- Chinese filmmakers and cultural leaders met with European directors and local audiences on Tuesday as the 8th China-EU Film Festival’s \"Meet China\" program hosted a series of screenings and panel discussions.\nFollowing events in Brussels, the Paris program screened six Chinese works, exploring different aspects of everyday life in China.\nXie Tian, executive deputy publisher of The European Times, said the Paris event provided an opportunity for people from different cultural backgrounds to observe and understand China through film.\nDuring panel discussions following the screenings, industry professionals examined cross-cultural collaboration, translation, and international storytelling.\nHugo Torsten, an independent production manager and executive producer, noted that cross-cultural filmmaking requires creators to establish shared working methods while maintaining distinct perspectives.\nBernards Alens Zako, a cultural and heritage consultant and former head of the culture sector at UNESCO, said film, music and other visual elements can help convey emotions across cultural boundaries.\nFounded in Brussels in 2015, the China-EU Film Festival has organized Chinese film screenings, professional discussions and youth exchanges in Europe, providing a platform for filmmakers and audiences from China and Europe to engage with each other.\n(By Helen Mo & inter Liu Shuangjing)",
+      "translated_title": "'Meet China' film program brings Chinese cinema, cultural exchanges to Paris",
+      "summary_sentences": [
+        "The 8th China-EU Film Festival’s \"Meet China\" program screened six Chinese works exploring everyday life in China and hosted panel discussions in Paris on Tuesday, bringing together Chinese filmmakers and cultural leaders, European directors and local audiences.",
+        "Following events in Brussels, the Paris program offered opportunities to understand China through film, with industry professionals discussing cross-cultural collaboration, translation and international storytelling."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 15,
+      "attempt_number": 16,
+      "model": "gpt-6-astra",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "EU fears US diesel export ban — Der Spiegel",
+      "original_url": "https://tass.com/economy/2198933",
+      "prepared_text": "The EC noted that even awareness of economic damage to US companies themselves might not prevent Washington from taking such a step",
+      "translated_title": "EU fears US diesel export ban — Der Spiegel",
+      "summary_sentences": [
+        "The EU fears a US diesel export ban, according to Der Spiegel.",
+        "The EC noted that even awareness of economic damage to US companies themselves might not prevent Washington from taking such a step."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 16,
+      "attempt_number": 17,
+      "model": "gpt-6-astra",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Sberbank launches direct business settlements with Myanmar",
+      "original_url": "https://tass.com/economy/2198929",
+      "prepared_text": "The bank's press service explained that Sberbank’s Indian branch will serve as a key element of the new arrangement",
+      "translated_title": "Sberbank launches direct business settlements with Myanmar",
+      "summary_sentences": [
+        "Sberbank has launched direct business settlements with Myanmar, with its Indian branch serving as a key element of the new arrangement, the bank’s press service explained."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 17,
+      "attempt_number": 18,
+      "model": "gpt-6-astra",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Kazakh president congratulates Putin on his birthday",
+      "original_url": "https://tass.com/world/2198931",
+      "prepared_text": "President Kassym-Jomart Tokayev highlighted Vladimir Putin’s outstanding role in Russia’s development and his tireless efforts for the benefit of the Russian people",
+      "translated_title": "Kazakh president congratulates Putin on his birthday",
+      "summary_sentences": [
+        "Kazakh President Kassym-Jomart Tokayev congratulated Vladimir Putin on his birthday, highlighting his outstanding role in Russia’s development and his tireless efforts for the benefit of the Russian people."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 18,
+      "attempt_number": 19,
+      "model": "gpt-6-astra",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "International organizations offer no help over Alyoshki situation — governor",
+      "original_url": "https://tass.com/politics/2198927",
+      "prepared_text": "\"The conduct of organizations whose charters require them to act in people’s interests is a matter for their conscience,\" Vladimir Saldo said",
+      "translated_title": "International organizations offer no help over Alyoshki situation — governor",
+      "summary_sentences": [
+        "Governor Vladimir Saldo said international organizations offer no help over the situation in Alyoshki, calling the conduct of organizations whose charters require them to act in people’s interests a matter for their conscience."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 19,
+      "attempt_number": 20,
+      "model": "gpt-6-astra",
+      "country": "Russia",
+      "target_language": "en",
+      "text_basis": "rss_summary",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Russia budgets nearly $468 mln for farm machinery programs in 2027-2029",
+      "original_url": "https://tass.com/economy/2198921",
+      "prepared_text": "A total of $17.55 mln is expected to be allocated to DOM.RF’s preferential leasing program next year",
+      "translated_title": "Russia budgets nearly $468 mln for farm machinery programs in 2027-2029",
+      "summary_sentences": [
+        "Russia budgets nearly $468 mln for farm machinery programs in 2027-2029.",
+        "A total of $17.55 mln is expected to be allocated to DOM.RF’s preferential leasing program next year."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 20,
+      "attempt_number": 21,
+      "model": "gpt-6-astra",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Zelensky calls on world to increase pressure on Russia",
+      "original_url": "https://www.ukrinform.net/rubric-ato/4172054-zelensky-calls-on-world-to-increase-pressure-on-russia.html",
+      "prepared_text": "Zelensky calls on world to increase pressure on Russia\nThe head of state wrote this on Facebook, Ukrinform reports.\n\"The Russians know very well that they are striking ordinary cities, ordinary life. And the continued use of missiles against Ukraine, against our people, our children, is an absolutely deliberate choice of terror. This is what Moscow chooses – despite all our efforts with partners to bring peace closer. And this is a clear reason why more pressure on Russia is needed and why Ukraine needs more defense packages. It is important that leaders understand this. It is important that the world not remain silent today,\" he said.\n1 / 15\nAftermath of the missile attack on Pryluky / Photo: State Emergency Service of Ukraine\nZelensky said that rescue workers were continuing to clear the rubble at the site where a Russian missile struck a residential building in Pryluky.\n\"As of now, 18 people have been reported killed, four of them children: Oleksandr, Kyrylo, and Serhii, who were only one year old, and eight-year-old Maksym. My condolences to all their families and loved ones,\" he said.\nThe president added that dozens of people were injured in the Russian strike, including seven children. According to him, all emergency services have been deployed and are working at the scene.\n\"Fifteen people were rescued, including one child. There are still people who have not yet been accounted for,\" he said.\nAs Ukrinform reported, three days of mourning have been declared in Pryluky, Chernihiv region, from October 7 to 9 for those killed in the Russian missile strike on an apartment building on October 7.",
+      "translated_title": "Zelensky calls on world to increase pressure on Russia",
+      "summary_sentences": [
+        "Zelensky called for increased international pressure on Russia and more defense packages for Ukraine, describing continued Russian missile strikes as an \"absolutely deliberate choice of terror.\"",
+        "He said a Russian missile strike on a residential building in Pryluky had left 18 people reported killed, including four children, and dozens injured, while rescuers continued clearing rubble and people remained unaccounted for."
+      ],
+      "sampled_for_review": true
+    },
+    {
+      "input_index": 21,
+      "attempt_number": 22,
+      "model": "gpt-6-astra",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "needs_review",
+      "issues": [
+        {
+          "code": "number_not_matched",
+          "message": "These output quantities could not be matched automatically to source quantities: 35. Verify units, written numbers, dates, and rounding manually."
+        }
+      ],
+      "original_title": "Missile attack on Kremenchuk: Two killed, injury toll rises to 41",
+      "original_url": "https://www.ukrinform.net/rubric-ato/4172045-missile-attack-on-kremenchuk-two-killed-injury-toll-rises-to-41.html",
+      "prepared_text": "Missile attack on Kremenchuk: Two killed, injury toll rises to 41\nphotos\nUkrinform\nIn Kremenchuk, Poltava region, 41 people were injured as a result of an enemy attack, and two deaths have been reported.\nAccording to Ukrinform, Vitalii Dyakivnych, head of the Poltava Regional Military Administration, reported this on Telegram.\nAs of 17:00, the number of people injured in the Russian shelling of Kremenchuk had risen to 41.\nAftermath of the missile attack on Kremenchuk / Photo: State Emergency Service of Ukraine\nAs Ukrinform reported, a massive Russian missile attack on Kremenchuk, Poltava region, damaged apartment buildings and killed two people. Earlier, 34 injuries had been reported.\nFive apartment buildings were damaged, containing a total of 431 apartments. Thirty-five private houses were also damaged. Another six private residential houses were destroyed.",
+      "translated_title": "Missile attack on Kremenchuk: Two killed, injury toll rises to 41",
+      "summary_sentences": [
+        "A Russian missile attack on Kremenchuk, Poltava region, killed two people, while the injury toll rose from 34 to 41 as of 17:00, according to regional military administration head Vitalii Dyakivnych.",
+        "The attack damaged five apartment buildings containing 431 apartments and 35 private houses, and destroyed six other private residential houses."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 22,
+      "attempt_number": 23,
+      "model": "gpt-6-astra",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Drone debris falls on residential building in Kyiv's Solomianskyi district, leaving two injured",
+      "original_url": "https://www.ukrinform.net/rubric-ato/4172043-drone-debris-falls-on-residential-building-in-kyivs-solomianskyi-district-leaving-two-injured.html",
+      "prepared_text": "Drone debris falls on residential building in Kyiv's Solomianskyi district, leaving two injured\nThe Kyiv City Military Administration (KCMA) reported this on Telegram, according to Ukrinform.\n\"In the Solomianskyi district, a fire broke out in a five-story residential building as a result of falling debris,\" the statement said.\nLater, Kyiv Mayor Vitali Klitschko reported that, in the Solomianskyi district, an attack by enemy forces caused a fire at a private residential house. In addition, one person was preliminarily reported injured at another location. Emergency services were heading to the sites.\nKlitschko later reported that two people were injured as a result of falling drone debris.\n\"Two people were injured in the Solomianskyi district. Both injured people were hospitalized by medics,\" Klitschko wrote.\nAs Ukrinform reported, two people were killed in Kyiv's Darnytskyi district as a result of a Russian attack overnight on October 7.",
+      "translated_title": "Drone debris falls on residential building in Kyiv's Solomianskyi district, leaving two injured",
+      "summary_sentences": [
+        "Falling drone debris sparked a fire in a five-story residential building in Kyiv's Solomianskyi district, the Kyiv City Military Administration reported.",
+        "Mayor Vitali Klitschko said two people were injured by falling drone debris in the district and both were hospitalized."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 23,
+      "attempt_number": 24,
+      "model": "gpt-6-astra",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "Hungary greenlights opening of EU accession negotiation clusters 2 and 3 – Sybiha",
+      "original_url": "https://www.ukrinform.net/rubric-polytics/4172018-hungary-greenlights-opening-of-eu-accession-negotiation-clusters-2-and-3-sybiha.html",
+      "prepared_text": "Hungary greenlights opening of EU accession negotiation clusters 2 and 3 – Sybiha\nUkrainian Foreign Minister Andrii Sybiha said this on social media platform X, according to Ukrinform.\n\"Ukraine's EU accession is moving forward step by step. Ukraine and Hungary are taking steps towards each other and towards European unity together,\" he said.\nHe recalled that these days, a bill aimed at regulating the educational rights of national communities was registered in the Ukrainian parliament and approved by the relevant parliamentary committee.\n\"Today, at the COREPER level, the Hungarian side gave the 'green light' to the negotiating positions on Cluster 2 'Internal Market,' and Cluster 3, 'Competitiveness and Inclusive Growth.' Thank you, Anita Orban, for the teamwork, which is at once in the interests of our friendly nations and of a strong Europe,\" Sybiha said.\nAs reported, a bill titled introducing amendments to certain laws of Ukraine on ensuring the educational rights of indigenous peoples of Ukraine and persons belonging to national minorities (communities) of Ukraine has been registered in the Verkhovna Rada.\nSerhii Babak, chairman of the Verkhovna Rada Committee on Education, Science and Innovation, said that the initiative is intended to regulate the educational rights of Ukraine's indigenous peoples and national minorities whose languages are official languages of the European Union, and to fulfill an important part of Ukraine's European integration commitments.\nAccording to Verkhovna Rada Chairman Ruslan Stefanchuk, the parliament plans to resume work on October 12 and consider a number of important bills, including those related to European integration and unblocking the EU accession negotiation clusters.",
+      "translated_title": "Hungary greenlights opening of EU accession negotiation clusters 2 and 3 – Sybiha",
+      "summary_sentences": [
+        "Ukrainian Foreign Minister Andrii Sybiha said Hungary gave the green light at the COREPER level to negotiating positions on Ukraine’s EU accession Cluster 2, “Internal Market,” and Cluster 3, “Competitiveness and Inclusive Growth.”",
+        "He also noted that a bill regulating the educational rights of national communities had been registered in Ukraine’s parliament and approved by the relevant parliamentary committee."
+      ],
+      "sampled_for_review": false
+    },
+    {
+      "input_index": 24,
+      "attempt_number": 25,
+      "model": "gpt-6-astra",
+      "country": "Ukraine",
+      "target_language": "en",
+      "text_basis": "article",
+      "original_status": "success",
+      "qc_status": "not_flagged",
+      "issues": [],
+      "original_title": "MFA currently sees no threat to Ukraine from possible plague outbreak in Russia",
+      "original_url": "https://www.ukrinform.net/rubric-polytics/4172008-mfa-currently-sees-no-threat-to-ukraine-from-possible-plague-outbreak-in-russia.html",
+      "prepared_text": "MFA currently sees no threat to Ukraine from possible plague outbreak in Russia\nUkrainian Foreign Ministry spokesperson Heorhii Tykhyi said this at a briefing on Wednesday, according to an Ukrinform correspondent.\n\"We are monitoring the situation, as are our competent authorities and healthcare system. Literally just days ago, I heard one of their briefings myself, so they are monitoring the situation there very closely. As of now, there is no threat to Ukraine,\" he said.\nTykhyi noted that Ukraine has a visa regime with Russia and there is no passenger traffic between the countries, while other countries are closing their borders with Russia.\n\"Unfortunately, the Russian regime is repeating all the same patterns that existed under the Soviet regime, especially during its final stage, when the regime was unable to guarantee even minimal safety to its people... Who can even imagine why this is happening in the 21st century?\" the diplomat added.\nOn October 2, a 28-year-old laboratory technician at the Irkutsk Anti-Plague Research Institute, Darya Shipilova, was reported dead in the Irkutsk region. She was suspected of having the pneumonic form of plague. According to one account, she broke a test tube containing the pathogen in the laboratory on September 25. According to another, she had returned from a work trip to Buryatia, where a plague outbreak had been reported near the border with Mongolia.\nHowever, Russian authorities deny that there is plague in the country. In particular, according to Russia's Federal Service for Surveillance on Consumer Rights Protection and Human Wellbeing (Rospotrebnadzor), Shipilova died from \"pneumonia of unknown etiology\" related to her professional activities. No microorganisms were detected in her, and there were no accidents involving pathogens at the institute.\nDespite this, Russian authorities introduced quarantine measures at a number of facilities in Irkutsk, including clinical and children's hospitals and a maternity hospital. Starting October 2, employees of the Irkutsk Anti-Plague Research Institute were isolated inside the facility. That same day, Rospotrebnadzor chief Anna Popova arrived in Irkutsk and took part in a meeting of the regional sanitary and anti-epidemic commission over suspicions of a \"particularly dangerous infection.\" According to official data, all identified contacts were placed under medical observation.",
+      "translated_title": "MFA currently sees no threat to Ukraine from possible plague outbreak in Russia",
+      "summary_sentences": [
+        "Ukrainian Foreign Ministry spokesperson Heorhii Tykhyi said authorities are closely monitoring a possible plague outbreak in Russia and currently see no threat to Ukraine, noting the visa regime and lack of passenger traffic between the countries.",
+        "The death of Irkutsk laboratory technician Darya Shipilova, who was suspected of having pneumonic plague, was reported on October 2; Russian authorities deny plague is present but imposed quarantine measures at several Irkutsk facilities and placed identified contacts under medical observation."
+      ],
+      "sampled_for_review": false
+    }
+  ]
+}

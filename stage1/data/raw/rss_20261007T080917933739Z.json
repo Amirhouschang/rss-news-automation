@@ -1,0 +1,2135 @@
+{
+  "fetched_at": "2026-10-07T08:09:21.612786+00:00",
+  "sources": [
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "feed_url": "https://www.tagesschau.de/index~rss2.xml",
+      "success": true,
+      "entry_count": 71,
+      "error_message": null
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "feed_url": "https://www.irna.ir/rss",
+      "success": true,
+      "entry_count": 30,
+      "error_message": null
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "feed_url": "https://www.chinanews.com.cn/rss/scroll-news.xml",
+      "success": true,
+      "entry_count": 30,
+      "error_message": null
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "feed_url": "https://tass.ru/rss/v2.xml",
+      "success": true,
+      "entry_count": 100,
+      "error_message": null
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "feed_url": "https://www.ukrinform.ua/rss/block-lastnews",
+      "success": true,
+      "entry_count": 30,
+      "error_message": null
+    }
+  ],
+  "entries": [
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "SPD-Bundesspitze fordert von der CDU Aufklärung zu Sachsen-Anhalt",
+      "published_at": "Wed, 07 Oct 2026 09:19:37 +0200",
+      "updated_at": "2026-10-07T07:19:37Z",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/spd-reaktion-koalition-sachsenanhalt-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Sachsen-Anhalt: AfD-Erfolg bringt CDU und Schulze in Bedrängnis",
+      "published_at": "Tue, 06 Oct 2026 18:22:39 +0200",
+      "updated_at": "2026-10-06T16:22:39Z",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/magdeburg-afd-landtagspraesident-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "AfD-Landtagspräsident in Sachsen-Anhalt: Sicher ist nichts mehr",
+      "published_at": "Tue, 06 Oct 2026 20:01:14 +0200",
+      "updated_at": "2026-10-06T18:01:14Z",
+      "original_url": "https://www.tagesschau.de/kommentar/sachsen-anhalt-wahl-landtagspraesident-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Livestream: Die Nachrichten auf tagesschau24",
+      "published_at": "Tue, 06 Oct 2026 13:05:15 +0200",
+      "updated_at": "2026-10-06T11:05:15Z",
+      "original_url": "https://www.tagesschau.de/multimedia/livestreams/livestream-ts24-104.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Tobias Rausch als erster AfD-Politiker zum Landtagspräsidenten gewählt",
+      "published_at": "Tue, 06 Oct 2026 16:16:12 +0200",
+      "updated_at": "2026-10-06T14:16:12Z",
+      "original_url": "https://www.tagesschau.de/video/video-1661466.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Ex-BND-Präsident Hanning wegen Spionageverdacht festgenommen",
+      "published_at": "Tue, 06 Oct 2026 16:12:55 +0200",
+      "updated_at": "2026-10-06T14:12:55Z",
+      "original_url": "https://www.tagesschau.de/video/video-1661458.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "\"Spektakulärer Fall“: ARD-Reporter zur Festnahme von Ex-BND-Chef Hanning",
+      "published_at": "Tue, 06 Oct 2026 10:51:57 +0200",
+      "updated_at": "2026-10-06T08:51:57Z",
+      "original_url": "https://www.tagesschau.de/video/video-1661250.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Frankfurter Buchmesse eröffnet zum 78. Mal",
+      "published_at": "Tue, 06 Oct 2026 15:26:15 +0200",
+      "updated_at": "2026-10-06T13:26:15Z",
+      "original_url": "https://www.tagesschau.de/video/video-1661408.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Erster Koalitionsausschuss nach Sommerpause könnte Klärung beim umstrittenen Reformpaket bringen",
+      "published_at": "Wed, 07 Oct 2026 05:51:42 +0200",
+      "updated_at": "2026-10-07T03:51:42Z",
+      "original_url": "https://www.tagesschau.de/video/video-1661802.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Ex-BND-Chef Hanning wird nach Festnahme wegen Spionageverdachts Ermittlungsrichter vorgeführt",
+      "published_at": "Wed, 07 Oct 2026 07:06:57 +0200",
+      "updated_at": "2026-10-07T05:06:57Z",
+      "original_url": "https://www.tagesschau.de/video/video-1661808.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Christa Pike nach gescheitertem Hinrichtungsversuch wieder bei Bewusstsein",
+      "published_at": "Wed, 07 Oct 2026 05:37:59 +0200",
+      "updated_at": "2026-10-07T03:37:59Z",
+      "original_url": "https://www.tagesschau.de/video/video-1661798.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "129 Tage in der Hand der Hamas: Das neue Leben des Luis Har",
+      "published_at": "Wed, 07 Oct 2026 03:01:01 +0200",
+      "updated_at": "2026-10-07T01:01:01Z",
+      "original_url": "https://www.tagesschau.de/ausland/asien/129-tage-hamas-har-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Bundeskanzler Merz sichert Israel Beistand zu",
+      "published_at": "Wed, 07 Oct 2026 05:20:19 +0200",
+      "updated_at": "2026-10-07T03:20:19Z",
+      "original_url": "https://www.tagesschau.de/inland/israel-hamas-merz-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Hamas-Massaker: Was am 7. Oktober 2023 in Israels Süden geschah",
+      "published_at": "Mon, 07 Oct 2024 06:19:11 +0200",
+      "updated_at": "2024-10-07T04:19:11Z",
+      "original_url": "https://www.tagesschau.de/ausland/asien/israel-hamas-was-am-7-oktober-geschah-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Ex-BND-Chef Hanning wird heute dem Ermittlungsrichter vorgeführt",
+      "published_at": "Wed, 07 Oct 2026 08:06:22 +0200",
+      "updated_at": "2026-10-07T06:06:22Z",
+      "original_url": "https://www.tagesschau.de/inland/hanning-bnd-chef-ermittlungsrichter-bgh-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Vorsitz des Parlamentarischen Kontrollgremiums Henrichmann im Interview",
+      "published_at": "Wed, 07 Oct 2026 00:05:31 +0200",
+      "updated_at": "2026-10-06T22:05:31Z",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/interview-pkgr-henrichmann-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "11KM-Podcast: Hat Hanning spioniert? Was die Ermittlungen bedeuten",
+      "published_at": "Wed, 07 Oct 2026 06:26:42 +0200",
+      "updated_at": "2026-10-07T04:26:42Z",
+      "original_url": "https://www.tagesschau.de/multimedia/podcast/11km/11km-spionage-vorwurf-ex-bnd-chef-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Lungenpest-Verdacht in Russland - WHO und USA fordern Aufklärung",
+      "published_at": "Wed, 07 Oct 2026 08:51:43 +0200",
+      "updated_at": "2026-10-07T06:51:43Z",
+      "original_url": "https://www.tagesschau.de/ausland/asien/todesfall-lungenpest-russland-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Mindestens zwei Tote bei russischem Angriff auf Kiew",
+      "published_at": "Wed, 07 Oct 2026 09:15:47 +0200",
+      "updated_at": "2026-10-07T07:15:47Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/russland-greift-kiew-an-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "USA: Frau nach gescheiterter Hinrichtung wieder bei Bewusstsein",
+      "published_at": "Wed, 07 Oct 2026 01:56:42 +0200",
+      "updated_at": "2026-10-06T23:56:42Z",
+      "original_url": "https://www.tagesschau.de/ausland/amerika/christa-pike-hinrichtung-bewusstsein-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "BR-Recherche zu Pestiziden - Mehr als 50 Wirkstoffe scheitern an EU-Prüfung",
+      "published_at": "Wed, 07 Oct 2026 06:00:21 +0200",
+      "updated_at": "2026-10-07T04:00:21Z",
+      "original_url": "https://www.tagesschau.de/investigativ/br-recherche/eu-neuregelung-pestizid-zulassung-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Sorgen um Geld: Frauen fühlen sich finanziell unsicherer",
+      "published_at": "Wed, 07 Oct 2026 09:14:12 +0200",
+      "updated_at": "2026-10-07T07:14:12Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/finanzen/finanzen-frauen-sicherheit-unsicher-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Selbstständige erhalten keinen Mutterschutz",
+      "published_at": "Wed, 07 Oct 2026 09:03:20 +0200",
+      "updated_at": "2026-10-07T07:03:20Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/mutterschutz-selbststaendige-110.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Verbraucherpolitiker kritisieren Schufa wegen mangelnder Transparenz",
+      "published_at": "Wed, 07 Oct 2026 06:59:20 +0200",
+      "updated_at": "2026-10-07T04:59:20Z",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/schufa-bundestag-kritik-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Was die Metall-Tarifrunde so kompliziert macht",
+      "published_at": "Wed, 07 Oct 2026 06:06:08 +0200",
+      "updated_at": "2026-10-07T04:06:08Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ig-metall-tarifverhandlungen-104.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Hollywood-Legende Eva Marie Saint mit 102 Jahren gestorben",
+      "published_at": "Wed, 07 Oct 2026 09:07:20 +0200",
+      "updated_at": "2026-10-07T07:07:20Z",
+      "original_url": "https://www.tagesschau.de/kultur/eva-marie-saint-gestorben-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Anna Politkowskaja: Die Journalistin, die zu mächtige Feinde hatte",
+      "published_at": "Wed, 07 Oct 2026 03:49:47 +0200",
+      "updated_at": "2026-10-07T01:49:47Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/politkowskaja-journalistin-gedenken-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "UN-Menschenrechtsrat: Der Versuch, Menschenrechte vor KI zu schützen",
+      "published_at": "Wed, 07 Oct 2026 02:11:57 +0200",
+      "updated_at": "2026-10-07T00:11:57Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/un-menschenrechte-ki-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Vor EU-Besuch in China: Erwartungen so hoch wie das Handelsdefizit",
+      "published_at": "Tue, 06 Oct 2026 19:43:36 +0200",
+      "updated_at": "2026-10-06T17:43:36Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/eu-china-handelsgespraeche-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Schülerproteste in Frankreich: \"Uns wird nicht zugehört\"",
+      "published_at": "Tue, 06 Oct 2026 21:54:16 +0200",
+      "updated_at": "2026-10-06T19:54:16Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/schuelerproteste-frankreich-grossdemo-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Tränen und Standing Ovations - Lionel Messi nimmt Abschied",
+      "published_at": "Wed, 07 Oct 2026 08:18:59 +0200",
+      "updated_at": "2026-10-07T06:18:59Z",
+      "original_url": "https://www.sportschau.de/fussball/adios-argentinien-letztes-laenderspiel-von-messi,messi-abschied-argentinien-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Cristiano Ronaldo wirft Trainer Wortbruch vor und will weiterspielen",
+      "published_at": "Tue, 06 Oct 2026 23:00:29 +0200",
+      "updated_at": "2026-10-06T21:00:29Z",
+      "original_url": "https://www.sportschau.de/fussball/nationsleague/ronaldo-will-in-der-nationalmannschaft-weiterspielen,ronaldo-bleibt-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Rekord und Doppelpack für Kane im Spiel gegen Tschechien",
+      "published_at": "Wed, 07 Oct 2026 08:12:40 +0200",
+      "updated_at": "2026-10-07T06:12:40Z",
+      "original_url": "https://www.sportschau.de/fussball/nationsleague/rekord-und-doppelpack-kane-fuehrt-england-gegen-tschechien-zum-sieg,bericht-england-tschechien-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Ausstellung \"The 90s: Art and Fashion\" in der Tate Britain, Graureiher in Belgien, \"Schwanensee\" in Mexiko-Stadt",
+      "published_at": "Tue, 06 Oct 2026 13:22:03 +0200",
+      "updated_at": "2026-10-06T11:22:03Z",
+      "original_url": "https://www.tagesschau.de/multimedia/bilder/blickpunkte-10488.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "tagesthemen",
+      "published_at": "Tue, 06 Oct 2026 23:16:47 +0200",
+      "updated_at": "2026-10-06T21:16:47Z",
+      "original_url": "https://www.tagesschau.de/tagesthemen/tt-12900.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "tagesschau in 100 Sekunden",
+      "published_at": "Wed, 07 Oct 2026 10:07:05 +0200",
+      "updated_at": "2026-10-07T08:07:05Z",
+      "original_url": "https://www.tagesschau.de/tagesschau_in_100_sekunden/video-1661894.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "tagesschau",
+      "published_at": "Tue, 06 Oct 2026 20:31:29 +0200",
+      "updated_at": "2026-10-06T18:31:29Z",
+      "original_url": "https://www.tagesschau.de/tagesschau_20_uhr/ts-81294.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "tagesschau",
+      "published_at": "Wed, 07 Oct 2026 00:35:17 +0200",
+      "updated_at": "2026-10-06T22:35:17Z",
+      "original_url": "https://www.tagesschau.de/tagesschau/ts-81396.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "tagesschau in Einfacher Sprache",
+      "published_at": "Tue, 06 Oct 2026 17:36:58 +0200",
+      "updated_at": "2026-10-06T15:36:58Z",
+      "original_url": "https://www.tagesschau.de/tagesschau_in_einfacher_sprache/tse-1454.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "tagesschau mit Gebärdensprache",
+      "published_at": "Tue, 06 Oct 2026 20:30:52 +0200",
+      "updated_at": "2026-10-06T18:30:52Z",
+      "original_url": "https://www.tagesschau.de/tagesschau_mit_gebaerdensprache/tsg-12292.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Südböhmen in Tschechien: Trockenheit legt deutsche Gräber in Stausee frei",
+      "published_at": "Tue, 06 Oct 2026 10:38:29 +0200",
+      "updated_at": "2026-10-06T08:38:29Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/tschechien-trockenheit-graeber-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Bahn-Sanierung: Verkehrsministerium legt \"Infraplan\" vor",
+      "published_at": "Tue, 06 Oct 2026 20:57:31 +0200",
+      "updated_at": "2026-10-06T18:57:31Z",
+      "original_url": "https://www.tagesschau.de/inland/verkehrsministerium-bahn-infraplan-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Studie: Deutschlands Bevölkerung schrumpft bis 2045 deutlich",
+      "published_at": "Tue, 06 Oct 2026 17:21:43 +0200",
+      "updated_at": "2026-10-06T15:21:43Z",
+      "original_url": "https://www.tagesschau.de/inland/gesellschaft/bevoelkerungsrueckgang-bis-2045-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Entsetzen nach Festnahme des Ex-BND-Chefs Hanning",
+      "published_at": "Tue, 06 Oct 2026 17:51:40 +0200",
+      "updated_at": "2026-10-06T15:51:40Z",
+      "original_url": "https://www.tagesschau.de/inland/innenpolitik/festnahme-hanning-bnd-reaktionen-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Sachsen-Anhalt: AfD stellt mit Tillschneider auch Landtagsvizepräsident",
+      "published_at": "Tue, 06 Oct 2026 18:15:19 +0200",
+      "updated_at": "2026-10-06T16:15:19Z",
+      "original_url": "https://www.tagesschau.de/inland/sachsen-anhalt-landtagsvizepraesident-tillschneider-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Neuer Wehrdienst: Zahl der Kriegsdienstverweigerer stark angestiegen",
+      "published_at": "Tue, 06 Oct 2026 05:25:07 +0200",
+      "updated_at": "2026-10-06T03:25:07Z",
+      "original_url": "https://www.tagesschau.de/inland/kriegsdienstverweigerer-124.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Separatistenführer Puigdemont kann nach Spanien zurückkehren",
+      "published_at": "Tue, 06 Oct 2026 15:40:37 +0200",
+      "updated_at": "2026-10-06T13:40:37Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/spanien-puigdemont-verfassungsgericht-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Propaganda, Dementi und Unklarheit im Jemen-Krieg",
+      "published_at": "Tue, 06 Oct 2026 18:31:55 +0200",
+      "updated_at": "2026-10-06T16:31:55Z",
+      "original_url": "https://www.tagesschau.de/ausland/asien/jemen-propaganda-kaempfe-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Drohnenangriffe im Schwarzen Meer: Frachter vor Bulgarien gesunken",
+      "published_at": "Tue, 06 Oct 2026 13:00:35 +0200",
+      "updated_at": "2026-10-06T11:00:35Z",
+      "original_url": "https://www.tagesschau.de/ausland/europa/schwarzes-meer-drohnenangriff-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "US-Bundesstaat Pennsylvania meldet mehr als 1.000 Masern-Fälle",
+      "published_at": "Tue, 06 Oct 2026 11:36:32 +0200",
+      "updated_at": "2026-10-06T09:36:32Z",
+      "original_url": "https://www.tagesschau.de/ausland/amerika/pennsylvania-masern-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Ermittler nehmen Ex-BND-Chef Hanning fest",
+      "published_at": "Tue, 06 Oct 2026 10:06:45 +0200",
+      "updated_at": "2026-10-06T08:06:45Z",
+      "original_url": "https://www.tagesschau.de/investigativ/ndr-wdr/bnd-hanning-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Wie starre Hierarchien in Kliniken Machtmissbrauch ermöglichen",
+      "published_at": "Tue, 06 Oct 2026 06:21:58 +0200",
+      "updated_at": "2026-10-06T04:21:58Z",
+      "original_url": "https://www.tagesschau.de/investigativ/ndr/medtoo-machtmissbrauch-krankenhaus-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Fake-Videos aus Russland sollen Vertrauen in Wahlen erschüttern",
+      "published_at": "Mon, 21 Sep 2026 14:40:45 +0200",
+      "updated_at": "2026-09-21T12:40:45Z",
+      "original_url": "https://www.tagesschau.de/faktenfinder/fakes-wahlen-mecklenburg-vorpommern-berlin-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Nobelpreis für Physik: Auszeichnung für Nachweis von \"Geistern aus dem All\"",
+      "published_at": "Tue, 06 Oct 2026 17:23:56 +0200",
+      "updated_at": "2026-10-06T15:23:56Z",
+      "original_url": "https://www.tagesschau.de/wissen/physiknobelpreis-francis-halzen-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Nobelpreisträger Hegemann in den tagesthemen: \"Ich bin natürlich überwältigt\"",
+      "published_at": "Mon, 05 Oct 2026 21:37:30 +0200",
+      "updated_at": "2026-10-05T19:37:30Z",
+      "original_url": "https://www.tagesschau.de/wissen/forschung/tagesthemen-interview-hegemann-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Optogenetik: Medizin-Nobelpreis für den Lichtschalter im Gehirn",
+      "published_at": "Mon, 05 Oct 2026 16:53:43 +0200",
+      "updated_at": "2026-10-05T14:53:43Z",
+      "original_url": "https://www.tagesschau.de/wissen/gesundheit/optogenetik-nobelpreis-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Paramount übernimmt Warner offiziell - große Fusion in Hollywood",
+      "published_at": "Tue, 06 Oct 2026 17:18:04 +0200",
+      "updated_at": "2026-10-06T15:18:04Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/unternehmen/paramount-warner-uebernahme-102.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Warum ein Studium keine Jobgarantie mehr ist",
+      "published_at": "Tue, 06 Oct 2026 06:23:54 +0200",
+      "updated_at": "2026-10-06T04:23:54Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/verbraucher/ausbildung-oder-studium-was-lohnt-sich-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Tankstellen: Verstöße gegen die 12-Uhr-Regel werden weniger",
+      "published_at": "Tue, 06 Oct 2026 15:29:54 +0200",
+      "updated_at": "2026-10-06T13:29:54Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/verbraucher/zwoelf-uhr-tank-regel-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Kaufpreise für E-Autos nähern sich Verbrennern an",
+      "published_at": "Tue, 06 Oct 2026 10:21:54 +0200",
+      "updated_at": "2026-10-06T08:21:54Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/verbraucher/preise-e-autos-verbrenner-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Freigabe der Ölreserven: Was bringt das für die Preise?",
+      "published_at": "Tue, 06 Oct 2026 09:13:43 +0200",
+      "updated_at": "2026-10-06T07:13:43Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/energie/freigabe-oelreserven-preise-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Ölpreis dürfte DAX ausbremsen",
+      "published_at": "Wed, 07 Oct 2026 07:49:28 +0200",
+      "updated_at": "2026-10-07T05:49:28Z",
+      "original_url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nasdaq-118.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Deutsche U21 fährt dank Sieg gegen Georgien zur EM 2027",
+      "published_at": "Tue, 06 Oct 2026 20:26:55 +0200",
+      "updated_at": "2026-10-06T18:26:55Z",
+      "original_url": "https://www.sportschau.de/fussball/u21/deutsche-u21-faehrt-dank-sieg-gegen-georgien-zur-em-2027,u21-em-qualifikation-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Sechs Konkurrenten für München um Olympia 2036",
+      "published_at": "Tue, 06 Oct 2026 13:06:02 +0200",
+      "updated_at": "2026-10-06T11:06:02Z",
+      "original_url": "https://www.sportschau.de/regional/br/br-ioc-102.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Jüdische Kulturvermittlung: Ein Bus gegen den Hass",
+      "published_at": "Tue, 06 Oct 2026 16:50:19 +0200",
+      "updated_at": "2026-10-06T14:50:19Z",
+      "original_url": "https://www.tagesschau.de/kultur/antisemitismus-bus-juedisches-museum-berlin-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Bestsellerautor Jeffrey Archer mit 86 Jahren gestorben",
+      "published_at": "Tue, 06 Oct 2026 09:24:16 +0200",
+      "updated_at": "2026-10-06T07:24:16Z",
+      "original_url": "https://www.tagesschau.de/kultur/literatur-tod-jeffreyarcher-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Frankfurter Buchmesse von Existenzangst und KI-Sorgen überschattet",
+      "published_at": "Tue, 06 Oct 2026 06:22:55 +0200",
+      "updated_at": "2026-10-06T04:22:55Z",
+      "original_url": "https://www.tagesschau.de/kultur/frankfurter-buchmesse-2026-ausblick-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Frankfurter Buchmesse: Shida Bazyar erhält Deutschen Buchpreis 2026",
+      "published_at": "Mon, 05 Oct 2026 19:21:22 +0200",
+      "updated_at": "2026-10-05T17:21:22Z",
+      "original_url": "https://www.tagesschau.de/inland/regional/hessen/hr-shida-bazyar-buchpreis-2026-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Wetter Deutschland: Wolken, Temperaturen, Wind und Aussichten",
+      "published_at": "Wed, 07 Oct 2026 08:21:07 +0200",
+      "updated_at": "2026-10-07T06:21:07Z",
+      "original_url": "https://www.tagesschau.de/wetter/deutschland/wettervorhersage-deutschland-100.html"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "Regenradar Deutschland: Aktueller Niederschlag",
+      "published_at": "Sat, 06 Jun 2026 17:23:12 +0200",
+      "updated_at": "2026-06-06T15:23:12Z",
+      "original_url": "https://www.tagesschau.de/wetter/regenradar-deutschland"
+    },
+    {
+      "country": "Germany",
+      "source": "Germany / Tagesschau",
+      "original_title": "15 Minuten: Festnahme Ex-BND-Chef, Spritklau, Koffein-Shampoos",
+      "published_at": "Wed, 07 Oct 2026 06:31:30 +0200",
+      "updated_at": "2026-10-07T04:31:30Z",
+      "original_url": "https://www.tagesschau.de/multimedia/podcast/15-minuten/15-min-podcast-wahl-sachsen-anhalt-vw-aldi-lidl-bonus-app-102.html"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "۱۹۴ کودک کار مازندران سر و سامان گرفتند",
+      "published_at": "Wed, 07 Oct 2026 08:07:54 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:07:54 GMT",
+      "original_url": "https://www.irna.ir/news/86285650/%DB%B1%DB%B9%DB%B4-%DA%A9%D9%88%D8%AF%DA%A9-%DA%A9%D8%A7%D8%B1-%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86-%D8%B3%D8%B1-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86-%DA%AF%D8%B1%D9%81%D8%AA%D9%86%D8%AF"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "تجربه‌نگاری از چالش‌های توسعه گردشگری ایران",
+      "published_at": "Wed, 07 Oct 2026 08:04:57 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:04:57 GMT",
+      "original_url": "https://www.irna.ir/news/86285800/%D8%AA%D8%AC%D8%B1%D8%A8%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%DA%86%D8%A7%D9%84%D8%B4-%D9%87%D8%A7%DB%8C-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%DA%AF%D8%B1%D8%AF%D8%B4%DA%AF%D8%B1%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "سرشماری عمومی نفوس و مسکن در تهران، مهر ۱۳۶۵",
+      "published_at": "Wed, 07 Oct 2026 08:04:52 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:04:52 GMT",
+      "original_url": "https://www.irna.ir/photo/86285789/%D8%B3%D8%B1%D8%B4%D9%85%D8%A7%D8%B1%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C-%D9%86%D9%81%D9%88%D8%B3-%D9%88-%D9%85%D8%B3%DA%A9%D9%86-%D8%AF%D8%B1-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D9%85%D9%87%D8%B1-%DB%B1%DB%B3%DB%B6%DB%B5"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "«نهضت جمع‌آوری نخاله و پسماند» در روستاهای بزرگ ایرانشهر اجرا می‌شود",
+      "published_at": "Wed, 07 Oct 2026 08:03:05 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:03:05 GMT",
+      "original_url": "https://www.irna.ir/news/86285530/%D9%86%D9%87%D8%B6%D8%AA-%D8%AC%D9%85%D8%B9-%D8%A2%D9%88%D8%B1%DB%8C-%D9%86%D8%AE%D8%A7%D9%84%D9%87-%D9%88-%D9%BE%D8%B3%D9%85%D8%A7%D9%86%D8%AF-%D8%AF%D8%B1-%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%D9%87%D8%A7%DB%8C-%D8%A8%D8%B2%D8%B1%DA%AF-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B4%D9%87%D8%B1-%D8%A7%D8%AC%D8%B1%D8%A7"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "۳۰ درصد گوشت قرمز موردنیاز دزفول توسط عشایر تولید می‌شود",
+      "published_at": "Wed, 07 Oct 2026 08:02:32 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:02:32 GMT",
+      "original_url": "https://www.irna.ir/news/86285671/%DB%B3%DB%B0-%D8%AF%D8%B1%D8%B5%D8%AF-%DA%AF%D9%88%D8%B4%D8%AA-%D9%82%D8%B1%D9%85%D8%B2-%D9%85%D9%88%D8%B1%D8%AF%D9%86%DB%8C%D8%A7%D8%B2-%D8%AF%D8%B2%D9%81%D9%88%D9%84-%D8%AA%D9%88%D8%B3%D8%B7-%D8%B9%D8%B4%D8%A7%DB%8C%D8%B1-%D8%AA%D9%88%D9%84%DB%8C%D8%AF-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "معاون وزیر صمت: شرکت تدبیر کالای جم برای تامین منابع مالی و ارزی اعلام آمادگی کند",
+      "published_at": "Wed, 07 Oct 2026 08:01:44 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:01:44 GMT",
+      "original_url": "https://www.irna.ir/news/86285805/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%B2%DB%8C%D8%B1-%D8%B5%D9%85%D8%AA-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AA%D8%AF%D8%A8%DB%8C%D8%B1-%DA%A9%D8%A7%D9%84%D8%A7%DB%8C-%D8%AC%D9%85-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%A7%D9%85%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D9%85%D8%A7%D9%84%DB%8C-%D9%88"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "تورم جهانی ناشی از تهاجم علیه ایران بودجه آینده اتحادیه اروپا را کوچک‌ می‌کند",
+      "published_at": "Wed, 07 Oct 2026 08:01:03 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:01:03 GMT",
+      "original_url": "https://www.irna.ir/news/86285741/%D8%AA%D9%88%D8%B1%D9%85-%D8%AC%D9%87%D8%A7%D9%86%DB%8C-%D9%86%D8%A7%D8%B4%DB%8C-%D8%A7%D8%B2-%D8%AA%D9%87%D8%A7%D8%AC%D9%85-%D8%B9%D9%84%DB%8C%D9%87-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D9%88%D8%AF%D8%AC%D9%87-%D8%A2%DB%8C%D9%86%D8%AF%D9%87-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%DB%8C%D9%87-%D8%A7%D8%B1%D9%88%D9%BE%D8%A7"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "۱۸ رشته انجمن‌های ورزشی در استان زنجان فعال است",
+      "published_at": "Wed, 07 Oct 2026 08:00:55 GMT",
+      "updated_at": "Wed, 07 Oct 2026 08:00:55 GMT",
+      "original_url": "https://www.irna.ir/news/86285770/%DB%B1%DB%B8-%D8%B1%D8%B4%D8%AA%D9%87-%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D9%87%D8%A7%DB%8C-%D9%88%D8%B1%D8%B2%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86-%D8%B2%D9%86%D8%AC%D8%A7%D9%86-%D9%81%D8%B9%D8%A7%D9%84-%D8%A7%D8%B3%D8%AA"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "رهبر کره‌شمالی: حمایت ما از روسیه همیشگی و تغییرناپذیر است",
+      "published_at": "Wed, 07 Oct 2026 07:59:42 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:59:42 GMT",
+      "original_url": "https://www.irna.ir/news/86285801/%D8%B1%D9%87%D8%A8%D8%B1-%DA%A9%D8%B1%D9%87-%D8%B4%D9%85%D8%A7%D9%84%DB%8C-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D9%85%D8%A7-%D8%A7%D8%B2-%D8%B1%D9%88%D8%B3%DB%8C%D9%87-%D9%87%D9%85%DB%8C%D8%B4%DA%AF%DB%8C-%D9%88-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D9%86%D8%A7%D9%BE%D8%B0%DB%8C%D8%B1-%D8%A7%D8%B3%D8%AA"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "۱۰ نفر از مصدومان مسابقات لیگ برتر دوچرخه سواری در آبسرد دماوند ترخیص شدند",
+      "published_at": "Wed, 07 Oct 2026 07:57:49 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:57:49 GMT",
+      "original_url": "https://www.irna.ir/news/86285790/%DB%B1%DB%B0-%D9%86%D9%81%D8%B1-%D8%A7%D8%B2-%D9%85%D8%B5%D8%AF%D9%88%D9%85%D8%A7%D9%86-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A7%D8%AA-%D9%84%DB%8C%DA%AF-%D8%A8%D8%B1%D8%AA%D8%B1-%D8%AF%D9%88%DA%86%D8%B1%D8%AE%D9%87-%D8%B3%D9%88%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1-%D8%A2%D8%A8%D8%B3%D8%B1%D8%AF-%D8%AF%D9%85%D8%A7%D9%88%D9%86%D8%AF"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "رهبری‌فرد: علی دایی رفیق باز نیست",
+      "published_at": "Wed, 07 Oct 2026 07:57:25 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:57:25 GMT",
+      "original_url": "https://www.irna.ir/news/86283554/%D8%B1%D9%87%D8%A8%D8%B1%DB%8C-%D9%81%D8%B1%D8%AF-%D8%B9%D9%84%DB%8C-%D8%AF%D8%A7%DB%8C%DB%8C-%D8%B1%D9%81%DB%8C%D9%82-%D8%A8%D8%A7%D8%B2-%D9%86%DB%8C%D8%B3%D8%AA"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "خط راه‌آهن شوشتر از هفته جاری فعال می‌شود",
+      "published_at": "Wed, 07 Oct 2026 07:57:22 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:57:22 GMT",
+      "original_url": "https://www.irna.ir/news/86285786/%D8%AE%D8%B7-%D8%B1%D8%A7%D9%87-%D8%A2%D9%87%D9%86-%D8%B4%D9%88%D8%B4%D8%AA%D8%B1-%D8%A7%D8%B2-%D9%87%D9%81%D8%AA%D9%87-%D8%AC%D8%A7%D8%B1%DB%8C-%D9%81%D8%B9%D8%A7%D9%84-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "اعتبار دهک‌بندی طرح «چشم روشنی» برای مادران تازه نوزاد تهران اعلام شد",
+      "published_at": "Wed, 07 Oct 2026 07:56:00 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:56:00 GMT",
+      "original_url": "https://www.irna.ir/news/86285762/%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%AF%D9%87%DA%A9-%D8%A8%D9%86%D8%AF%DB%8C-%D8%B7%D8%B1%D8%AD-%DA%86%D8%B4%D9%85-%D8%B1%D9%88%D8%B4%D9%86%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D8%A7%D8%AF%D8%B1%D8%A7%D9%86-%D8%AA%D8%A7%D8%B2%D9%87-%D9%86%D9%88%D8%B2%D8%A7%D8%AF-%D8%AA%D9%87%D8%B1%D8%A7%D9%86"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "تامین مالی زنجیره‌ای نهاده‌های کشاورزی با اوراق گام در خراسان رضوی",
+      "published_at": "Wed, 07 Oct 2026 07:55:05 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:55:05 GMT",
+      "original_url": "https://www.irna.ir/news/86285510/%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%AA%D8%A7%D9%85%DB%8C%D9%86-%D9%85%D8%A7%D9%84%DB%8C-%D8%B2%D9%86%D8%AC%DB%8C%D8%B1%D9%87-%D8%A7%DB%8C-%D9%86%D9%87%D8%A7%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%B4%D8%A7%D9%88%D8%B1%D8%B2%DB%8C-%D8%A8%D8%A7-%D8%A7%D9%88%D8%B1%D8%A7%D9%82-%DA%AF%D8%A7%D9%85-%D8%AF%D8%B1"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "۵۷ روستای خراسان‌شمالی زیر پوشش کتابخانه‌های سیار کانون",
+      "published_at": "Wed, 07 Oct 2026 07:54:28 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:54:28 GMT",
+      "original_url": "https://www.irna.ir/news/86285743/%DB%B5%DB%B7-%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%DB%8C-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86-%D8%B4%D9%85%D8%A7%D9%84%DB%8C-%D8%B2%DB%8C%D8%B1-%D9%BE%D9%88%D8%B4%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%B3%DB%8C%D8%A7%D8%B1-%DA%A9%D8%A7%D9%86%D9%88%D9%86"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "سومین طلای ایران در دوومیدانی ناشنوایان آسیا",
+      "published_at": "Wed, 07 Oct 2026 07:54:24 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:54:24 GMT",
+      "original_url": "https://www.irna.ir/news/86285809/%D8%B3%D9%88%D9%85%DB%8C%D9%86-%D8%B7%D9%84%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AF%D9%88%D9%88%D9%85%DB%8C%D8%AF%D8%A7%D9%86%DB%8C-%D9%86%D8%A7%D8%B4%D9%86%D9%88%D8%A7%DB%8C%D8%A7%D9%86-%D8%A2%D8%B3%DB%8C%D8%A7"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "روستاهای گرمسار در مسیر بازگشت به زندگی با احیای هویت بومی و محلی",
+      "published_at": "Wed, 07 Oct 2026 07:54:20 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:54:20 GMT",
+      "original_url": "https://www.irna.ir/news/86284936/%D8%B1%D9%88%D8%A7%DB%8C%D8%AA-%DA%A9%D9%88%DA%86-%D8%AA%D8%A7-%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA-%D8%A8%D9%87-%D8%B2%D9%86%D8%AF%DA%AF%DB%8C-%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%DB%8C%DB%8C-%D8%AC%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4%DB%8C-%D8%A8%D9%87-%D9%87%D9%88%DB%8C%D8%AA-%D8%A8%D9%88%D9%85%DB%8C-%D9%88"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "فراخوان ثبت‌نام طرح شهید وزوایی بنیاد ملی نخبگان ۱۴۰۶-۱۴۰۵ آغاز شد",
+      "published_at": "Wed, 07 Oct 2026 07:54:12 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:54:12 GMT",
+      "original_url": "https://www.irna.ir/news/86285792/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%AB%D8%A8%D8%AA-%D9%86%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD-%D8%B4%D9%87%DB%8C%D8%AF-%D9%88%D8%B2%D9%88%D8%A7%DB%8C%DB%8C-%D8%A8%D9%86%DB%8C%D8%A7%D8%AF-%D9%85%D9%84%DB%8C-%D9%86%D8%AE%D8%A8%DA%AF%D8%A7%D9%86-%DB%B1%DB%B4%DB%B0%DB%B6-%DB%B1%DB%B4%DB%B0%DB%B5-%D8%A2%D8%BA%D8%A7%D8%B2"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "مهلت انتخاب رشته آزمون سراسری و دانشجو - معلم ۱۶ مهر پایان می‌یابد",
+      "published_at": "Wed, 07 Oct 2026 07:52:20 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:52:20 GMT",
+      "original_url": "https://www.irna.ir/news/86285793/%D9%85%D9%87%D9%84%D8%AA-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%B1%D8%B4%D8%AA%D9%87-%D8%A2%D8%B2%D9%85%D9%88%D9%86-%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C-%D9%88-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88-%D9%85%D8%B9%D9%84%D9%85-%DB%B1%DB%B6-%D9%85%D9%87%D8%B1-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%85%DB%8C-%DB%8C%D8%A7%D8%A8%D8%AF"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "صادرات خراسان‌شمالی از مرز ۱۳۱ هزار تن گذشت",
+      "published_at": "Wed, 07 Oct 2026 07:50:59 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:50:59 GMT",
+      "original_url": "https://www.irna.ir/news/86285664/%D8%B5%D8%A7%D8%AF%D8%B1%D8%A7%D8%AA-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86-%D8%B4%D9%85%D8%A7%D9%84%DB%8C-%D8%A7%D8%B2-%D9%85%D8%B1%D8%B2-%DB%B1%DB%B3%DB%B1-%D9%87%D8%B2%D8%A7%D8%B1-%D8%AA%D9%86-%DA%AF%D8%B0%D8%B4%D8%AA"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "رضایی: اگر به دخترانی ایرانی اعتماد نداشتم به تهران نمی‌آمدم/ تنیس ایران می‌تواند موفق شود",
+      "published_at": "Wed, 07 Oct 2026 07:50:03 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:50:03 GMT",
+      "original_url": "https://www.irna.ir/news/86285330/%D8%B1%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%DA%AF%D8%B1-%D8%A8%D9%87-%D8%AF%D8%AE%D8%AA%D8%B1%D8%A7%D9%86%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C-%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF-%D9%86%D8%AF%D8%A7%D8%B4%D8%AA%D9%85-%D8%A8%D9%87-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D9%86%D9%85%DB%8C-%D8%A2%D9%85%D8%AF%D9%85"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "نامزد راست افراطی انتخابات برزیل وعده تغییر قانون اساسی داد",
+      "published_at": "Wed, 07 Oct 2026 07:49:53 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:49:53 GMT",
+      "original_url": "https://www.irna.ir/news/86285765/%D9%86%D8%A7%D9%85%D8%B2%D8%AF-%D8%B1%D8%A7%D8%B3%D8%AA-%D8%A7%D9%81%D8%B1%D8%A7%D8%B7%DB%8C-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A8%D8%B1%D8%B2%DB%8C%D9%84-%D9%88%D8%B9%D8%AF%D9%87-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D8%B3%D8%A7%D8%B3%DB%8C-%D8%AF%D8%A7%D8%AF"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "خراسان جنوبی در قاب خبر؛ مهم‌ترین رویدادهای ۱۵ مهر",
+      "published_at": "Wed, 07 Oct 2026 07:49:53 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:49:53 GMT",
+      "original_url": "https://www.irna.ir/news/86285772/%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86-%D8%AC%D9%86%D9%88%D8%A8%DB%8C-%D8%AF%D8%B1-%D9%82%D8%A7%D8%A8-%D8%AE%D8%A8%D8%B1-%D9%85%D9%87%D9%85-%D8%AA%D8%B1%DB%8C%D9%86-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%DB%B1%DB%B5-%D9%85%D9%87%D8%B1"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "همسایگی ۹۰ درصد صنف دخانیات مراغه با مدارس",
+      "published_at": "Wed, 07 Oct 2026 07:49:10 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:49:10 GMT",
+      "original_url": "https://www.irna.ir/news/86284652/%D9%87%D9%85%D8%B3%D8%A7%DB%8C%DA%AF%DB%8C-%DB%B9%DB%B0-%D8%AF%D8%B1%D8%B5%D8%AF-%D8%B5%D9%86%D9%81-%D8%AF%D8%AE%D8%A7%D9%86%DB%8C%D8%A7%D8%AA-%D9%85%D8%B1%D8%A7%D8%BA%D9%87-%D8%A8%D8%A7-%D9%85%D8%AF%D8%A7%D8%B1%D8%B3"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "روزنامه پاکستانی خواستار پرهیز دولت از اعزام نیرو به عربستان شد",
+      "published_at": "Wed, 07 Oct 2026 07:49:00 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:49:00 GMT",
+      "original_url": "https://www.irna.ir/news/86285738/%D8%B1%D9%88%D8%B2%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%A7%DA%A9%D8%B3%D8%AA%D8%A7%D9%86%DB%8C-%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%D9%BE%D8%B1%D9%87%DB%8C%D8%B2-%D8%AF%D9%88%D9%84%D8%AA-%D8%A7%D8%B2-%D8%A7%D8%B9%D8%B2%D8%A7%D9%85-%D9%86%DB%8C%D8%B1%D9%88-%D8%A8%D9%87-%D8%B9%D8%B1%D8%A8%D8%B3%D8%AA%D8%A7%D9%86"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "تعداد مراکز کاهش آسیب مواد مخدر در خراسان رضوی کاهش یافت",
+      "published_at": "Wed, 07 Oct 2026 07:48:42 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:48:42 GMT",
+      "original_url": "https://www.irna.ir/news/86285723/%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%DA%A9%D8%A7%D9%87%D8%B4-%D8%A2%D8%B3%DB%8C%D8%A8-%D9%85%D9%88%D8%A7%D8%AF-%D9%85%D8%AE%D8%AF%D8%B1-%D8%AF%D8%B1-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86-%D8%B1%D8%B6%D9%88%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%DB%8C%D8%A7%D9%81%D8%AA"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "ضریب پوشش بیمه اجتماعی روستاییان و عشایر خراسان جنوبی به ۵۰ درصد رسید",
+      "published_at": "Wed, 07 Oct 2026 07:48:30 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:48:30 GMT",
+      "original_url": "https://www.irna.ir/news/86285470/%D8%B6%D8%B1%DB%8C%D8%A8-%D9%BE%D9%88%D8%B4%D8%B4-%D8%A8%DB%8C%D9%85%D9%87-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C-%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%DB%8C%DB%8C%D8%A7%D9%86-%D9%88-%D8%B9%D8%B4%D8%A7%DB%8C%D8%B1-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86-%D8%AC%D9%86%D9%88%D8%A8%DB%8C-%D8%A8%D9%87-%DB%B5%DB%B0-%D8%AF%D8%B1%D8%B5%D8%AF"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "مشارکت های محلی در حفاظت از منابع طبیعی و توسعه پایدار فضای سبز توسعه می یابد",
+      "published_at": "Wed, 07 Oct 2026 07:48:09 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:48:09 GMT",
+      "original_url": "https://www.irna.ir/news/86285591/%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA-%D9%87%D8%A7%DB%8C-%D9%85%D8%AD%D9%84%DB%8C-%D8%AF%D8%B1-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B7%D8%A8%DB%8C%D8%B9%DB%8C-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%BE%D8%A7%DB%8C%D8%AF%D8%A7%D8%B1-%D9%81%D8%B6%D8%A7%DB%8C-%D8%B3%D8%A8%D8%B2"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "ضریب پوشش بیمه اجتماعی روستاییان در قزوین ۱۵ درصد افزایش یافت",
+      "published_at": "Wed, 07 Oct 2026 07:47:53 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:47:53 GMT",
+      "original_url": "https://www.irna.ir/news/86285773/%D8%B6%D8%B1%DB%8C%D8%A8-%D9%BE%D9%88%D8%B4%D8%B4-%D8%A8%DB%8C%D9%85%D9%87-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C-%D8%B1%D9%88%D8%B3%D8%AA%D8%A7%DB%8C%DB%8C%D8%A7%D9%86-%D8%AF%D8%B1-%D9%82%D8%B2%D9%88%DB%8C%D9%86-%DB%B1%DB%B5-%D8%AF%D8%B1%D8%B5%D8%AF-%D8%A7%D9%81%D8%B2%D8%A7%DB%8C%D8%B4-%DB%8C%D8%A7%D9%81%D8%AA"
+    },
+    {
+      "country": "Iran",
+      "source": "Iran / IRNA",
+      "original_title": "نسل جدید کارت‌های ملی، بهار آینده رونمایی می‌شود",
+      "published_at": "Wed, 07 Oct 2026 07:46:55 GMT",
+      "updated_at": "Wed, 07 Oct 2026 07:46:55 GMT",
+      "original_url": "https://www.irna.ir/news/86285624/%D9%86%D8%B3%D9%84-%D8%AC%D8%AF%DB%8C%D8%AF-%DA%A9%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%D8%A8%D9%87%D8%A7%D8%B1-%D8%A2%DB%8C%D9%86%D8%AF%D9%87-%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "国庆假期最后一天 全国铁路迎来返程客流最高峰",
+      "published_at": "Wed, 7 Oct 2026 15:54:08 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:54:08 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708716.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "湖北通山：千人踏秋登九宫 沿溪寻瀑观云海",
+      "published_at": "Wed, 7 Oct 2026 15:51:18 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:51:18 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708714.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "在泰失联的上海音乐教师已安全回国",
+      "published_at": "Wed, 7 Oct 2026 15:48:07 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:48:07 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708715.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "俄罗斯总统助理、海事委员会主席帕特鲁舍夫将访华",
+      "published_at": "Wed, 7 Oct 2026 15:47:09 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:47:09 +0800",
+      "original_url": "https://www.chinanews.com.cn/gn/2026/10-07/10708712.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "访中国海军遵义舰：迈向深蓝新长征",
+      "published_at": "Wed, 7 Oct 2026 15:45:33 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:45:33 +0800",
+      "original_url": "https://www.chinanews.com.cn/gn/2026/10-07/10708713.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "中国央行连续23个月增持黄金",
+      "published_at": "Wed, 7 Oct 2026 15:35:53 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:35:53 +0800",
+      "original_url": "https://www.chinanews.com.cn/cj/2026/10-07/10708703.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "俄罗斯总统助理、海事委员会主席帕特鲁舍夫将访华",
+      "published_at": "Wed, 7 Oct 2026 15:16:12 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:16:12 +0800",
+      "original_url": "https://www.chinanews.com.cn/gn/2026/10-07/10708702.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "古厝变身戏台 非遗展演点亮福州三坊七巷",
+      "published_at": "Wed, 7 Oct 2026 15:12:07 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:12:07 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708696.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "十余载奔走海峡两岸 六旬台胞以棒垒球传情",
+      "published_at": "Wed, 7 Oct 2026 15:11:29 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:11:29 +0800",
+      "original_url": "https://www.chinanews.com.cn/gn/2026/10-07/10708692.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "在绿茵场上读懂“整装东北”",
+      "published_at": "Wed, 7 Oct 2026 15:10:53 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:10:53 +0800",
+      "original_url": "https://www.chinanews.com.cn/ty/2026/10-07/10708691.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "写在长春2027第33届世界大学生冬季运动会倒计时100天之际",
+      "published_at": "Wed, 7 Oct 2026 15:07:55 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:07:55 +0800",
+      "original_url": "https://www.chinanews.com.cn/ty/2026/10-07/10708701.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "点“经”之笔丨读懂一座小城总能站在前列的密码",
+      "published_at": "Wed, 7 Oct 2026 15:07:07 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:07:07 +0800",
+      "original_url": "https://www.chinanews.com.cn/cj/2026/10-07/10708700.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "全国铁路迎来返程客流最高峰",
+      "published_at": "Wed, 7 Oct 2026 15:03:02 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:03:02 +0800",
+      "original_url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-07/1207170.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "各地迎来假期返程客流高峰 交管部门“多点发力”疏堵保畅",
+      "published_at": "Wed, 7 Oct 2026 15:00:07 +0800",
+      "updated_at": "Wed, 7 Oct 2026 15:00:07 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708698.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "旅游公路带火“奔县游”",
+      "published_at": "Wed, 7 Oct 2026 14:57:20 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:57:20 +0800",
+      "original_url": "https://www.chinanews.com.cn/cj/2026/10-07/10708697.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "非遗出彩“出圈”、传统戏曲焕新 多元文化体验激活假日文旅消费新动能",
+      "published_at": "Wed, 7 Oct 2026 14:55:00 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:55:00 +0800",
+      "original_url": "https://www.chinanews.com.cn/cj/2026/10-07/10708695.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "【光明时评】细节考验治理质效",
+      "published_at": "Wed, 7 Oct 2026 14:54:04 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:54:04 +0800",
+      "original_url": "https://www.chinanews.com.cn/ll/2026/10-07/10708694.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "金观平：历史经典产业要走好市场化新路",
+      "published_at": "Wed, 7 Oct 2026 14:54:00 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:54:00 +0800",
+      "original_url": "https://www.chinanews.com.cn/ll/2026/10-07/10708693.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "被骗至妙瓦底4天被卖3次 演员王星案详细案情披露",
+      "published_at": "Wed, 7 Oct 2026 14:42:27 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:42:27 +0800",
+      "original_url": "https://www.chinanews.com.cn/fz/2026/10-07/10708689.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "地笼泛滥 红树林保护区竟成赶海“乐园”！记者调查",
+      "published_at": "Wed, 7 Oct 2026 14:34:43 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:34:43 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708688.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "滨海潮玩节成海口国庆假日文旅消费亮点",
+      "published_at": "Wed, 7 Oct 2026 14:33:55 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:33:55 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708684.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "国庆返程提醒：长途久坐时，留意身体这些信号→",
+      "published_at": "Wed, 7 Oct 2026 14:33:03 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:33:03 +0800",
+      "original_url": "https://www.chinanews.com.cn/life/2026/10-07/10708687.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "（台湾写真）“风柜”澎湖来的人，回到“有风的地方”",
+      "published_at": "Wed, 7 Oct 2026 14:31:49 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:31:49 +0800",
+      "original_url": "https://www.chinanews.com.cn/gn/2026/10-07/10708683.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "十一假期新疆阿禾公路车流如织 209公里秋色廊道引游客打卡",
+      "published_at": "Wed, 7 Oct 2026 14:28:00 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:28:00 +0800",
+      "original_url": "http://www.chinanews.com.cn/tp/hd2011/2026/10-07/1207175.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "国内航线燃油附加费10月10日起上调",
+      "published_at": "Wed, 7 Oct 2026 14:26:58 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:26:58 +0800",
+      "original_url": "https://www.chinanews.com.cn/cj/2026/10-07/10708685.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "新华图讯｜长春大冬会火炬发布",
+      "published_at": "Wed, 7 Oct 2026 14:20:12 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:20:12 +0800",
+      "original_url": "https://www.chinanews.com.cn/ty/2026/10-07/10708682.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "哈尔滨市民开启“囤秋菜”模式",
+      "published_at": "Wed, 7 Oct 2026 14:18:26 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:18:26 +0800",
+      "original_url": "https://www.chinanews.com.cn/tp/2026/10-07/10708681.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "学习手记｜在旅游中感悟中华文化、增强文化自信",
+      "published_at": "Wed, 7 Oct 2026 14:02:09 +0800",
+      "updated_at": "Wed, 7 Oct 2026 14:02:09 +0800",
+      "original_url": "https://www.chinanews.com.cn/gn/2026/10-07/10708671.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "《欢迎来龙餐馆》将代表中国内地角逐第99届奥斯卡最佳国际影片",
+      "published_at": "Wed, 7 Oct 2026 13:56:22 +0800",
+      "updated_at": "Wed, 7 Oct 2026 13:56:22 +0800",
+      "original_url": "https://www.chinanews.com.cn/cul/2026/10-07/10708679.shtml"
+    },
+    {
+      "country": "China",
+      "source": "China / Chinanews",
+      "original_title": "购票“加速包”或变减速器 12306提醒旅客不要中招",
+      "published_at": "Wed, 7 Oct 2026 13:43:24 +0800",
+      "updated_at": "Wed, 7 Oct 2026 13:43:24 +0800",
+      "original_url": "https://www.chinanews.com.cn/sh/2026/10-07/10708677.shtml"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Магадане могут ограничить доступ на кладбище из-за угрозы появления медведя",
+      "published_at": "Wed, 07 Oct 2026 11:08:01 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:08:01 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189351"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В АТОР оценили влияние туристического сбора в Таиланде на спрос россиян",
+      "published_at": "Wed, 07 Oct 2026 11:07:22 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:07:22 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189519"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Орешкин считает, что комбинация человека и ИИ дает хороший результат",
+      "published_at": "Wed, 07 Oct 2026 11:06:44 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:06:44 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189513"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ТАСС: самолеты над Красным морем облетают контролируемый Йеменом участок неба",
+      "published_at": "Wed, 07 Oct 2026 11:04:42 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:04:42 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189457"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Вместо кубка — овации. Неудавшиеся спортсмены, которые стали звездами эстрады",
+      "published_at": "Wed, 07 Oct 2026 11:03:51 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:03:51 +0300",
+      "original_url": "https://tass.ru/sport/28189197"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Минэнерго предложило включить в отборы ВИЭ-генерации накопители энергии",
+      "published_at": "Wed, 07 Oct 2026 11:02:18 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:02:18 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189495"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ТАСС: послы стран ЕС согласовали 22-й пакет санкций",
+      "published_at": "Wed, 07 Oct 2026 11:02:11 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:02:11 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189499"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ФАС признала Альфа-банк нарушившим требования рекламного законодательства",
+      "published_at": "Wed, 07 Oct 2026 11:01:48 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:01:48 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189491"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Орешкин объяснил, почему \"Госуслуги\" не могут быть частной структурой",
+      "published_at": "Wed, 07 Oct 2026 11:01:23 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:01:23 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189489"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "\"Авито Услуги\" и PIM Solutions запустили сервис для пересылки личных вещей",
+      "published_at": "Wed, 07 Oct 2026 11:01:18 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:01:18 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189501"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Накопители мощностью 350 МВт в энергосистеме юга за август сэкономили 100 млн рублей",
+      "published_at": "Wed, 07 Oct 2026 11:01:15 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:01:15 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189493"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Туве загорелся монастырский буддийский комплекс Устуу-Хурээ",
+      "published_at": "Wed, 07 Oct 2026 11:00:05 +0300",
+      "updated_at": "Wed, 07 Oct 2026 11:00:05 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189487"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Орешкин: администрация президента пользуется сервисами ИИ",
+      "published_at": "Wed, 07 Oct 2026 10:58:04 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:58:04 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189477"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Николай Патрушев посетит Китай с 8 по 13 октября",
+      "published_at": "Wed, 07 Oct 2026 10:57:42 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:57:42 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189481"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В ДНР планируют достроить незавершенный в 2012 году обход Донецка",
+      "published_at": "Wed, 07 Oct 2026 10:57:20 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:57:20 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189459"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "NYT: американец признался в незаконной продаже плутония",
+      "published_at": "Wed, 07 Oct 2026 10:56:49 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:56:49 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189471"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Захарова: в заявлении МИД РФ о предостережении для иностранцев в Киеве все ясно",
+      "published_at": "Wed, 07 Oct 2026 10:54:53 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:54:53 +0300",
+      "original_url": "https://tass.ru/politika/28189451"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Филимонов: реализация мастер-плана Великого Устюга создаст более 3 тыс. рабочих мест",
+      "published_at": "Wed, 07 Oct 2026 10:54:39 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:54:39 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189423"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Заявка Индии на проведение ОИ-2036 будет строиться на концепции \"Растем вместе\"",
+      "published_at": "Wed, 07 Oct 2026 10:54:04 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:54:04 +0300",
+      "original_url": "https://tass.ru/sport/28189469"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Кабмин списал часть долгов Белгородской области по бюджетным кредитам",
+      "published_at": "Wed, 07 Oct 2026 10:53:47 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:53:47 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189443"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Участник СВО отдал 3 млн рублей мошенникам",
+      "published_at": "Wed, 07 Oct 2026 10:52:52 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:52:52 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189455"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Додон: молдаване видят в России стратегического партнера и друга",
+      "published_at": "Wed, 07 Oct 2026 10:52:49 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:52:49 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189453"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Сочи после атаки БЭК не превышена ПДК загрязняющих веществ",
+      "published_at": "Wed, 07 Oct 2026 10:51:40 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:51:40 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189465"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Патриарх Кирилл поздравил Путина с днем рождения",
+      "published_at": "Wed, 07 Oct 2026 10:50:38 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:50:38 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189447"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "На Украине будут отключать свет по графику из-за повреждения энергообъектов",
+      "published_at": "Wed, 07 Oct 2026 10:49:09 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:49:09 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189445"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Эвенкии ввели режим повышенной готовности из-за проблем с навигацией",
+      "published_at": "Wed, 07 Oct 2026 10:48:10 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:48:10 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189395"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Директора калужской фирмы обвинили в попытке хищения при ремонте дороги",
+      "published_at": "Wed, 07 Oct 2026 10:45:40 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:45:40 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189407"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "МВФ дал советы США, Китаю и Европе для достижения баланса в экономиках",
+      "published_at": "Wed, 07 Oct 2026 10:43:32 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:43:32 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189437"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Пушилин: ВС РФ наиболее активны на добропольско-красноармейском направлении",
+      "published_at": "Wed, 07 Oct 2026 10:43:28 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:43:28 +0300",
+      "original_url": "https://tass.ru/armiya-i-opk/28189433"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В МО РФ рассказали об обстоятельствах сдачи в плен экс-футболиста Украины",
+      "published_at": "Wed, 07 Oct 2026 10:42:53 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:42:53 +0300",
+      "original_url": "https://tass.ru/armiya-i-opk/28189435"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Жителя Кургана осудили за хищение 6 млн рублей у вдовы участника СВО",
+      "published_at": "Wed, 07 Oct 2026 10:42:27 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:42:27 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189417"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Кого и за что объявляли лауреатами Нобелевской премии по химии",
+      "published_at": "Wed, 07 Oct 2026 10:40:13 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:40:13 +0300",
+      "original_url": "https://tass.ru/info/28189393"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Уфе руководителя фирмы осудили за хищение более 100 млн рублей у партнеров",
+      "published_at": "Wed, 07 Oct 2026 10:38:37 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:38:37 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189421"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Загрязнения в Черном море из-за пожара на танкере около Сочи нет",
+      "published_at": "Wed, 07 Oct 2026 10:38:09 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:38:09 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189429"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Саратове выжившего при отравлении семьи подростка выписали из больницы",
+      "published_at": "Wed, 07 Oct 2026 10:37:43 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:37:43 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189425"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Мамедов верит, что Кассара даст новую энергию российским рапиристам",
+      "published_at": "Wed, 07 Oct 2026 10:37:24 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:37:24 +0300",
+      "original_url": "https://tass.ru/sport/28189427"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В резолюцию МПС предложили включить опыт поддержки людей с инвалидностью в РФ",
+      "published_at": "Wed, 07 Oct 2026 10:37:13 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:37:13 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189409"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Адвокат Чекман сообщил о переносе сроков суда по прекращению деятельности УПЦ",
+      "published_at": "Wed, 07 Oct 2026 10:36:58 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:36:58 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189419"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Парламент Казахстана принял закон о продлении соглашения с РФ по поставкам нефти",
+      "published_at": "Wed, 07 Oct 2026 10:35:36 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:35:36 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189413"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "РУСАДА усилило контроль за представителями спортивной гимнастики перед ЧМ",
+      "published_at": "Wed, 07 Oct 2026 10:33:09 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:33:09 +0300",
+      "original_url": "https://tass.ru/sport/28189415"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Турция намерена создать аналог Starlink",
+      "published_at": "Wed, 07 Oct 2026 10:32:49 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:32:49 +0300",
+      "original_url": "https://tass.ru/kosmos/28189387"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В НАО площадь пожара на полигоне ТБО сократилась до 1,1 тыс. кв. м",
+      "published_at": "Wed, 07 Oct 2026 10:32:17 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:32:17 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189363"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Посол Нигерии в РФ раскрыл, кто возглавит делегацию на саммите Россия - Африка",
+      "published_at": "Wed, 07 Oct 2026 10:31:02 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:31:02 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189297"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Журналист Кастельоне: аргентинцы не знают правды о Донбассе из-за пропаганды Запада",
+      "published_at": "Wed, 07 Oct 2026 10:30:34 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:30:34 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189379"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Глава Минэкономики ФРГ не видит угрозы дефицита газа зимой",
+      "published_at": "Wed, 07 Oct 2026 10:29:50 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:29:50 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189397"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Экс-президента Республики Корея оправдали по делу о соцопросах",
+      "published_at": "Wed, 07 Oct 2026 10:29:20 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:29:20 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189155"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Грузии задержали пытавшегося продать иностранцу уран за $700 тыс.",
+      "published_at": "Wed, 07 Oct 2026 10:28:54 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:28:54 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189255"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Московский областной фонд микрофинансирования выдал бизнесу почти 500 млн",
+      "published_at": "Wed, 07 Oct 2026 10:28:19 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:28:19 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189411"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Гунба поздравил Путина с днем рождения",
+      "published_at": "Wed, 07 Oct 2026 10:27:49 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:27:49 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189405"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В РФ хотят создать цифровую платформу для трудоустройства выпускников биотеха",
+      "published_at": "Wed, 07 Oct 2026 10:26:50 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:26:50 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189401"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Грузии заявили, что страна не станет членом ЕС в ущерб собственным интересам",
+      "published_at": "Wed, 07 Oct 2026 10:26:17 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:26:17 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189039"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Мьянме начался второй этап сноса зданий мошеннических кол-центров",
+      "published_at": "Wed, 07 Oct 2026 10:25:39 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:25:39 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189153"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Моди отметил 25-летие на посту главы правительства Индии",
+      "published_at": "Wed, 07 Oct 2026 10:24:11 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:24:11 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189111"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В РФ разработали дрон-перехватчик БПЛА со скоростью 500 км/ч",
+      "published_at": "Wed, 07 Oct 2026 10:23:57 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:23:57 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189389"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Казахстан импортирует из РФ порядка 300 тыс. тонн авиатоплива в год",
+      "published_at": "Wed, 07 Oct 2026 10:21:51 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:21:51 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189185"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "На киностудии имени Довженко в Киеве произошел взрыв",
+      "published_at": "Wed, 07 Oct 2026 10:21:47 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:21:47 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189391"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "МВД Франции запретило полицейским использовать шумовые гранаты на протестах",
+      "published_at": "Wed, 07 Oct 2026 10:20:13 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:20:13 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189373"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Ростех планирует произвести и поставить первые Ми-8 до конца года",
+      "published_at": "Wed, 07 Oct 2026 10:19:33 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:19:33 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189309"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Утверждена программа сотрудничества МИД РФ и Туркмении на 2027-2028 годы",
+      "published_at": "Wed, 07 Oct 2026 10:19:09 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:19:09 +0300",
+      "original_url": "https://tass.ru/politika/28189383"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Михалков заявил, что Россия не должна стесняться своего языка",
+      "published_at": "Wed, 07 Oct 2026 10:18:52 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:18:52 +0300",
+      "original_url": "https://tass.ru/kultura/28189305"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Число заключенных договоров ОСАГО выросло в 1,4 раза с начала года",
+      "published_at": "Wed, 07 Oct 2026 10:16:47 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:16:47 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189217"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Гибридная версия Lada Azimut получит тяговую батарею отечественного производства",
+      "published_at": "Wed, 07 Oct 2026 10:16:43 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:16:43 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189367"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "На Солнце 7-8 октября возможны мощнейшие вспышки",
+      "published_at": "Wed, 07 Oct 2026 10:16:22 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:16:22 +0300",
+      "original_url": "https://tass.ru/kosmos/28189371"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Более 60% итальянцев высказались против продолжения поставок оружия Украине",
+      "published_at": "Wed, 07 Oct 2026 10:14:59 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:14:59 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189369"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "FT узнала о планах ЕС ввести налог для крупных корпораций",
+      "published_at": "Wed, 07 Oct 2026 10:14:53 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:14:53 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189359"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "РФ, КНР и Республика Корея обсудили вопросы морской безопасности на форуме на Сахалине",
+      "published_at": "Wed, 07 Oct 2026 10:14:44 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:14:44 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189231"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Nikkei: Саудовская Аравия и ОАЭ могут помочь странам Азии создать запасы нефти",
+      "published_at": "Wed, 07 Oct 2026 10:12:49 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:12:49 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189311"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Ларионов считает, что Малкину в будущем поставят памятник в Питтсбурге",
+      "published_at": "Wed, 07 Oct 2026 10:12:47 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:12:47 +0300",
+      "original_url": "https://tass.ru/sport/28189365"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Болгария прекратила поиск членов экипажа Alfa Watan",
+      "published_at": "Wed, 07 Oct 2026 10:12:34 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:12:34 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189253"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Названы города России с самыми высокими ценами на услуги стоматологов",
+      "published_at": "Wed, 07 Oct 2026 10:12:15 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:12:15 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189211"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Лукашенко: только совместные усилия политических акторов победят терроризм",
+      "published_at": "Wed, 07 Oct 2026 10:10:52 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:10:52 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189349"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ЦБ не проводил операций по покупке или продаже юаней с расчетами 6 октября",
+      "published_at": "Wed, 07 Oct 2026 10:09:57 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:09:57 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189319"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Григоренко, Орешкин и Греф участвуют в форуме \"Цифровые решения\". Видеотрансляция",
+      "published_at": "Wed, 07 Oct 2026 10:09:35 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:09:35 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189113"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Сумах произошел взрыв",
+      "published_at": "Wed, 07 Oct 2026 10:09:04 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:09:04 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189357"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ГТЛК и \"Вертолеты России\" подписали контракт на поставку 72 Ми-8",
+      "published_at": "Wed, 07 Oct 2026 10:08:10 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:08:10 +0300",
+      "original_url": "https://tass.ru/armiya-i-opk/28189303"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Москве упростили систему выдачи лекарств после инфаркта и инсульта",
+      "published_at": "Wed, 07 Oct 2026 10:07:42 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:07:42 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189355"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "\"Автостат\" прогнозирует рост продажи электромобилей и гибридов в РФ вдвое",
+      "published_at": "Wed, 07 Oct 2026 10:07:36 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:07:36 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189343"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "FT: Брюссель ищет способы сберечь бюджет ЕС увеличением сборов",
+      "published_at": "Wed, 07 Oct 2026 10:07:22 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:07:22 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189341"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Wildberries запустила цифровой продукт WB Спорт",
+      "published_at": "Wed, 07 Oct 2026 10:07:19 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:07:19 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189301"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Москве нашли забивших камнями кота и несколько птиц детей",
+      "published_at": "Wed, 07 Oct 2026 10:06:43 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:06:43 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189345"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Курсанты центра \"Воин\" выступят на первом малом турнире по высокоточной стрельбе",
+      "published_at": "Wed, 07 Oct 2026 10:06:04 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:06:04 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189299"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Тарпищев надеется, что Даниил Медведев \"дотянет\" до Олимпиады",
+      "published_at": "Wed, 07 Oct 2026 10:03:33 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:03:33 +0300",
+      "original_url": "https://tass.ru/sport/28189317"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Porsche сократит 40% руководящих должностей",
+      "published_at": "Wed, 07 Oct 2026 10:02:55 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:02:55 +0300",
+      "original_url": "https://tass.ru/ekonomika/28189289"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ТАСС: над Черным морем заметили второй самолет-разведчик",
+      "published_at": "Wed, 07 Oct 2026 10:02:08 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:02:08 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189291"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Киеве остановилось движение трамваев",
+      "published_at": "Wed, 07 Oct 2026 10:01:17 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:01:17 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189295"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Ученый Верещагина объяснила, как физики поймали нейтрино из глубин космоса",
+      "published_at": "Wed, 07 Oct 2026 09:58:54 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:58:54 +0300",
+      "original_url": "https://tass.ru/nauka/28189245"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Сенатор Мерфи обвинил Пентагон в попытке скрыть последствия войны с Ираном",
+      "published_at": "Wed, 07 Oct 2026 09:58:29 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:58:29 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189267"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Токаев уволил еще одного замглавы Минобороны Казахстана после гибели 14 военных",
+      "published_at": "Wed, 07 Oct 2026 09:58:05 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:58:05 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189283"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Москве задержали подозреваемого в краже 1,5 млн рублей у пенсионерок",
+      "published_at": "Wed, 07 Oct 2026 09:58:04 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:58:04 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189287"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Индонезии приостановили поиски погибших при крушении парома 13 сентября",
+      "published_at": "Wed, 07 Oct 2026 09:57:19 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:57:19 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189273"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Жалобу защиты юриста Роспотребнадзора Кузбасса на приговор отклонили",
+      "published_at": "Wed, 07 Oct 2026 09:56:44 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:56:44 +0300",
+      "original_url": "https://tass.ru/obschestvo/28189271"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Киеве объявили воздушную тревогу",
+      "published_at": "Wed, 07 Oct 2026 09:55:22 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:55:22 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189277"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В районе Красного Молочара и Орехова поразили пункты временной дислокации ВСУ",
+      "published_at": "Wed, 07 Oct 2026 09:54:04 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:54:04 +0300",
+      "original_url": "https://tass.ru/armiya-i-opk/28189269"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Итальянец Кассара стал генменеджером сборной России по рапире",
+      "published_at": "Wed, 07 Oct 2026 09:53:57 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:53:57 +0300",
+      "original_url": "https://tass.ru/sport/28189265"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "В Изюме частично пропал свет из-за повреждения инфраструктуры",
+      "published_at": "Wed, 07 Oct 2026 09:51:03 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:51:03 +0300",
+      "original_url": "https://tass.ru/proisshestviya/28189249"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Медведчук: на Украине некому разработать и выполнить реальный мирный план",
+      "published_at": "Wed, 07 Oct 2026 09:49:36 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:49:36 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189227"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "Большинство опрошенных немцев считают необходимой отставку Мерца",
+      "published_at": "Wed, 07 Oct 2026 09:49:08 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:49:08 +0300",
+      "original_url": "https://tass.ru/mezhdunarodnaya-panorama/28189237"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ВС РФ поразили сухогруз в порту Одесса",
+      "published_at": "Wed, 07 Oct 2026 09:47:19 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:47:19 +0300",
+      "original_url": "https://tass.ru/armiya-i-opk/28189241"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ВС РФ поразили в Одесской области производивший безэкипажные катера завод",
+      "published_at": "Wed, 07 Oct 2026 09:46:37 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:46:37 +0300",
+      "original_url": "https://tass.ru/armiya-i-opk/28189239"
+    },
+    {
+      "country": "Russia",
+      "source": "Russia / TASS",
+      "original_title": "ВС РФ поразили в Прилуках производство ракет \"Фламинго\"",
+      "published_at": "Wed, 07 Oct 2026 09:46:09 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:46:09 +0300",
+      "original_url": "https://tass.ru/armiya-i-opk/28189233"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Через масовану атаку є знеструмлення у п'яти областях - Укренерго",
+      "published_at": "Wed, 07 Oct 2026 10:58:34 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:58:34 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-economy/4171831-cerez-masovanu-ataku-e-znestrumlenna-u-pati-oblastah-ukrenergo.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Громада представила ювілейний стенд Ukraine на книжковому фестивалі в Будапешті",
+      "published_at": "Wed, 07 Oct 2026 10:58:10 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:58:10 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-diaspora/4171829-gromada-predstavila-uvilejnij-stend-ukraine-na-knizkovomu-festivali-v-budapesti.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "На Київщині внаслідок атаки РФ зруйнований центр порятунку птахів",
+      "published_at": "Wed, 07 Oct 2026 10:54:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:54:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171827-na-kiivsini-vnaslidok-ataki-rf-zrujnovanij-centr-poratunku-ptahiv.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Зеленський про атаку РФ: Під ударами була інфраструктура Києва та 12 областей, ключова мішень - енергетика",
+      "published_at": "Wed, 07 Oct 2026 10:47:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:47:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-ato/4171823-zelenskij-pro-ataku-rf-pid-udarami-bula-infrastruktura-kieva-ta-12-oblastej-klucova-misen-energetika.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Швеція розгорне у Польщі систему Patriot для захисту східного флангу НАТО",
+      "published_at": "Wed, 07 Oct 2026 10:45:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:45:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-world/4171822-svecia-rozgorne-u-polsi-sistemu-patriot-dla-zahistu-shidnogo-flangu-nato.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Армія РФ у вересні застосувала майже 3500 реактивних дронів проти України - Ігнат",
+      "published_at": "Wed, 07 Oct 2026 10:36:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:36:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-ato/4171819-armia-rf-u-veresni-zastosuvala-majze-3500-reaktivnih-droniv-proti-ukraini-ignat.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Через ворожу атаку знову пошкоджена кіностудія Довженка у Києві",
+      "published_at": "Wed, 07 Oct 2026 10:35:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:35:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-culture/4171818-cerez-ataku-rf-znovu-poskodzena-kinostudia-dovzenka-u-kievi.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "«Save Oleshky»: у Варшаві закликали світ діяти заради цивільних в окупованих Олешках",
+      "published_at": "Wed, 07 Oct 2026 10:26:06 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:26:06 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-diaspora/4171817-save-oleshky-u-varsavi-zaklikali-svit-diati-zaradi-civilnih-v-okupovanih-oleskah.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "ГУР оприлюднило дані російських археологів, причетних до розкопок Херсонеса Таврійського та Мірмекію",
+      "published_at": "Wed, 07 Oct 2026 10:22:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:22:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-culture/4171815-gur-opriludnilo-dani-rosijskih-arheologiv-pricetnih-do-rozkopok-hersonesa-tavrijskogo-ta-mirmekiu.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "З Херсонщини у вересні евакуювали 256 людей, зокрема 18 дітей",
+      "published_at": "Wed, 07 Oct 2026 10:14:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:14:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171814-z-hersonsini-u-veresni-evakuuvali-256-ludej-zokrema-18-ditej.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Ракетний удар у Прилуках: кількість загиблих зросла до п'яти, 25 поранених",
+      "published_at": "Wed, 07 Oct 2026 10:13:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:13:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171799-raketnij-udar-u-prilukah-cetvero-zagiblih-20-poranenih.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Парламент Косова обрав нового президента, уникнувши дострокових виборів",
+      "published_at": "Wed, 07 Oct 2026 10:03:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 10:03:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-world/4171810-parlament-kosova-obrav-novogo-prezidenta-uniknuvsi-dostrokovih-viboriv.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "У Миколаєві стався збій у системі сповіщення про повітряну тривогу",
+      "published_at": "Wed, 07 Oct 2026 09:59:18 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:59:18 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171807-u-mikolaevi-stavsa-zbij-u-sistemi-spovisenna-pro-povitranu-trivogu.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Світловодськ на Кіровоградщині частково знеструмлений після нічної атаки РФ",
+      "published_at": "Wed, 07 Oct 2026 09:59:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:59:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171809-svitlovodsk-na-kirovogradsini-castkovo-znestrumlenij-pisla-nicnoi-ataki-rf.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Мессі у прощальному матчі за Аргентину забив м'яч і зробив два асисти",
+      "published_at": "Wed, 07 Oct 2026 09:53:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:53:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-sports/4171805-messi-u-prosalnomu-matci-za-argentinu-zabiv-mac-i-zrobiiv-dva-asisti.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Трамп заявив, що «дуже скоро» обговорить із Путіним можливий випадок чуми в Росії",
+      "published_at": "Wed, 07 Oct 2026 09:47:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:47:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-world/4171801-tramp-zaaviv-so-duze-skoro-obgovorit-iz-putinim-mozlivij-vipadok-cumi-v-rosii.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "На Київщині працює ППО",
+      "published_at": "Wed, 07 Oct 2026 09:45:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:45:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171803-na-kiivsini-pracue-ppo.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "У Запоріжжі військові РФ другий день завдають комбінованих ударів по мостах",
+      "published_at": "Wed, 07 Oct 2026 09:31:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:31:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171790-u-zaporizzi-vijskovi-rf-drugij-den-zavdaut-kombinovanih-udariv-po-mostah.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "У Дарницькому районі Києва знешкоджують балістичну ракету, виявлену серед житлових будинків",
+      "published_at": "Wed, 07 Oct 2026 09:29:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:29:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171796-u-darnickomu-rajoni-kieva-zneskodzuut-balisticnu-raketu-viavlenu-sered-zitlovih-budinkiv.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "На Київщині через комбіновану атаку РФ пошкоджені складські приміщення",
+      "published_at": "Wed, 07 Oct 2026 09:17:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:17:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171789-na-kiivsini-cerez-kombinovanu-ataku-rf-poskodzeni-skladski-primisenna.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Масована атака: ППО знешкодила 117 безпілотників, п'ять балістичних і 39 крилатих ракет",
+      "published_at": "Wed, 07 Oct 2026 09:12:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:12:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-ato/4171787-masovana-ataka-ppo-zneskodila-117-bezpilotnikiv-pat-balisticnih-i-39-krilatih-raket.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Ціни на нафту зростають на тлі загрози перебоїв у постачанні через шторм у США й атаки хуситів",
+      "published_at": "Wed, 07 Oct 2026 09:10:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:10:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-economy/4171785-cini-na-naftu-zrostaut-na-tli-zagrozi-pereboiv-u-postacanni-cerez-storm-u-ssa-j-ataki-husitiv.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Ракетна атака на Кременчук: двоє загиблих, семеро поранених",
+      "published_at": "Wed, 07 Oct 2026 09:06:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:06:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171784-raketna-ataka-na-kremencuk-dvoe-zagiblih-semero-poranenih.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Армія РФ завдала майже 50 ударів по Сумщині, є загиблий і постраждалі",
+      "published_at": "Wed, 07 Oct 2026 09:05:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:05:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171783-armia-rf-zavdala-majze-50-udariv-po-sumsini-e-zagiblij-i-postrazdali.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Новини на ранок",
+      "published_at": "Wed, 07 Oct 2026 09:00:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:00:00 +0300",
+      "original_url": "https://www.ukrinform.uahttps://archive.sendpul.se/v/5034k/1pv6v/"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Пам’яті старшого солдата Богдана Зуба",
+      "published_at": "Wed, 07 Oct 2026 09:00:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 09:00:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-ato/4169117-pamati-starsogo-soldata-bogdana-zuba.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "На Харківщині через російські удари за добу постраждали двоє людей",
+      "published_at": "Wed, 07 Oct 2026 08:56:22 +0300",
+      "updated_at": "Wed, 07 Oct 2026 08:56:22 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171781-na-harkivsini-cerez-rosijski-udari-za-dobu-postrazdali-dvoe-ludej.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "На Донеччині минулої доби внаслідок ударів РФ поранені 12 людей",
+      "published_at": "Wed, 07 Oct 2026 08:48:00 +0300",
+      "updated_at": "Wed, 07 Oct 2026 08:48:00 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171776-na-doneccini-za-dobu-vnaslidok-udariv-rf-poraneni-12-ludej.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "Армія РФ за добу завдала 982 удари по Запорізькій області, є загиблий та шестеро поранених",
+      "published_at": "Wed, 07 Oct 2026 08:37:20 +0300",
+      "updated_at": "Wed, 07 Oct 2026 08:37:20 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171772-armia-rf-za-dobu-zavdala-982-udari-po-zaporizkij-oblasti-e-zagiblij-ta-sestero-poranenih.html"
+    },
+    {
+      "country": "Ukraine",
+      "source": "Ukraine / Ukrinform",
+      "original_title": "На Миколаївщині за добу внаслідок атак РФ - двоє постраждалих",
+      "published_at": "Wed, 07 Oct 2026 08:32:56 +0300",
+      "updated_at": "Wed, 07 Oct 2026 08:32:56 +0300",
+      "original_url": "https://www.ukrinform.ua/rubric-regions/4171770-na-mikolaivsini-za-dobu-vnaslidok-atak-rf-dvoe-postrazdalih.html"
+    }
+  ]
+}
